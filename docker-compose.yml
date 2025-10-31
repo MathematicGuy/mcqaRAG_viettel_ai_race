@@ -1,0 +1,210 @@
+services:
+  # === PostgreSQL Database ===
+  postgres:
+    image: postgres:16-alpine
+    container_name: rag-mcq-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DATABASE}
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DATABASE}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rag-network
+
+  # === OpenSearch ===
+  opensearch:
+    image: opensearchproject/opensearch:2.11.0
+    container_name: rag-mcq-opensearch
+    environment:
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      # - "OPENSEARCH_JAVA_OPTS=-Xms512m -Xmx512m"
+      - DISABLE_SECURITY_PLUGIN=true
+      - DISABLE_INSTALL_DEMO_CONFIG=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+      nofile:
+        soft: 65536
+        hard: 65536
+    ports:
+      - "9200:9200"
+      - "9600:9600"
+    volumes:
+      - opensearch_data:/usr/share/opensearch/data
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "curl -fs http://localhost:9200/_cluster/health || exit 1",
+        ]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    networks:
+      - rag-network
+
+  # === OpenSearch Dashboards ===
+  opensearch-dashboards:
+    image: opensearchproject/opensearch-dashboards:2.11.0
+    container_name: rag-mcq-dashboards
+    environment:
+      - OPENSEARCH_HOSTS=["http://opensearch:9200"]
+      - DISABLE_SECURITY_DASHBOARDS_PLUGIN=true
+    ports:
+      - "5601:5601"
+    depends_on:
+      opensearch:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fs http://localhost:5601/api/status || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 60s
+    networks:
+      - rag-network
+
+  # === Redis Cache ===
+  redis:
+    image: redis:7-alpine
+    container_name: rag-mcq-redis
+    command: redis-server --appendonly yes
+    ports:
+      - "${REDIS_PORT}:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - rag-network
+
+  # === Ollama Service ===
+  ollama:
+    image: ollama/ollama:0.11.2
+    container_name: rag-ollama
+    ports:
+      - "${OLLAMA_PORT}:${OLLAMA_PORT}"
+    env_file:
+      - ./.env
+    volumes:
+      - ollama_data:/root/.ollama
+      - ./src/services/ollama/entrypoint.sh:/entrypoint.sh 
+    entrypoint: ["/bin/bash", "/entrypoint.sh"]
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    networks:
+      - rag-network
+
+  # === FastAPI Application ===
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rag-mcq-api
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=${POSTGRES_PORT}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DATABASE=${POSTGRES_DATABASE}
+      - OPENSEARCH_HOST=${OPENSEARCH_HOST}
+      - REDIS_HOST=redis
+      - REDIS_PORT=${REDIS_PORT}
+      - OLLAMA_HOST=http://ollama:11434
+      - DEBUG=${DEBUG}
+      - ENVIRONMENT=${ENVIRONMENT}
+    ports:
+      - "${API_PORT}:8000"
+    volumes:
+      - ./src:/app/src
+      - ./data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      opensearch:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+      ollama:
+        condition: service_healthy
+    command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+    networks:
+      - rag-network
+
+  # === Airflow Core ===
+  airflow:
+    build:
+      context: .
+      dockerfile: ./airflow/Dockerfile
+    container_name: rag-mcq-airflow
+    restart: unless-stopped
+    environment:
+      - AIRFLOW_CORE_EXECUTOR=${AIRFLOW_EXECUTOR:-SequentialExecutor}
+      - AIRFLOW_CORE_LOAD_EXAMPLES=${AIRFLOW_LOAD_EXAMPLES:-False}
+      - AIRFLOW_CORE_FERNET_KEY=${AIRFLOW_CORE_FERNET_KEY}
+      - AIRFLOW_WEBSERVER_SECRET_KEY=${AIRFLOW_WEBSERVER_SECRET_KEY}
+      - AIRFLOW_DATABASE_SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DATABASE}
+      - AIRFLOW_ADMIN_USERNAME=${AIRFLOW_ADMIN_USERNAME}
+      - AIRFLOW_ADMIN_PASSWORD=${AIRFLOW_ADMIN_PASSWORD}
+      - AIRFLOW_ADMIN_EMAIL=${AIRFLOW_ADMIN_EMAIL}
+      ### Database connection settings
+      - POSTGRES_HOST=${POSTGRES_HOST}
+      - POSTGRES_PORT=${POSTGRES_PORT}
+      - POSTGRES_USER=${POSTGRES_USER}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+      - POSTGRES_DB=${POSTGRES_DATABASE}
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - airflow_logs:/opt/airflow/logs
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/v1/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 120s
+    networks:
+      - rag-network
+
+volumes:
+  postgres_data:
+  opensearch_data:
+  redis_data:
+  ollama_data:
+  airflow_postgres_data:
+  airflow_logs:
+
+networks:
+  rag-network:
+    driver: bridge
