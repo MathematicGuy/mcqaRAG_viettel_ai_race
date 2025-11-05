@@ -19,7 +19,7 @@ class OpenSearchClient:
 
     def __init__(
         self,
-        host: str = "http://localhost:9200",
+        host: str = "http://opensearch:9200",
         index_name: str = "mcq-documents",
         username: str = "admin",
         password: str = "admin",
@@ -76,11 +76,16 @@ class OpenSearchClient:
                 },
                 "analysis": {
                     "analyzer": {
+                        # "text_analyzer": {
+                        #     "type": "custom",
+                        #     "tokenizer": "standard",
+                        #     "filter": ["lowercase", "stop", "snowball"],
+                        # }
                         "text_analyzer": {
-                            "type": "custom",
-                            "tokenizer": "standard",
-                            "filter": ["lowercase", "stop", "snowball"],
-                        }
+                        "type": "custom",
+                        "tokenizer": "standard",
+                        "filter": ["lowercase", "asciifolding", "stop"]
+                    }
                     }
                 },
             },
@@ -93,6 +98,26 @@ class OpenSearchClient:
                         "type": "text",
                         "fields": {"keyword": {"type": "keyword"}},
                     },
+                    "document_file_name": {
+                    "type": "text",
+                    "analyzer": "text_analyzer",
+                    "fields": {
+                        "keyword": {"type": "keyword"}
+                        }
+                    },
+                    "document_title": {
+                    "type": "text",
+                    "analyzer": "text_analyzer",
+                    "fields": {
+                        "keyword": {"type": "keyword"}
+                        }
+                    },
+                    "word_count": {"type": "integer"},
+                    "chunk_index": {"type": "integer"},
+                    "chunk_type": {"type": "keyword"},
+                    "source_folder": {"type": "keyword"},
+                    "created_at": {"type": "date"},
+                    
                     "embedding": {
                         "type": "knn_vector",
                         "dimension": dimensions,
@@ -103,11 +128,6 @@ class OpenSearchClient:
                             "parameters": {"ef_construction": 512, "m": 16},
                         },
                     },
-                    "word_count": {"type": "integer"},
-                    "chunk_index": {"type": "integer"},
-                    "chunk_type": {"type": "keyword"},
-                    "source_folder": {"type": "keyword"},
-                    "created_at": {"type": "date"},
                 }
             },
         }
@@ -167,7 +187,7 @@ class OpenSearchClient:
     async def search_bm25(
         self,
         query: str,
-        top_k: int = 5,
+        top_k: int = 50,
         source_folder: Optional[str] = None,
         min_score: float = 0.0,
     ) -> List[Dict]:
@@ -190,7 +210,8 @@ class OpenSearchClient:
                         {
                             "multi_match": {
                                 "query": query,
-                                "fields": ["chunk_text^2", "section_name"],
+                                "fields": ["chunk_text^3", "section_name", "document_file_name^2"],
+                                # "fields": ["chunk_text^2", "section_name"],
                                 "type": "best_fields",
                                 "operator": "or",
                             }

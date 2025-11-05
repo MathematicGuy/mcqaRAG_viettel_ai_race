@@ -52,10 +52,10 @@ class SectionAwareChunker:
         - Small sections (<min_chunk_size): Keep as-is, will combine later
         - Perfect sections (min_chunk_size to chunk_size*1.3): Use as single chunk
         - Large sections (>chunk_size*1.3): Split with overlap
-        - Add context header (title + section name) to each chunk
+        - Add context header (doc id + title + section name) to each chunk
 
         Args:
-            document: Document dict with title, sections, full_text
+            document: Document dict with doc id, title, sections, full_text
             doc_id: Document identifier
 
         Returns:
@@ -73,6 +73,7 @@ class SectionAwareChunker:
         for idx, section in enumerate(sections):
             section_chunks = self._chunk_section(
                 section=section,
+                doc_id=doc_id,
                 title=title,
                 section_idx=idx,
             )
@@ -98,6 +99,7 @@ class SectionAwareChunker:
     def _chunk_section(
         self,
         section: Dict,
+        doc_id: str,
         title: str,
         section_idx: int,
     ) -> List[Dict]:
@@ -106,6 +108,7 @@ class SectionAwareChunker:
 
         Args:
             section: Section dict with title and content
+            doc_id: Document ID
             title: Document title
             section_idx: Section index
 
@@ -122,7 +125,7 @@ class SectionAwareChunker:
         word_count = len(words)
 
         # Build context header
-        header = f"# {title}\n\n## {section_title}\n\n"
+        header = f"# {doc_id} - {title}\n\n## {section_title}\n\n"
 
         if word_count < self.min_chunk_size:
             # Too small - keep as single chunk
@@ -234,7 +237,7 @@ class SectionAwareChunker:
         current_chunk = []
         current_word_count = 0
 
-        header = f"# {title}\n\n"
+        header = f"# {doc_id} - {title}\n\n"
 
         for para in paragraphs:
             para_words = para.split()
@@ -277,7 +280,7 @@ class SectionAwareChunker:
 
         return chunks
 
-    def chunk_text(self, text: str, title: str = "Document") -> List[Dict]:
+    def chunk_text(self, text: str, doc_id: str, title: str = "Document") -> List[Dict]:
         """
         Chunk plain text without section information.
 
@@ -294,4 +297,4 @@ class SectionAwareChunker:
             "sections": [],
         }
 
-        return self._chunk_by_paragraphs(document, "temp_doc")
+        return self._chunk_by_paragraphs(document, doc_id)

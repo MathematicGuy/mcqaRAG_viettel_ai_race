@@ -14,6 +14,7 @@ RUN apt-get update && \
         tesseract-ocr \
         libreoffice \
         pandoc \
+        libgl1-mesa-glx \
     && rm -rf /var/lib/apt/lists/*
 
 # Install UV package manager

@@ -3,7 +3,7 @@ API Schemas for request/response validation.
 Pydantic models for all API endpoints.
 """
 
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Union
 
 from pydantic import BaseModel, Field
 
@@ -23,7 +23,8 @@ class SearchRequest(BaseModel):
     """Search request schema."""
 
     query: str = Field(..., description="Search query text", min_length=1)
-    top_k: int = Field(default=5, ge=1, le=20, description="Number of results to return")
+    ### Điều này có nghĩa là top k >=1 và <= 20
+    top_k: int = Field(default=5, ge=1, le=50, description="Number of results to return")
     use_hybrid: bool = Field(default=True, description="Use hybrid search (BM25 + Vector)")
     source_folder: Optional[str] = Field(None, description="Filter by source folder")
     min_score: float = Field(default=0.0, ge=0.0, description="Minimum score threshold")
@@ -33,13 +34,15 @@ class SearchHit(BaseModel):
     """Single search result."""
 
     chunk_id: str
-    document_id: str
+    # document_id: str
     chunk_text: str
     section_name: Optional[str] = None
     score: float
-    chunk_index: Optional[int] = None
-    word_count: Optional[int] = None
-    source_folder: Optional[str] = None
+    # chunk_index: Optional[int] = None
+    # word_count: Optional[int] = None
+    # source_folder: Optional[str] = None
+    document_file_name: Optional[str] = None
+    document_title: Optional[str] = None
 
 
 class SearchResponse(BaseModel):
@@ -50,6 +53,7 @@ class SearchResponse(BaseModel):
     hits: List[SearchHit] = Field(default_factory=list)
     search_mode: str = Field(..., description="Search mode used (bm25/vector/hybrid)")
     timing_ms: Optional[int] = Field(None, description="Search time in milliseconds")
+    document_counts: List[Dict[str, Union[str, int]]] = Field(default_factory=list, description="Count of chunks per document in top_k results, sorted by count descending")
 
 
 # RAG Schemas

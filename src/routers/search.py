@@ -100,15 +100,43 @@ async def search_documents(
             search_mode = "bm25"
 
         # Convert to response format
-        hits = [
-            SearchHit(**{
-                **result,
-                "document_id": str(result["document_id"]),
-                "chunk_id": str(result["chunk_id"]),
-            })
-            for result in results
-        ]
+        # hits = [
+        #     SearchHit(**{
+        #         **result,
+        #         "document_id": str(result["document_id"]),
+        #         "chunk_id": str(result["chunk_id"]),
+        #     })
+        #     for result in results
+        # ]
 
+        # Convert to response format
+        hits = []
+        for result in results:
+        # Xác định điểm nào cần sử dụng cho hiển thị
+        # Nếu là hybrid search, sử dụng fusion_score. Ngược lại, sử dụng score gốc.
+            display_score = result.get("fusion_score") if request.use_hybrid else result.get("score")
+        
+            hits.append(
+                SearchHit(**{
+                    **result,
+                    "document_id": str(result["document_id"]),
+                    "chunk_id": str(result["chunk_id"]),
+                    "score": display_score, # <-- Gán điểm chính xác vào đây
+                })
+            )
+            
+        doc_chunk_counts = {}
+        for hit in hits:
+            doc_id = hit.document_file_name # Sử dụng document_file_name từ SearchHit
+            doc_chunk_counts[doc_id] = doc_chunk_counts.get(doc_id, 0) + 1
+
+        # Chuyển từ điển sang danh sách các dict và sắp xếp theo số lượng chunk giảm dần
+        sorted_doc_counts = sorted(
+            [{"doc_id": doc_id, "chunk_count": count} for doc_id, count in doc_chunk_counts.items()],
+            key=lambda item: item["chunk_count"],
+            reverse=True,
+        )
+                
         timing_ms = int((time.time() - start_time) * 1000)
 
         logger.info(f"Search complete: {len(hits)} results, {timing_ms}ms, mode={search_mode}")
@@ -119,6 +147,7 @@ async def search_documents(
             hits=hits,
             search_mode=search_mode,
             timing_ms=timing_ms,
+            document_counts=sorted_doc_counts
         )
 
     except Exception as e:

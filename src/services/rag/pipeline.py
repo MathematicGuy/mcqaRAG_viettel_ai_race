@@ -73,15 +73,20 @@ class RAGPipeline:
 
         # 2. Retrieval phase
         retrieval_start = time.time()
+        # tạo câu truy vấn kết hợp cả question và options để sử dụng thông tin từ options
+        options_list = [f"- {value}" for key, value in sorted(options.items())]
+        options_text = "\n".join(options_list)
+        combined_query = f"{question}\n{options_text}" # Nối câu hỏi và options với xuống dòng
+        self.logger.info(f"Using combined query for retrieval: {combined_query}")
 
         try:
             if use_hybrid:
                 # Generate query embedding
-                query_embedding = await self.embeddings.embed_query(question)
+                query_embedding = await self.embeddings.embed_query(combined_query)
 
                 # Hybrid search (BM25 + Vector)
                 chunks = await self.opensearch.search_hybrid(
-                    query=question,
+                    query=combined_query,
                     query_embedding=query_embedding.tolist(),
                     top_k=top_k,
                     source_folder=source_folder,
@@ -90,7 +95,7 @@ class RAGPipeline:
             else:
                 # BM25 only
                 chunks = await self.opensearch.search_bm25(
-                    query=question,
+                    query=combined_query,
                     top_k=top_k,
                     source_folder=source_folder,
                 )
@@ -99,7 +104,7 @@ class RAGPipeline:
             retrieval_time = int((time.time() - retrieval_start) * 1000)
 
             if not chunks:
-                self.logger.warning(f"No chunks retrieved for question: {question[:50]}...")
+                self.logger.warning(f"No chunks retrieved for question: {combined_query}")
                 return {
                     "question": question,
                     "options": options,

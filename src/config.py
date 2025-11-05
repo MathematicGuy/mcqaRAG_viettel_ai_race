@@ -17,7 +17,7 @@ class PostgresSettings(BaseSettings):
     port: int = Field(default=5432, alias="POSTGRES_PORT")
     user: str = Field(default="rag_user", alias="POSTGRES_USER")
     password: str = Field(default="rag_password", alias="POSTGRES_PASSWORD")
-    database: str = Field(default="rag_mcq_db", alias="POSTGRES_DATABASE")
+    database: str = Field(default="rag_db", alias="POSTGRES_DATABASE")
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
@@ -30,7 +30,7 @@ class PostgresSettings(BaseSettings):
 class OpenSearchSettings(BaseSettings):
     """OpenSearch configuration."""
 
-    host: str = Field(default="http://localhost:9200", alias="OPENSEARCH_HOST")
+    host: str = Field(default="http://opensearch:9200", alias="OPENSEARCH_HOST")
     username: str = Field(default="admin", alias="OPENSEARCH_USERNAME")
     password: str = Field(default="admin", alias="OPENSEARCH_PASSWORD")
     index_name: str = Field(default="mcq-documents", alias="OPENSEARCH_INDEX_NAME")
@@ -133,7 +133,7 @@ class LangfuseSettings(BaseSettings):
 class DataSettings(BaseSettings):
     """Data paths configuration."""
 
-    pdf_dir: str = Field(default="../data/pdf", alias="DATA_PDF_DIR")
+    pdf_dir: str = Field(default="/opt/airflow/data/pdf", alias="DATA_PDF_DIR")
     question_csv: str = Field(default="../data/question.csv", alias="DATA_QUESTION_CSV")
     processed_dir: str = Field(default="./data/processed", alias="DATA_PROCESSED_DIR")
 

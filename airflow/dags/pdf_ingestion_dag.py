@@ -3,12 +3,11 @@ Airflow DAG for PDF ingestion and indexing pipeline.
 Automates the complete flow: PDF → Parse → Chunk → Embed → Index to OpenSearch.
 """
 
-import logging
-import sys
+import logging, json, math, sys, asyncio
 from datetime import datetime, timedelta
 from pathlib import Path
 from typing import Dict, List
-import asyncio
+from sqlalchemy import text
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
@@ -17,8 +16,8 @@ from airflow.operators.python import PythonOperator
 sys.path.insert(0, "/opt/airflow")
 
 from src.config import get_settings
-from src.db.session import get_db_context
-from src.models.document import Document, DocumentChunk
+from src.db.session import get_db_context, engine
+from src.models.document import Document, DocumentChunk, Base
 from src.services.factories import (
     make_embeddings_service,
     make_opensearch_client,
@@ -52,6 +51,19 @@ dag = DAG(
     max_active_runs=1,
 )
 
+## Helper functions
+def sanitize_metadata(metadata: dict):
+    safe = {}
+    for k, v in metadata.items():
+        if callable(v):
+            try:
+                safe[k] = v()  # gọi method nếu cần
+            except Exception:
+                safe[k] = None
+        else:
+            safe[k] = v
+    return safe
+###################################################################
 
 def scan_pdf_files(**context) -> List[str]:
     """
@@ -81,6 +93,27 @@ def extract_pdfs(**context) -> Dict:
     Extract content from PDF files using Docling.
     Stores documents in PostgreSQL.
     """
+    
+    ### xoá db cũ nếu có cho sạch sẽ
+    with engine.connect() as conn:
+        conn.execute(text("""
+            DO
+            $$
+            DECLARE
+                r RECORD;
+            BEGIN
+                FOR r IN (SELECT tablename FROM pg_tables WHERE schemaname = 'public') LOOP
+                    EXECUTE 'DROP TABLE IF EXISTS ' || quote_ident(r.tablename) || ' CASCADE';
+                END LOOP;
+            END
+            $$;
+        """))
+
+    print("✅ Dropped all tables successfully — fresh start!")
+    
+    ### Tạo db trên postgres
+    Base.metadata.create_all(bind=engine)
+    
     # Get PDF paths from previous task
     pdf_paths = context["ti"].xcom_pull(key="pdf_paths", task_ids="scan_files")
 
@@ -109,19 +142,20 @@ def extract_pdfs(**context) -> Dict:
 
                 # Parse PDF
                 parsed = parser.parse_pdf(pdf_path)
+                safe_metadata = sanitize_metadata(parsed["metadata"])
 
                 # Create document record
                 document = Document(
                     doc_id=doc_id,
-                    filename=parsed["metadata"]["file_name"],
+                    filename=safe_metadata.get("file_name", ""),
                     file_path=pdf_path,
-                    title=parsed["title"],
-                    full_text=parsed["full_text"],
-                    raw_content=parsed["full_text"],
-                    page_count=parsed["metadata"]["page_count"],
-                    sections=parsed["sections"],
-                    tables=parsed["tables"],
-                    doc_metadata=parsed["metadata"],
+                    title=parsed.get("title", ""),
+                    full_text=parsed.get("full_text", ""),
+                    raw_content=parsed.get("full_text", ""),
+                    page_count=safe_metadata.get("page_count", 0),
+                    sections=parsed.get("sections", {}),
+                    tables=parsed.get("tables", {}),
+                    doc_metadata=safe_metadata,
                     source_folder=Path(pdf_path).parent.name,
                     processing_status="completed",
                 )
@@ -192,6 +226,8 @@ def chunk_documents(**context) -> Dict:
                     db_chunk = DocumentChunk(
                         chunk_id=chunk["chunk_id"],
                         document_id=document.id,
+                        document_file_name=document.doc_id, 
+                        document_title=document.title,
                         chunk_text=chunk["chunk_text"],
                         chunk_index=chunk["chunk_index"],
                         section_name=chunk.get("section_name"),
@@ -227,10 +263,47 @@ def chunk_documents(**context) -> Dict:
     logger.info(f"Chunking complete: {result}")
     return result
 
+# def generate_embeddings(**context) -> Dict:
+#     """
+#     Generate embeddings for all chunks (synchronous for Airflow).
+#     """
+#     chunk_ids = context["ti"].xcom_pull(key="chunk_ids", task_ids="chunk_documents")
+#     if not chunk_ids:
+#         logger.warning("No chunks to embed")
+#         return {"processed": 0}
+
+#     embeddings_service = make_embeddings_service()
+#     processed = 0
+
+#     with get_db_context() as db:
+#         chunks = db.query(DocumentChunk).filter(DocumentChunk.chunk_id.in_(chunk_ids)).all()
+#         if not chunks:
+#             logger.warning("No chunks found in database")
+#             return {"processed": 0}
+
+#         texts = [chunk.chunk_text for chunk in chunks]
+
+#         try:
+#             logger.info(f"Generating embeddings for {len(texts)} chunks...")
+#             # Chạy async code trong sync context
+#             embeddings = asyncio.run(embeddings_service.embed_texts(texts))
+
+#             for chunk, embedding in zip(chunks, embeddings):
+#                 chunk.embedding_status = "completed"
+#                 chunk.chunk_metadata = chunk.chunk_metadata or {}
+#                 chunk.chunk_metadata["embedding"] = embedding.tolist()
+
+#             db.commit()
+#             processed = len(chunks)
+#             logger.info(f"Generated {processed} embeddings")
+
+#         except Exception as e:
+#             logger.error(f"Error generating embeddings: {e}", exc_info=True)
+#             return {"processed": 0, "error": str(e)}
+
+#     return {"processed": processed}
+
 def generate_embeddings(**context) -> Dict:
-    """
-    Generate embeddings for all chunks (synchronous for Airflow).
-    """
     chunk_ids = context["ti"].xcom_pull(key="chunk_ids", task_ids="chunk_documents")
     if not chunk_ids:
         logger.warning("No chunks to embed")
@@ -249,13 +322,20 @@ def generate_embeddings(**context) -> Dict:
 
         try:
             logger.info(f"Generating embeddings for {len(texts)} chunks...")
-            # Chạy async code trong sync context
-            embeddings = asyncio.run(embeddings_service.embed_texts(texts))
+
+            # Safe async wrapper
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
+            embeddings = loop.run_until_complete(embeddings_service.embed_texts(texts))
+            loop.close()
+
+            if embeddings.shape[0] != len(chunks):
+                raise ValueError(f"Embedding shape mismatch: got {embeddings.shape}, expected {len(chunks)} x {settings.embeddings.dimensions}")
 
             for chunk, embedding in zip(chunks, embeddings):
                 chunk.embedding_status = "completed"
-                chunk.chunk_metadata = chunk.chunk_metadata or {}
-                chunk.chunk_metadata["embedding"] = embedding.tolist()
+                chunk.chunk_metadata = dict(chunk.chunk_metadata or {})  # ensure dict
+                chunk.chunk_metadata["embedding"] = [float(x) for x in embedding.tolist()]  # ensure serializable float
 
             db.commit()
             processed = len(chunks)
@@ -263,6 +343,7 @@ def generate_embeddings(**context) -> Dict:
 
         except Exception as e:
             logger.error(f"Error generating embeddings: {e}", exc_info=True)
+            db.rollback()
             return {"processed": 0, "error": str(e)}
 
     return {"processed": processed}
@@ -300,13 +381,48 @@ def index_to_opensearch(**context) -> Dict:
             return {"indexed": 0}
 
         documents = []
+        # for chunk in chunks:
+        #     documents.append({
+        #         "chunk_id": chunk.chunk_id,
+        #         "document_id": chunk.document_id,
+        #         "document_file_name": chunk.document_file_name,
+        #         "document_title": chunk.document_title,
+        #         "chunk_text": chunk.chunk_text,
+        #         "section_name": chunk.section_name,
+        #         "embedding": chunk.embedding,
+        #         "word_count": chunk.word_count,
+        #         "chunk_index": chunk.chunk_index,
+        #         "chunk_type": chunk.chunk_type,
+        #         "source_folder": chunk.document.source_folder,
+        #         "created_at": chunk.created_at.isoformat() if chunk.created_at else None,
+        #     })
+
         for chunk in chunks:
+            emb = chunk.chunk_metadata.get("embedding", [])
+
+            # Parse string -> list
+            if isinstance(emb, str):
+                try:
+                    emb = json.loads(emb)
+                except json.JSONDecodeError:
+                    emb = [float(x) for x in emb.strip("[]").split(",") if x.strip()]
+
+            # Đảm bảo kiểu float, không NaN
+            emb = [float(x) if not (x is None or (isinstance(x, float) and math.isnan(x))) else 0.0 for x in emb]
+
+            # Chuẩn hoá chiều dài
+            if len(emb) != settings.embeddings.dimensions:
+                logger.warning(f"Embedding length mismatch for {chunk.chunk_id}: {len(emb)}")
+                emb = emb[:settings.embeddings.dimensions] if len(emb) > settings.embeddings.dimensions else emb + [0.0] * (settings.embeddings.dimensions - len(emb))
+
             documents.append({
                 "chunk_id": chunk.chunk_id,
-                "document_id": chunk.document.doc_id,
+                "document_id": chunk.document_id,
+                "document_file_name": chunk.document_file_name,
+                "document_title": chunk.document_title,
                 "chunk_text": chunk.chunk_text,
                 "section_name": chunk.section_name,
-                "embedding": chunk.chunk_metadata.get("embedding", []),
+                "embedding": emb,
                 "word_count": chunk.word_count,
                 "chunk_index": chunk.chunk_index,
                 "chunk_type": chunk.chunk_type,
