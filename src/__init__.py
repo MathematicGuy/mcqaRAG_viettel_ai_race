@@ -21,7 +21,7 @@ Example usage:
     result = await pipeline.answer_question(
         question="What is active learning?",
         options={"A": "...", "B": "...", "C": "...", "D": "..."},
-        top_k=5
+        top_k=30
     )
 """
 

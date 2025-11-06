@@ -210,7 +210,7 @@ class OpenSearchClient:
                         {
                             "multi_match": {
                                 "query": query,
-                                "fields": ["chunk_text^3", "section_name", "document_file_name^2"],
+                                "fields": ["chunk_text^3", "section_name"],
                                 # "fields": ["chunk_text^2", "section_name"],
                                 "type": "best_fields",
                                 "operator": "or",
@@ -242,7 +242,7 @@ class OpenSearchClient:
     async def search_vector(
         self,
         query_embedding: List[float],
-        top_k: int = 5,
+        top_k: int = 50,
         source_folder: Optional[str] = None,
     ) -> List[Dict]:
         """
@@ -288,7 +288,7 @@ class OpenSearchClient:
         self,
         query: str,
         query_embedding: List[float],
-        top_k: int = 5,
+        top_k: int = 30,
         source_folder: Optional[str] = None,
         rrf_k: int = 60,
     ) -> List[Dict]:

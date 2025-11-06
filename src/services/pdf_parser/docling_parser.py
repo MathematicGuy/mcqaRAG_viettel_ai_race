@@ -216,7 +216,7 @@ from typing import Dict, List
 
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.base_models import InputFormat
-from docling.datamodel.pipeline_options import PdfPipelineOptions
+from docling.datamodel.pipeline_options import PdfPipelineOptions, TableFormerMode
 
 from src.config import PDFParserSettings
 
@@ -242,6 +242,10 @@ class DoclingPDFParser:
         pipeline_options = PdfPipelineOptions()
         pipeline_options.do_ocr = bool(config.do_ocr)
         pipeline_options.do_table_structure = bool(config.extract_tables)
+        pipeline_options.do_code_enrichment = True
+        pipeline_options.do_formula_enrichment = True
+        # pipeline_options.table_structure_options.do_cell_matching = False
+        pipeline_options.table_structure_options.mode = TableFormerMode.ACCURATE
 
         # Initialize document converter with format option for PDF
         self.converter = DocumentConverter(

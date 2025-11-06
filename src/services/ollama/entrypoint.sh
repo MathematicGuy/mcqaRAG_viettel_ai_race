@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-MODEL=${OLLAMA_MODEL:-llama3.2:3b}
+MODEL=${OLLAMA_MODEL:-qwen3:1.7b}
 
 # 1. Khởi động Ollama server trong background
 echo "Starting Ollama server..."

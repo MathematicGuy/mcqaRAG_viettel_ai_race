@@ -42,7 +42,7 @@ class RAGPipeline:
         self,
         question: str,
         options: Dict[str, str],
-        top_k: int = 5,
+        top_k: int = 30,
         use_hybrid: bool = True,
         source_folder: Optional[str] = None,
     ) -> Dict:
@@ -73,7 +73,8 @@ class RAGPipeline:
 
         # 2. Retrieval phase
         retrieval_start = time.time()
-        # tạo câu truy vấn kết hợp cả question và options để sử dụng thông tin từ options
+        # # tạo câu truy vấn kết hợp cả question và options để sử dụng thông tin từ options
+        # options_text = ""
         options_list = [f"- {value}" for key, value in sorted(options.items())]
         options_text = "\n".join(options_list)
         combined_query = f"{question}\n{options_text}" # Nối câu hỏi và options với xuống dòng

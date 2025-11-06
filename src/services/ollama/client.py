@@ -21,7 +21,7 @@ class OllamaClient:
     def __init__(
         self,
         host: str = "http://localhost:11434",
-        model: str = "llama3.2:3b",
+        model: str = "qwen3:1.7b",
         temperature: float = 0.1,
         max_response_words: int = 500,
         timeout: int = 120,
@@ -288,17 +288,70 @@ C. Đây là một phần của giai đoạn phân tích yêu cầu, không ph�
 D. Tài liệu 2 không đề cập đến hướng dẫn viết mã.
 CONFIDENCE: high
 """
-        # Context from chunks
+        # Context from chunks, phần này xử lý nối chuỗi chunk context cho llm
         context_parts = []
-        for i, chunk in enumerate(chunks):
-            chunk_text = chunk.get("chunk_text", "")
-            section = chunk.get("section_name", "Unknown")
-            context_parts.append(f"[Tài liệu {i + 1} - {section}]\n{chunk_text}")
+        from collections import OrderedDict
+        grouped_chunks_by_doc = OrderedDict()
+
+        # Giới hạn số lượng chunks được xem xét, mặc định là toàn bộ top_k
+        for chunk in chunks: 
+            doc_id = chunk.get("document_id")
+            doc_file_name = chunk.get("document_file_name", "Unknown File")
+            doc_title = chunk.get("document_title", "Untitled Document")
+
+            if doc_id not in grouped_chunks_by_doc:
+                grouped_chunks_by_doc[doc_id] = {
+                    "document_file_name": doc_file_name,
+                    "document_title": doc_title,
+                    "chunks": []
+                }
+            grouped_chunks_by_doc[doc_id]["chunks"].append(chunk)
+            
+        doc_counter = 1
+        for doc_id, doc_data in grouped_chunks_by_doc.items():
+            doc_file_name = doc_data["document_file_name"]
+            doc_title = doc_data["document_title"]
+            
+            # Xây dựng header cho tài liệu
+            doc_header = f"[Tài liệu {doc_counter}: {doc_file_name} - {doc_title}]"
+            context_parts.append(doc_header)
+            
+            # Liệt kê từng chunk thuộc tài liệu này
+            for chunk in doc_data["chunks"]:
+                full_chunk_text = chunk.get("chunk_text", "")
+                
+                # Loại bỏ phần `# {doc_id} - {title}\n\n` khỏi chunk_text
+                # Vì chunk_text được định dạng là `# doc_id - title\n\n{rest_of_content}`
+                # chúng ta tìm vị trí của `\n\n` đầu tiên sau dòng header để cắt
+                cleaned_chunk_text = full_chunk_text
+                first_newline_pair_idx = full_chunk_text.find("\\n\\n")
+                if first_newline_pair_idx != -1:
+                    # Kiểm tra xem phần trước `\n\n` có phải là header `doc_id - title` không
+                    # Đây là một kiểm tra đơn giản, có thể cần phức tạp hơn nếu header format thay đổi
+                    header_line = full_chunk_text[:first_newline_pair_idx].strip()
+                    expected_header_prefix = f"# {doc_id} - {doc_title}"
+                    if header_line.startswith(expected_header_prefix):
+                        cleaned_chunk_text = full_chunk_text[first_newline_pair_idx + 4:].strip() # +4 cho `\n\n`
+                    
+                # Thêm tên section và nội dung chunk đã được làm sạch
+                section = chunk.get("section_name", "Unknown")
+                # Nếu section là "Full Document" thì không cần hiển thị `## Full Document`
+                if section == "Full Document":
+                    chunk_content_for_prompt = cleaned_chunk_text # Không cần thêm ## section_name
+                else:
+                    chunk_content_for_prompt = f"## {section}\n{cleaned_chunk_text}" # Thêm ## section_name
+
+                context_parts.append(chunk_content_for_prompt)
+            
+            doc_counter += 1
 
         context = "\n\n".join(context_parts)
-
-        # Options formatting
-        options_text = "\n".join([f"{key}. {value}" for key, value in options.items()])
+        
+        # Build options_text from options dictionary
+        options_text_lines = []
+        for key, value in sorted(options.items()):
+            options_text_lines.append(f"{key}. {value}")
+        options_text = "\\n".join(options_text_lines)
 
         # Complete prompt
         prompt = f"""{system}
@@ -379,6 +432,7 @@ CONFIDENCE: high
 
         async with httpx.AsyncClient(timeout=self.timeout) as client:
             response = await client.post(url, json=payload)
+            self.logger.debug(f"Raw Ollama response: {response.text}")
             response.raise_for_status()
             return response.json()
 

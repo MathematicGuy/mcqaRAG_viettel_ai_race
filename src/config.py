@@ -80,7 +80,7 @@ class OllamaSettings(BaseSettings):
     """Ollama LLM configuration."""
 
     host: str = Field(default="http://localhost:11434", alias="OLLAMA_HOST")
-    model: str = Field(default="llama3.2:3b", alias="OLLAMA_MODEL")
+    model: str = Field(default="qwen3:1.7b", alias="OLLAMA_MODEL")
     timeout: int = Field(default=120, alias="OLLAMA_TIMEOUT")
     max_response_words: int = Field(default=500, alias="OLLAMA_MAX_RESPONSE_WORDS")
     temperature: float = Field(default=0.1, alias="OLLAMA_TEMPERATURE")
@@ -91,7 +91,7 @@ class OllamaSettings(BaseSettings):
 class SearchSettings(BaseSettings):
     """Search configuration."""
 
-    top_k_default: int = Field(default=5, alias="SEARCH_TOP_K_DEFAULT")
+    top_k_default: int = Field(default=30, alias="SEARCH_TOP_K_DEFAULT")
     use_hybrid_default: bool = Field(default=True, alias="SEARCH_USE_HYBRID_DEFAULT")
     bm25_weight: float = Field(default=0.5, alias="SEARCH_BM25_WEIGHT")
     vector_weight: float = Field(default=0.5, alias="SEARCH_VECTOR_WEIGHT")
