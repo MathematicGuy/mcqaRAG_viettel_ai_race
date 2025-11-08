@@ -24,7 +24,7 @@ class SearchRequest(BaseModel):
 
     query: str = Field(..., description="Search query text", min_length=1)
     ### Điều này có nghĩa là top k >=1 và <= 20
-    top_k: int = Field(default=30, ge=1, le=50, description="Number of results to return")
+    top_k: int = Field(default=15, ge=1, le=50, description="Number of results to return")
     use_hybrid: bool = Field(default=True, description="Use hybrid search")
     source_folder: Optional[str] = Field(None, description="Filter by source folder")
     min_score: float = Field(default=0.0, ge=0.0, description="Minimum score threshold")
@@ -66,7 +66,7 @@ class AskRequest(BaseModel):
         description="Answer options as dict {A: text, B: text, C: text, D: text}",
         example={"A": "Option A", "B": "Option B", "C": "Option C", "D": "Option D"},
     )
-    top_k: int = Field(default=30, ge=1, le=50, description="Number of chunks to retrieve")
+    top_k: int = Field(default=15, ge=1, le=50, description="Number of chunks to retrieve")
     use_hybrid: bool = Field(default=True, description="Use hybrid search")
     source_folder: Optional[str] = Field(None, description="Filter by source folder")
     model: Optional[str] = Field(None, description="Override default LLM model")
@@ -88,7 +88,7 @@ class AskResponse(BaseModel):
     question: str
     options: Dict[str, str]
     predicted_option: Optional[str] = Field(
-        None, description="Predicted answer (A/B/C/D)", pattern="^[ABCD]$"
+        None, description="Predicted answer (A/B/C/D)", pattern=r"^(?:[ABCD](?:, [ABCD])*)*$"
     )
     answer_text: str = Field(..., description="Full answer text from LLM")
     reasoning: str = Field(..., description="Reasoning for the answer")

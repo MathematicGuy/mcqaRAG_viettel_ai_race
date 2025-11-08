@@ -42,7 +42,7 @@ class RAGPipeline:
         self,
         question: str,
         options: Dict[str, str],
-        top_k: int = 30,
+        top_k: int = 15,
         use_hybrid: bool = True,
         source_folder: Optional[str] = None,
     ) -> Dict:

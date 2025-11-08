@@ -187,7 +187,7 @@ class OpenSearchClient:
     async def search_bm25(
         self,
         query: str,
-        top_k: int = 50,
+        top_k: int = 15,
         source_folder: Optional[str] = None,
         min_score: float = 0.0,
     ) -> List[Dict]:
@@ -242,7 +242,7 @@ class OpenSearchClient:
     async def search_vector(
         self,
         query_embedding: List[float],
-        top_k: int = 50,
+        top_k: int = 15,
         source_folder: Optional[str] = None,
     ) -> List[Dict]:
         """
@@ -288,7 +288,7 @@ class OpenSearchClient:
         self,
         query: str,
         query_embedding: List[float],
-        top_k: int = 30,
+        top_k: int = 15,
         source_folder: Optional[str] = None,
         rrf_k: int = 60,
     ) -> List[Dict]:

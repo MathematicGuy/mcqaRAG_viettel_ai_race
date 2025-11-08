@@ -345,7 +345,8 @@ CONFIDENCE: high
             
             doc_counter += 1
 
-        context = "\n\n".join(context_parts)
+        # context = "\n\n".join(context_parts)
+        context = "hiện chưa có context, hãy tự suy đoán"
         
         # Build options_text from options dictionary
         options_text_lines = []
@@ -355,7 +356,6 @@ CONFIDENCE: high
 
         # Complete prompt
         prompt = f"""{system}
-{few_shot_examples}
 ### NGỮ CẢNH TỪ TÀI LIỆU:
 {context}
 
@@ -385,11 +385,17 @@ CONFIDENCE: high
             if line.startswith("ANSWER:"):
                 # Extract A, B, C, or D
                 answer_part = line.split(":", 1)[-1].strip()
-                # Look for A, B, C, or D in the answer
+                predicted_options = []
+                # Xử lý các trường hợp có dấu phẩy hoặc khoảng trắng
+                cleaned_answer_part = answer_part.upper().replace(",", "").replace(" ", "")
                 for char in ["A", "B", "C", "D"]:
-                    if char in answer_part.upper():
-                        result["option"] = char
-                        break
+                    if char in cleaned_answer_part:
+                        predicted_options.append(char)
+                if predicted_options:
+                    # Trả về dưới dạng chuỗi các lựa chọn được ngăn cách bởi dấu phẩy và đã sắp xếp
+                    result["option"] = ", ".join(sorted(predicted_options))
+                else:
+                    result["option"] = None # Nếu không tìm thấy lựa chọn nào
 
             elif line.startswith("REASONING:"):
                 result["reasoning"] = line.split(":", 1)[-1].strip()

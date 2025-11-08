@@ -86,7 +86,6 @@ airflow/logs/
 .env.production
 
 # Models cache
-models/
 .cache/
 transformers_cache/
 

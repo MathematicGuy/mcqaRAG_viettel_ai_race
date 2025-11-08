@@ -91,7 +91,7 @@ class OllamaSettings(BaseSettings):
 class SearchSettings(BaseSettings):
     """Search configuration."""
 
-    top_k_default: int = Field(default=30, alias="SEARCH_TOP_K_DEFAULT")
+    top_k_default: int = Field(default=15, alias="SEARCH_TOP_K_DEFAULT")
     use_hybrid_default: bool = Field(default=True, alias="SEARCH_USE_HYBRID_DEFAULT")
     bm25_weight: float = Field(default=0.5, alias="SEARCH_BM25_WEIGHT")
     vector_weight: float = Field(default=0.5, alias="SEARCH_VECTOR_WEIGHT")
