@@ -103,7 +103,7 @@ services:
       - ./.env
     volumes:
       - ollama_data:/root/.ollama
-      - ./src/services/ollama/entrypoint.sh:/entrypoint.sh 
+      - ./src/services/ollama/entrypoint.sh:/entrypoint.sh
     entrypoint: ["/bin/bash", "/entrypoint.sh"]
     healthcheck:
       test: ["CMD", "ollama", "list"]
@@ -157,53 +157,53 @@ services:
       - rag-network
 
   # === Airflow Core ===
-  airflow:
-    build:
-      context: .
-      dockerfile: ./airflow/Dockerfile
-    container_name: rag-mcq-airflow
-    restart: unless-stopped
-    environment:
-      - AIRFLOW_CORE_EXECUTOR=${AIRFLOW_EXECUTOR:-SequentialExecutor}
-      - AIRFLOW_CORE_LOAD_EXAMPLES=${AIRFLOW_LOAD_EXAMPLES:-False}
-      - AIRFLOW_CORE_FERNET_KEY=${AIRFLOW_CORE_FERNET_KEY}
-      - AIRFLOW_WEBSERVER_SECRET_KEY=${AIRFLOW_WEBSERVER_SECRET_KEY}
-      - AIRFLOW_DATABASE_SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DATABASE}
-      - AIRFLOW_ADMIN_USERNAME=${AIRFLOW_ADMIN_USERNAME}
-      - AIRFLOW_ADMIN_PASSWORD=${AIRFLOW_ADMIN_PASSWORD}
-      - AIRFLOW_ADMIN_EMAIL=${AIRFLOW_ADMIN_EMAIL}
-      ### Database connection settings
-      - POSTGRES_HOST=${POSTGRES_HOST}
-      - POSTGRES_PORT=${POSTGRES_PORT}
-      - POSTGRES_USER=${POSTGRES_USER}
-      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-      - POSTGRES_DB=${POSTGRES_DATABASE}
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./airflow/dags:/opt/airflow/dags
-      - ./src:/opt/airflow/src
-      - ./data:/opt/airflow/data
-      - airflow_logs:/opt/airflow/logs
-    depends_on:
-      postgres:
-        condition: service_healthy
-    healthcheck:
-      test: ["CMD-SHELL", "curl -f http://localhost:8080/api/v1/health || exit 1"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-      start_period: 120s
-    networks:
-      - rag-network
+  # airflow:
+  #   build:
+  #     context: .
+  #     dockerfile: ./airflow/Dockerfile
+  #   container_name: rag-mcq-airflow
+  #   restart: unless-stopped
+  #   environment:
+  #     - AIRFLOW_CORE_EXECUTOR=${AIRFLOW_EXECUTOR:-SequentialExecutor}
+  #     - AIRFLOW_CORE_LOAD_EXAMPLES=${AIRFLOW_LOAD_EXAMPLES:-False}
+  #     - AIRFLOW_CORE_FERNET_KEY=${AIRFLOW_CORE_FERNET_KEY}
+  #     - AIRFLOW_WEBSERVER_SECRET_KEY=${AIRFLOW_WEBSERVER_SECRET_KEY}
+  #     - AIRFLOW_DATABASE_SQL_ALCHEMY_CONN=postgresql+psycopg2://${POSTGRES_USER}:${POSTGRES_PASSWORD}@${POSTGRES_HOST}:${POSTGRES_PORT}/${POSTGRES_DATABASE}
+  #     - AIRFLOW_ADMIN_USERNAME=${AIRFLOW_ADMIN_USERNAME}
+  #     - AIRFLOW_ADMIN_PASSWORD=${AIRFLOW_ADMIN_PASSWORD}
+  #     - AIRFLOW_ADMIN_EMAIL=${AIRFLOW_ADMIN_EMAIL}
+  #     ### Database connection settings
+  #     - POSTGRES_HOST=${POSTGRES_HOST}
+  #     - POSTGRES_PORT=${POSTGRES_PORT}
+  #     - POSTGRES_USER=${POSTGRES_USER}
+  #     - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
+  #     - POSTGRES_DB=${POSTGRES_DATABASE}
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - ./airflow/dags:/opt/airflow/dags
+  #     - ./src:/opt/airflow/src
+  #     - ./data:/opt/airflow/data
+  #     - airflow_logs:/opt/airflow/logs
+  #   depends_on:
+  #     postgres:
+  #       condition: service_healthy
+  #   healthcheck:
+  #     test: ["CMD-SHELL", "curl -f http://localhost:8080/api/v1/health || exit 1"]
+  #     interval: 30s
+  #     timeout: 10s
+  #     retries: 5
+  #     start_period: 120s
+  #   networks:
+  #     - rag-network
 
 volumes:
   postgres_data:
   opensearch_data:
   redis_data:
   ollama_data:
-  airflow_postgres_data:
-  airflow_logs:
+  # airflow_postgres_data:
+  # airflow_logs:
 
 networks:
   rag-network:

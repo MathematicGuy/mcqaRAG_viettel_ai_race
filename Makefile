@@ -87,7 +87,7 @@ health: ## Check health of all services
 	@curl -s http://localhost:11434/api/tags | python -m json.tool || echo "Ollama not ready"
 
 # Ollama Model Management
-pull-model: ## Pull Ollama model (default: llama3.2:1b)
+pull-model: ## Pull Ollama model (default: qwen3:1.7b)
 	@echo "Pulling Ollama model..."
 	docker exec rag-mcq-ollama ollama pull $(MODEL)
 	@echo "✓ Model pulled"
@@ -98,8 +98,8 @@ list-models: ## List available Ollama models
 
 pull-llama: ## Pull Llama 3.2 1B model
 	@echo "Pulling Llama 3.2 1B..."
-	docker exec rag-mcq-ollama ollama pull llama3.2:1b
-	@echo "✓ Llama 3.2 3B ready"
+	docker exec rag-mcq-ollama ollama pull qwen3:1.7b
+	@echo "✓ qwen3:1.7b ready"
 
 # pull-qwen: ## Pull Qwen 2.5 7B model
 # 	@echo "Pulling Qwen 2.5 7B..."

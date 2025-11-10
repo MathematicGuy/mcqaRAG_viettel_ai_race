@@ -1,218 +1,7 @@
-# """
-# PDF Parser Service using Docling with GROBID backend.
-# Extracts structured content from PDF files including text, sections, and tables.
-# """
-
-# import logging
-# from pathlib import Path
-# from typing import Dict, List, Optional
-
-# from docling.document_converter import DocumentConverter, PdfFormatOption
-# from docling.datamodel.base_models import InputFormat
-# from docling.datamodel.pipeline_options import PdfPipelineOptions
-# from docling.pipeline.standard_pdf_pipeline import StandardPdfPipeline
-
-# from src.config import PDFParserSettings
-
-# logger = logging.getLogger(__name__)
-
-
-# class DoclingPDFParser:
-#     """
-#     PDF parser using Docling with GROBID backend.
-#     Extracts structured content: text, sections, tables, metadata.
-#     """
-
-#     def __init__(self, config: PDFParserSettings):
-#         """
-#         Initialize Docling PDF parser.
-
-#         Args:
-#             config: PDF parser configuration settings
-#         """
-#         self.config = config
-#         self.logger = logging.getLogger(__name__)
-
-#         # Configure pipeline options
-#         pipeline_options = PdfPipelineOptions()
-#         pipeline_options.do_ocr = config.do_ocr
-#         pipeline_options.do_table_structure = config.extract_tables
-
-#         # Initialize document converter
-#         self.converter = DocumentConverter(
-#             format_options={
-#                 InputFormat.PDF: PdfFormatOption(pipeline_options=pipeline_options)
-#             },
-#         )
-
-#     def parse_pdf(self, pdf_path: str) -> Dict:
-#         """
-#         Parse PDF file and extract structured content.
-
-#         Args:
-#             pdf_path: Path to PDF file
-
-#         Returns:
-#             Dict containing:
-#                 - title: Document title
-#                 - full_text: Complete text content
-#                 - sections: List of sections with titles and content
-#                 - tables: Extracted tables (if enabled)
-#                 - metadata: Document metadata
-
-#         Raises:
-#             Exception: If PDF parsing fails
-#         """
-#         try:
-#             self.logger.info(f"Parsing PDF: {pdf_path}")
-
-#             # Convert document
-#             result = self.converter.convert(pdf_path)
-#             doc = result.document
-
-#             # Extract components
-#             document = {
-#                 "title": self._extract_title(doc),
-#                 "full_text": doc.export_to_markdown(),
-#                 "sections": self._extract_sections(doc),
-#                 "tables": self._extract_tables(doc) if self.config.extract_tables else [],
-#                 "metadata": {
-#                     "page_count": len(doc.pages) if hasattr(doc, "pages") else 0,
-#                     "has_tables": len(doc.tables) > 0 if hasattr(doc, "tables") else False,
-#                     "file_path": str(pdf_path),
-#                     "file_name": Path(pdf_path).name,
-#                 },
-#             }
-
-#             self.logger.info(
-#                 f"Successfully parsed PDF: {document['title']}, "
-#                 f"pages: {document['metadata']['page_count']}, "
-#                 f"sections: {len(document['sections'])}"
-#             )
-
-#             return document
-
-#         except Exception as e:
-#             self.logger.error(f"Error parsing PDF {pdf_path}: {e}", exc_info=True)
-#             raise
-
-#     def _extract_title(self, doc) -> str:
-#         """Extract document title."""
-#         # Try to get title from metadata or first heading
-#         if hasattr(doc, "name") and doc.name:
-#             return doc.name
-
-#         # Try to find first heading
-#         for item in doc.main_text:
-#             if hasattr(item, "label") and item.label == "title":
-#                 return item.text
-
-#         # Fallback to filename
-#         return "Untitled Document"
-
-#     def _extract_sections(self, doc) -> List[Dict]:
-#         """
-#         Extract document sections with headers.
-
-#         Returns:
-#             List of sections with title, level, and content
-#         """
-#         sections = []
-#         current_section = None
-
-#         for item in doc.main_text:
-#             label = getattr(item, "label", "")
-
-#             if label in ["section_header", "title", "subtitle"]:
-#                 # Save previous section
-#                 if current_section and current_section.get("content"):
-#                     sections.append(current_section)
-
-#                 # Start new section
-#                 current_section = {
-#                     "title": item.text,
-#                     "level": self._get_header_level(label),
-#                     "content": "",
-#                 }
-
-#             elif current_section is not None:
-#                 # Add content to current section
-#                 if label == "paragraph" or label == "text":
-#                     current_section["content"] += item.text + "\n\n"
-
-#         # Add last section
-#         if current_section and current_section.get("content"):
-#             sections.append(current_section)
-
-#         return sections
-
-#     def _extract_tables(self, doc) -> List[Dict]:
-#         """Extract tables from document."""
-#         tables = []
-
-#         if not hasattr(doc, "tables"):
-#             return tables
-
-#         for idx, table in enumerate(doc.tables):
-#             try:
-#                 table_data = {
-#                     "table_id": f"table_{idx}",
-#                     "data": self._table_to_dict(table),
-#                     "caption": getattr(table, "caption", ""),
-#                 }
-#                 tables.append(table_data)
-#             except Exception as e:
-#                 self.logger.warning(f"Failed to extract table {idx}: {e}")
-#                 continue
-
-#         return tables
-
-#     def _table_to_dict(self, table) -> List[List[str]]:
-#         """Convert table to list of lists."""
-#         rows = []
-#         if hasattr(table, "data"):
-#             for row in table.data:
-#                 rows.append([str(cell) for cell in row])
-#         return rows
-
-#     def _get_header_level(self, label: str) -> int:
-#         """Get header level from label."""
-#         if label == "title":
-#             return 1
-#         elif label == "subtitle":
-#             return 2
-#         elif label == "section_header":
-#             return 3
-#         return 4
-
-#     def parse_multiple_pdfs(self, pdf_paths: List[str]) -> List[Dict]:
-#         """
-#         Parse multiple PDF files.
-
-#         Args:
-#             pdf_paths: List of PDF file paths
-
-#         Returns:
-#             List of parsed documents
-#         """
-#         documents = []
-#         for pdf_path in pdf_paths:
-#             try:
-#                 doc = self.parse_pdf(pdf_path)
-#                 documents.append(doc)
-#             except Exception as e:
-#                 self.logger.error(f"Failed to parse {pdf_path}: {e}")
-#                 continue
-#         return documents
-
-"""
-PDF Parser Service using Docling with GROBID backend.
-Extracts structured content from PDF files including text, sections, and tables.
-"""
-
 import logging
 from pathlib import Path
 from typing import Dict, List
+import re
 
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.base_models import InputFormat
@@ -221,6 +10,7 @@ from docling.datamodel.pipeline_options import PdfPipelineOptions, TableFormerMo
 from src.config import PDFParserSettings
 
 logger = logging.getLogger(__name__)
+
 
 class DoclingPDFParser:
     """
@@ -244,7 +34,6 @@ class DoclingPDFParser:
         pipeline_options.do_table_structure = bool(config.extract_tables)
         pipeline_options.do_code_enrichment = True
         pipeline_options.do_formula_enrichment = True
-        # pipeline_options.table_structure_options.do_cell_matching = False
         pipeline_options.table_structure_options.mode = TableFormerMode.ACCURATE
 
         # Initialize document converter with format option for PDF
@@ -254,22 +43,24 @@ class DoclingPDFParser:
             }
         )
 
+
     def parse_pdf(self, pdf_path: str) -> Dict:
         """
         Parse PDF file and extract structured content.
 
         Args:
-            pdf_path: Path to PDF file
+            pdf_path: Path to PDF file e.g. data\\pdf\\Public_428.pdf
 
         Returns:
             Dict containing:
                 - title: Document title
-                - full_text: Complete text content (Markdown)
+                - full_text: Complete text content (Markdown with post-processing)
                 - sections: List of sections with titles and content
                 - tables: Extracted tables (if enabled)
                 - metadata: Document metadata
         """
         try:
+            OUTPUT_PATH = 'private_test_output'
             self.logger.info(f"Parsing PDF: {pdf_path}")
 
             result = self.converter.convert(pdf_path)
@@ -278,10 +69,19 @@ class DoclingPDFParser:
             # Full text content
             full_text = doc.export_to_markdown()
 
+            # Clean VIETTEL patterns and convert tables
+            full_text = self._post_process_markdown(full_text)
+
+            # save markdown to OUTPUT_PATH/filename.md for debug
+            output_md_path = Path(OUTPUT_PATH) / (Path(pdf_path).stem + '.md')
+            output_md_path.parent.mkdir(parents=True, exist_ok=True)
+            output_md_path.write_text(full_text, encoding='utf-8')
+            self.logger.info(f"Saved markdown to: {output_md_path}")
+
             # Export to dict for deeper structure
             doc_dict = doc.export_to_dict()
 
-            # Sections extraction
+            # Sections extraction (uses cleaned full_text)
             sections = self._extract_sections_from_dict(doc_dict, full_text, pdf_path)
 
             # Tables
@@ -317,6 +117,101 @@ class DoclingPDFParser:
             self.logger.error(f"Error parsing PDF {pdf_path}: {e}", exc_info=True)
             raise
 
+
+    def _post_process_markdown(self, markdown_text: str) -> str:
+        """
+        Post-process markdown: remove VIETTEL patterns and convert tables to HTML.
+
+        Args:
+            markdown_text: Raw markdown from docling
+
+        Returns:
+            Cleaned markdown with HTML tables
+        """
+        # Remove VIETTEL header sections
+        markdown_text = re.sub(
+            r'##\s*VIETTEL\s*AI\s*RACE\s*\n?',
+            '',
+            markdown_text,
+            flags=re.IGNORECASE
+        )
+
+        # Remove VIETTEL table rows with separators
+        markdown_text = re.sub(
+            r'\|\s*VIETTEL\s*AI\s*RACE\s*\|[^\n]*\n\s*\|[-\s|]*\|\s*\n?',
+            '',
+            markdown_text,
+            flags=re.IGNORECASE
+        )
+
+        # Convert markdown tables to HTML
+        markdown_text = self._markdown_table_to_html(markdown_text)
+
+        return markdown_text
+
+
+    def _markdown_table_to_html(self, markdown_text: str) -> str:
+        """
+        Convert markdown tables to HTML tables.
+
+        Args:
+            markdown_text: Markdown content containing tables
+
+        Returns:
+            HTML formatted text with tables converted
+        """
+        # Pattern to match markdown tables
+        table_pattern = r'\|[^\n]+\|\n\|[-:\s|]+\|\n(?:\|[^\n]+\|\n)+'
+
+        def convert_single_table(match):
+            table_md = match.group(0)
+            lines = table_md.strip().split('\n')
+
+            if len(lines) < 3:  # Need header, separator, and at least one row
+                return table_md
+
+            # Extract header
+            header_line = lines[0]
+            headers = [cell.strip() for cell in header_line.split('|')[1:-1]]
+
+            # Skip separator line (lines[1])
+
+            # Extract data rows
+            data_rows = []
+            for line in lines[2:]:
+                cells = [cell.strip() for cell in line.split('|')[1:-1]]
+                if cells:  # Skip empty rows
+                    data_rows.append(cells)
+
+            # Build HTML table
+            html = ['<table border="1" cellpadding="5" cellspacing="0">']
+
+            # Add header
+            html.append('  <thead>')
+            html.append('    <tr>')
+            for header in headers:
+                html.append(f'      <th>{header}</th>')
+            html.append('    </tr>')
+            html.append('  </thead>')
+
+            # Add body
+            html.append('  <tbody>')
+            for row in data_rows:
+                html.append('    <tr>')
+                for cell in row:
+                    html.append(f'      <td>{cell}</td>')
+                html.append('    </tr>')
+            html.append('  </tbody>')
+
+            html.append('</table>')
+
+            return '\n'.join(html)
+
+        # Replace all markdown tables with HTML tables
+        result = re.sub(table_pattern, convert_single_table, markdown_text)
+        return result
+
+
     def _extract_title(self, doc, sections: List[Dict], pdf_path: str) -> str:
         """Extract document title from doc metadata, first section, or filename."""
         if hasattr(doc, "name") and doc.name:
@@ -324,6 +219,7 @@ class DoclingPDFParser:
         if sections and len(sections) > 0:
             return sections[0].get("title", "")
         return Path(pdf_path).stem or "Untitled Document"
+
 
     def _extract_sections_from_dict(self, doc_dict: dict, full_text: str, pdf_path: str) -> List[Dict]:
         """
@@ -377,6 +273,7 @@ class DoclingPDFParser:
             sections.append(current_section)
         return sections
 
+
     def _extract_tables_from_doc(self, doc, doc_dict: dict) -> List[Dict]:
         """
         Extract tables: first try doc.tables attribute, else from dict tables list
@@ -405,6 +302,7 @@ class DoclingPDFParser:
                 except Exception as e:
                     self.logger.warning(f"Failed to extract table {idx} via dict: {e}")
         return tables
+
 
     def _table_to_dict(self, table) -> List[List[str]]:
         rows: List[List[str]] = []
