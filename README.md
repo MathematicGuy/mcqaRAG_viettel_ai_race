@@ -113,7 +113,8 @@ answers_mcq.csv           →  [process_answer.py]  →  TASK QA
 ```bash
 # Install dependencies
 pip install -r requirements.txt
-# or: uv sync
+# or:
+uv sync # recommened 
 
 # Start Docker services
 docker compose up -d
