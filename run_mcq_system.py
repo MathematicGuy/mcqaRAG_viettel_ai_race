@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 from src.config import get_settings
-from src.services.ollama.ollamacpp_client import OllamaCppClient
+from src.services.llamacpp.llamacpp_client import OllamaCppClient
 # ./server -m "C:\Users\APC\AppData\Local\llama.cpp\bartowski_SmallThinker-3B-Preview-GGUF_SmallThinker-3B-Preview-Q4_K_M.gguf" -c 16384
 API_BASE_URL = "http://localhost:8000"
 AIRFLOW_URL = "http://localhost:8080"
