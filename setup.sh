@@ -129,36 +129,29 @@ else
     print_warning "Redis is not ready yet. It may need more time."
 fi
 
-# Check Ollama (DISABLED - Using llama.cpp instead)
-# if curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then
-#     print_success "Ollama is ready"
-# else
-#     print_warning "Ollama is disabled (using llama.cpp instead)"
-# fi
-
-# Check API service
-if curl -s http://localhost:8000/health >/dev/null 2>&1; then
-    print_success "API service is ready"
+# Check Ollama
+if curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then
+    print_success "Ollama is ready"
 else
-    print_warning "API service is not ready yet. It may need more time."
+    print_warning "Ollama is not ready yet. It may need more time."
 fi
 
-# Pull Ollama model (DISABLED - Using llama.cpp instead)
-# print_info "Pulling Ollama model (this may take several minutes)..."
-# DEFAULT_MODEL="llama3.2:1b"
+# Pull Ollama model
+print_info "Pulling Ollama model (this may take several minutes)..."
+DEFAULT_MODEL="llama3.2:1b"
 
-# if [ -n "$1" ]; then
-#     MODEL=$1
-# else
-#     MODEL=$DEFAULT_MODEL
-# fi
+if [ -n "$1" ]; then
+    MODEL=$1
+else
+    MODEL=$DEFAULT_MODEL
+fi
 
-# print_info "Pulling model: ${MODEL}"
-# docker exec rag-mcq-ollama ollama pull ${MODEL} || print_warning "Failed to pull model. You can do this later with: docker exec rag-mcq-ollama ollama pull ${MODEL}"
+print_info "Pulling model: ${MODEL}"
+docker exec rag-mcq-ollama ollama pull ${MODEL} || print_warning "Failed to pull model. You can do this later with: docker exec rag-mcq-ollama ollama pull ${MODEL}"
 
-# if docker exec rag-mcq-ollama ollama list | grep -q ${MODEL}; then
-#     print_success "Model ${MODEL} is ready"
-# fi
+if docker exec rag-mcq-ollama ollama list | grep -q ${MODEL}; then
+    print_success "Model ${MODEL} is ready"
+fi
 
 # Initialize database
 print_info "Initializing database schema..."
@@ -176,12 +169,12 @@ echo ""
 echo "Available Services:"
 echo "  - API:               http://localhost:8000"
 echo "  - API Docs:          http://localhost:8000/docs"
-# echo "  - Airflow:           http://localhost:8080 (admin/admin)"
+echo "  - Airflow:           http://localhost:8080 (admin/admin)"
 echo "  - OpenSearch:        http://localhost:9200"
 echo "  - OpenSearch UI:     http://localhost:5601"
 echo "  - PostgreSQL:        localhost:5432"
 echo "  - Redis:             localhost:6379"
-echo "  - Ollama:            DISABLED (using llama.cpp on port 8080)"
+echo "  - Ollama:            http://localhost:11434"
 echo ""
 echo "Next Steps:"
 echo "  1. Check health:     make health"

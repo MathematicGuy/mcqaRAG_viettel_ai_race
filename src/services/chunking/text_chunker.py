@@ -62,88 +62,37 @@ class SectionAwareChunker:
             List of chunk dicts with metadata
         """
         chunks = []
-        # ✅ Check if document has sections
-        sections = document.get("sections", []) # sddsfd
-        full_text = document.get("full_text", "")
-        title = document.get("title", doc_id)
+        sections = document.get("sections", [])
+        title = document.get("title", "Untitled")
 
-        if sections and len(sections) > 0:
-            # Normal section-based chunking
-            for idx, section in enumerate(sections):
-                chunk = {
-                    "chunk_id": f"{doc_id}_section_{idx:04d}",
-                    "chunk_text": section.get("content", ""),
-                    "chunk_index": idx,
-                    "section_name": section.get("title", ""),
-                    "chunk_type": "section",
-                    "word_count": len(section.get("content", "").split()),
-                    "char_count": len(section.get("content", "")),
+        if not sections:
+            self.logger.warning(f"No sections found in document {doc_id}, using full text")
+            return self._chunk_by_paragraphs(document, doc_id)
+
+        # Process each section
+        for idx, section in enumerate(sections):
+            section_chunks = self._chunk_section(
+                section=section,
+                doc_id=doc_id,
+                title=title,
+                section_idx=idx,
+            )
+            chunks.extend(section_chunks)
+
+        # Add metadata to all chunks
+        for i, chunk in enumerate(chunks):
+            chunk.update(
+                {
+                    "chunk_id": f"{doc_id}_chunk_{i:04d}",
+                    "chunk_index": i,
+                    "document_id": doc_id,
+                    "char_count": len(chunk["chunk_text"]),
                 }
-                chunks.append(chunk)
-        else:
-            # ✅ Fall back to paragraph/table chunking for documents without sections
-            logger.warning(f"No sections found in document {doc_id}, using paragraph/table chunking")
+            )
 
-            # Split by tables or paragraphs
-            parts = self._split_by_tables_and_paragraphs(full_text)
-
-            for idx, part in enumerate(parts):
-                if part.strip():  # Skip empty chunks
-                    chunk = {
-                        "chunk_id": f"{doc_id}_chunk_{idx:04d}",  # ✅ Generate chunk_id
-                        "chunk_text": part,
-                        "chunk_index": idx,
-                        "section_name": "table" if "<table" in part else "content",
-                        "chunk_type": "table" if "<table" in part else "text",
-                        "word_count": len(part.split()),
-                        "char_count": len(part),
-                    }
-                    chunks.append(chunk)
-
-        return chunks
-
-
-    def _split_by_tables_and_paragraphs(self, text: str, max_chunk_size: int = 2000) -> List[str]:
-        """Split text by tables and paragraphs."""
-        import re
-
-        chunks = []
-
-        # Split by table tags
-        parts = re.split(r'(<table.*?</table>)', text, flags=re.DOTALL | re.IGNORECASE)
-
-        for part in parts:
-            if part.strip():
-                # If it's a table, keep it as one chunk (or split if too large)
-                if part.strip().startswith('<table'):
-                    if len(part) > max_chunk_size:
-                        # Split large tables by rows
-                        rows = re.findall(r'<tr>.*?</tr>', part, flags=re.DOTALL)
-                        current_chunk = ""
-                        for row in rows:
-                            if len(current_chunk) + len(row) > max_chunk_size:
-                                if current_chunk:
-                                    chunks.append(current_chunk)
-                                current_chunk = f"<table>{row}"
-                            else:
-                                current_chunk += row
-                        if current_chunk:
-                            chunks.append(current_chunk + "</table>")
-                    else:
-                        chunks.append(part)
-                else:
-                    # Split text by paragraphs
-                    paragraphs = part.split('\n\n')
-                    current_chunk = ""
-                    for para in paragraphs:
-                        if len(current_chunk) + len(para) > max_chunk_size:
-                            if current_chunk:
-                                chunks.append(current_chunk)
-                            current_chunk = para
-                        else:
-                            current_chunk += "\n\n" + para if current_chunk else para
-                    if current_chunk:
-                        chunks.append(current_chunk)
+        self.logger.info(
+            f"Document {doc_id} chunked into {len(chunks)} chunks from {len(sections)} sections"
+        )
 
         return chunks
 

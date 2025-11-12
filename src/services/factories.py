@@ -9,7 +9,6 @@ from src.config import get_settings
 from src.services.chunking.text_chunker import SectionAwareChunker
 from src.services.embeddings.sentence_transformer import EmbeddingsService
 from src.services.ollama.client import OllamaClient
-from src.services.ollama.ollamacpp_client import OllamaCppClient
 from src.services.opensearch.client import OpenSearchClient
 from src.services.pdf_parser.docling_parser import DoclingPDFParser
 
@@ -59,32 +58,16 @@ def make_opensearch_client() -> OpenSearchClient:
 
 
 @lru_cache()
-def make_ollama_client():
-    """
-    Create and cache Ollama/LlamaCpp client instance.
-
-    Uses OllamaCppClient if OLLAMA_HOST points to port 8080 (llama.cpp server),
-    otherwise uses OllamaClient for standard Ollama.
-    """
+def make_ollama_client() -> OllamaClient:
+    """Create and cache Ollama client instance."""
     settings = get_settings()
-
-    # Check if using llama.cpp server (port 8080) or Ollama (port 11434)
-    if ":8080" in settings.ollama.host or "llama" in settings.ollama.host.lower():
-        return OllamaCppClient(
-            host=settings.ollama.host,
-            model=settings.ollama.model,
-            temperature=settings.ollama.temperature,
-            max_response_words=settings.ollama.max_response_words,
-            timeout=settings.ollama.timeout,
-        )
-    else:
-        return OllamaClient(
-            host=settings.ollama.host,
-            model=settings.ollama.model,
-            temperature=settings.ollama.temperature,
-            max_response_words=settings.ollama.max_response_words,
-            timeout=settings.ollama.timeout,
-        )
+    return OllamaClient(
+        host=settings.ollama.host,
+        model=settings.ollama.model,
+        temperature=settings.ollama.temperature,
+        max_response_words=settings.ollama.max_response_words,
+        timeout=settings.ollama.timeout,
+    )
 
 
 # Export all factories
