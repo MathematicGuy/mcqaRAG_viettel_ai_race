@@ -61,8 +61,8 @@ logs: ## Show logs from all services
 logs-api: ## Show logs from API service
 	docker compose logs -f api
 
-logs-airflow: ## Show logs from Airflow
-	docker compose logs -f airflow
+# logs-airflow: ## Show logs from Airflow
+# 	docker compose logs -f airflow
 
 logs-opensearch: ## Show logs from OpenSearch
 	docker compose logs -f opensearch
@@ -87,7 +87,7 @@ health: ## Check health of all services
 	@curl -s http://localhost:11434/api/tags | python -m json.tool || echo "Ollama not ready"
 
 # Ollama Model Management
-pull-model: ## Pull Ollama model (default: llama3.2:1b)
+pull-model: ## Pull Ollama model (default: qwen3:1.7b)
 	@echo "Pulling Ollama model..."
 	docker exec rag-mcq-ollama ollama pull $(MODEL)
 	@echo "✓ Model pulled"
@@ -98,8 +98,8 @@ list-models: ## List available Ollama models
 
 pull-llama: ## Pull Llama 3.2 1B model
 	@echo "Pulling Llama 3.2 1B..."
-	docker exec rag-mcq-ollama ollama pull llama3.2:1b
-	@echo "✓ Llama 3.2 3B ready"
+	docker exec rag-mcq-ollama ollama pull qwen3:1.7b
+	@echo "✓ qwen3:1.7b ready"
 
 # pull-qwen: ## Pull Qwen 2.5 7B model
 # 	@echo "Pulling Qwen 2.5 7B..."
@@ -194,7 +194,7 @@ dev: ## Start development environment
 	@echo "Services:"
 	@echo "  API:        http://localhost:8000"
 	@echo "  API Docs:   http://localhost:8000/docs"
-	@echo "  Airflow:    http://localhost:8080 (admin/admin)"
+# 	@echo "  Airflow:    http://localhost:8080 (admin/admin)"
 	@echo "  OpenSearch: http://localhost:5601"
 	@echo ""
 
@@ -202,18 +202,18 @@ notebook: ## Start Jupyter notebook server
 	@echo "Starting Jupyter notebook..."
 	uv run jupyter notebook
 
-api-shell: ## Open Python shell with API context
-	docker exec -it rag-mcq-api python
+# api-shell: ## Open Python shell with API context
+# 	docker exec -it rag-mcq-api python
 
-# Airflow Operations
-airflow-trigger: ## Trigger Airflow DAG (DAG=pdf_ingestion_dag)
-	docker exec rag-mcq-airflow airflow dags trigger $(DAG)
+# # Airflow Operations
+# airflow-trigger: ## Trigger Airflow DAG (DAG=pdf_ingestion_dag)
+# 	docker exec rag-mcq-airflow airflow dags trigger $(DAG)
 
-airflow-list: ## List Airflow DAGs
-	docker exec rag-mcq-airflow airflow dags list
+# airflow-list: ## List Airflow DAGs
+# 	docker exec rag-mcq-airflow airflow dags list
 
-airflow-shell: ## Open Airflow shell
-	docker exec -it rag-mcq-airflow bash
+# airflow-shell: ## Open Airflow shell
+# 	docker exec -it rag-mcq-airflow bash
 
 # Monitoring
 monitor: ## Start monitoring services (Langfuse)
