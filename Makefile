@@ -83,28 +83,12 @@ health: ## Check health of all services
 	@echo "Redis:"
 	@docker exec rag-mcq-redis redis-cli ping || echo "Redis not ready"
 	@echo ""
-	@echo "Ollama:"
-	@curl -s http://localhost:11434/api/tags | python -m json.tool || echo "Ollama not ready"
+	@echo "⚠️  llama.cpp (port 8080): Must be started manually"
+	@echo ""
 
-# Ollama Model Management
-pull-model: ## Pull Ollama model (default: llama3.2:1b)
-	@echo "Pulling Ollama model..."
-	docker exec rag-mcq-ollama ollama pull $(MODEL)
-	@echo "✓ Model pulled"
-
-list-models: ## List available Ollama models
-	@echo "Available Ollama models:"
-	docker exec rag-mcq-ollama ollama list
-
-pull-llama: ## Pull Llama 3.2 1B model
-	@echo "Pulling Llama 3.2 1B..."
-	docker exec rag-mcq-ollama ollama pull llama3.2:1b
-	@echo "✓ Llama 3.2 3B ready"
-
-# pull-qwen: ## Pull Qwen 2.5 7B model
-# 	@echo "Pulling Qwen 2.5 7B..."
-# 	docker exec rag-mcq-ollama ollama pull qwen2.5:7b
-# 	@echo "✓ Qwen 2.5 7B ready"
+# Ollama Model Management - DISABLED (using llama.cpp instead)
+# Start llama.cpp manually:
+# ./server -m "path/to/SmallThinker-3B-Preview-Q4_K_M.gguf" -c 16384 --port 8080 --host 127.0.0.1
 
 # Database Operations
 db-init: ## Initialize database schema
@@ -186,7 +170,6 @@ type-check: ## Run type checking with mypy
 # Development
 dev: ## Start development environment
 	@make start
-	@make pull-llama
 	@make db-init
 	@echo ""
 	@echo "✓ Development environment ready!"
@@ -194,26 +177,17 @@ dev: ## Start development environment
 	@echo "Services:"
 	@echo "  API:        http://localhost:8000"
 	@echo "  API Docs:   http://localhost:8000/docs"
-	@echo "  Airflow:    http://localhost:8080 (admin/admin)"
-	@echo "  OpenSearch: http://localhost:5601"
+	@echo "  OpenSearch: http://localhost:9200"
+	@echo ""
+	@echo "⚠️  Important: Start llama.cpp separately!"
+	@echo "  Run: ./server -m path/to/SmallThinker-3B-Preview-Q4_K_M.gguf -c 16384 --port 8080"
 	@echo ""
 
 notebook: ## Start Jupyter notebook server
 	@echo "Starting Jupyter notebook..."
 	uv run jupyter notebook
 
-api-shell: ## Open Python shell with API context
-	docker exec -it rag-mcq-api python
-
-# Airflow Operations
-airflow-trigger: ## Trigger Airflow DAG (DAG=pdf_ingestion_dag)
-	docker exec rag-mcq-airflow airflow dags trigger $(DAG)
-
-airflow-list: ## List Airflow DAGs
-	docker exec rag-mcq-airflow airflow dags list
-
-airflow-shell: ## Open Airflow shell
-	docker exec -it rag-mcq-airflow bash
+# Airflow Operations - DISABLED (not used in current implementation)
 
 # Monitoring
 monitor: ## Start monitoring services (Langfuse)
@@ -246,13 +220,13 @@ setup-full: ## Complete setup from scratch
 	@make install-dev
 	@make start
 	@sleep 15
-	@make pull-llama
 	@make db-init
 	@make health
 	@echo ""
 	@echo "✓ Full setup complete!"
 	@echo ""
 	@echo "Next steps:"
-	@echo "  1. Run notebooks: make notebook"
-	@echo "  2. Check health: make health"
-	@echo "  3. View API docs: http://localhost:8000/docs"
+	@echo "  1. Start llama.cpp:  ./server -m path/to/model.gguf -c 16384 --port 8080"
+	@echo "  2. Run extraction:   jupyter notebook run_extract.ipynb"
+	@echo "  3. Run inference:    python run_mcq_system.py"
+	@echo "  4. View API docs:    http://localhost:8000/docs"

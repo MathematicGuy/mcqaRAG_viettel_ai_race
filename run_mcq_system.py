@@ -1,4 +1,43 @@
-import csv
+import os
+from pathlib import Path
+from src.config import get_settings
+from src.services.llamacpp.llamacpp_client import OllamaCppClient
+# ./server -m "C:\Users\APC\AppData\Local\llama.cpp\bartowski_SmallThinker-3B-Preview-GGUF_SmallThinker-3B-Preview-Q4_K_M.gguf" -c 16384
+API_BASE_URL = "http://localhost:8000"
+AIRFLOW_URL = "http://localhost:8080"
+
+# Host & port các service
+POSTGRES_HOST = "localhost"
+POSTGRES_PORT = 5432          # hoặc 5433 nếu muốn connect airflow-db
+REDIS_HOST = "localhost"
+REDIS_PORT = 6379
+OPENSEARCH_HOST = "http://localhost:9200"
+LLAMACPP_HOST = "http://127.0.0.1:8080"
+
+# Cấu hình RAG
+TOP_K = 7
+USE_HYBRID = True
+TIMEOUT = 180
+MAX_WORKERS = 1
+
+# Initialize llama.cpp client
+llama_client = OllamaCppClient(
+    host=LLAMACPP_HOST,
+    model="gpt-like-model",
+    temperature=0.3,
+    max_response_words=400,
+    timeout=TIMEOUT
+)
+
+settings = get_settings()
+pdf_dir = Path(settings.data.pdf_dir)
+
+pdf_files = list(pdf_dir.glob("*.pdf"))
+pdf_paths = [str(f) for f in pdf_files]
+
+print(f"Found {len(pdf_paths)} PDF files:")
+print(f"Llama.cpp client initialized at: {LLAMACPP_HOST}")
+
 import requests
 import json
 

@@ -129,34 +129,16 @@ else
     print_warning "Redis is not ready yet. It may need more time."
 fi
 
-# Check Ollama
-if curl -s http://localhost:11434/api/tags >/dev/null 2>&1; then
-    print_success "Ollama is ready"
+# Check Ollama (llama.cpp runs separately on port 8080)
+print_info "llama.cpp server must be started separately"
+print_info "Run: ./server -m path/to/SmallThinker-3B-Preview-Q4_K_M.gguf -c 16384 --port 8080"
+
+# Check API service
+if curl -s http://localhost:8000/health >/dev/null 2>&1; then
+    print_success "API service is ready"
 else
     print_warning "Ollama is not ready yet. It may need more time."
 fi
-
-# Pull Ollama model
-print_info "Pulling Ollama model (this may take several minutes)..."
-DEFAULT_MODEL="llama3.2:1b"
-
-if [ -n "$1" ]; then
-    MODEL=$1
-else
-    MODEL=$DEFAULT_MODEL
-fi
-
-print_info "Pulling model: ${MODEL}"
-docker exec rag-mcq-ollama ollama pull ${MODEL} || print_warning "Failed to pull model. You can do this later with: docker exec rag-mcq-ollama ollama pull ${MODEL}"
-
-if docker exec rag-mcq-ollama ollama list | grep -q ${MODEL}; then
-    print_success "Model ${MODEL} is ready"
-fi
-
-# Initialize database
-print_info "Initializing database schema..."
-# Note: This would need alembic migrations to be set up
-# uv run alembic upgrade head || print_warning "Database initialization skipped. Run migrations manually."
 
 # Print summary
 echo ""
@@ -169,29 +151,23 @@ echo ""
 echo "Available Services:"
 echo "  - API:               http://localhost:8000"
 echo "  - API Docs:          http://localhost:8000/docs"
-echo "  - Airflow:           http://localhost:8080 (admin/admin)"
 echo "  - OpenSearch:        http://localhost:9200"
-echo "  - OpenSearch UI:     http://localhost:5601"
 echo "  - PostgreSQL:        localhost:5432"
 echo "  - Redis:             localhost:6379"
-echo "  - Ollama:            http://localhost:11434"
+echo ""
+echo "⚠️  Important: Start llama.cpp server separately!"
+echo "  Run: ./server -m path/to/SmallThinker-3B-Preview-Q4_K_M.gguf -c 16384 --port 8080"
 echo ""
 echo "Next Steps:"
-echo "  1. Check health:     make health"
-echo "  2. View logs:        make logs"
-echo "  3. Run notebooks:    make notebook"
-echo "  4. View services:    docker compose ps"
+echo "  1. Start llama.cpp:  (see command above)"
+echo "  2. Run extraction:   jupyter notebook run_extract.ipynb"
+echo "  3. Run inference:    python run_mcq_system.py"
+echo "  4. Generate output:  python post_processing/write_answers.py && python data/process_answer.py"
 echo ""
 echo "Quick Commands:"
-echo "  - make start         # Start all services"
-echo "  - make stop          # Stop all services"
-echo "  - make restart       # Restart all services"
-echo "  - make health        # Check service health"
-echo "  - make logs          # View logs"
-echo ""
-echo "Documentation:"
-echo "  - README.md                  # Main documentation"
-echo "  - IMPLEMENTATION_GUIDE.md    # Implementation details"
+echo "  - docker compose ps        # View services"
+echo "  - docker compose logs -f   # View logs"
+echo "  - docker compose restart   # Restart services"
 echo ""
 print_info "Run 'make help' to see all available commands"
 echo ""

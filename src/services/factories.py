@@ -8,7 +8,8 @@ from functools import lru_cache
 from src.config import get_settings
 from src.services.chunking.text_chunker import SectionAwareChunker
 from src.services.embeddings.sentence_transformer import EmbeddingsService
-from src.services.ollama.client import OllamaClient
+from src.services.llamacpp.client import OllamaClient
+from src.services.llamacpp.llamacpp_client import OllamaCppClient
 from src.services.opensearch.client import OpenSearchClient
 from src.services.pdf_parser.docling_parser import DoclingPDFParser
 
