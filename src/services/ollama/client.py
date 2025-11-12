@@ -444,7 +444,8 @@ class OllamaClient:
         Returns:
             Response dict
         """
-        url = f"{self.host}/api/generate"
+        # url = f"{self.host}/api/generate"
+        url = 'http://127.0.0.1:8080/v1/chat/completions'
 
         payload = {
             "model": self.model,

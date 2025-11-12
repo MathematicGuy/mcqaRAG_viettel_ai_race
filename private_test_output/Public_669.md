@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 
 ## 1. Phạm vi áp dụng
@@ -13,19 +11,51 @@
 
 ## 2. Ký hiệu lỗ trống
 
-| Tên ký hiệu                               | Chú thích                               |
-|-------------------------------------------|-----------------------------------------|
-| Lỗ trống không tới sát mặt sàn            | Ký hiệu quy ước thể hiện trên mặt bằng. |
-| Lỗ trống hình tròn, không tới sát mặt sản | Ký hiệu quy ước thể hiện trên mặt bằng. |
-| Lỗ trống tới sát mặt sàn                  | Ký hiệu quy ước thể hiện trên mặt bằng. |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lỗ trống không tới sát mặt sàn</td>
+      <td>Ký hiệu quy ước thể hiện trên mặt bằng.</td>
+    </tr>
+    <tr>
+      <td>Lỗ trống hình tròn, không tới sát mặt sản</td>
+      <td>Ký hiệu quy ước thể hiện trên mặt bằng.</td>
+    </tr>
+    <tr>
+      <td>Lỗ trống tới sát mặt sàn</td>
+      <td>Ký hiệu quy ước thể hiện trên mặt bằng.</td>
+    </tr>
+  </tbody>
+</table>
 ## 3. Ký hiệu cửa sổ
 
-| Tên ký hiệu                       | Ký hiệu   | Chú thích     |
-|-----------------------------------|-----------|---------------|
-| Cửa sổ đơn thể hiện trên mặt bằng |           | Hình vẽ tỷ lệ |
-| Cửa sổ kép thể hiện trên mặt bằng |           | 1:100.        |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cửa sổ đơn thể hiện trên mặt bằng</td>
+      <td></td>
+      <td>Hình vẽ tỷ lệ</td>
+    </tr>
+    <tr>
+      <td>Cửa sổ kép thể hiện trên mặt bằng</td>
+      <td></td>
+      <td>1:100.</td>
+    </tr>
+  </tbody>
+</table>
 TD669
 
 Lần ban hành: 1
@@ -35,8 +65,6 @@ Lần ban hành: 1
 TD669
 
 Lần ban hành: 1
-
-## VIETTEL AI RACE
 
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 
@@ -44,16 +72,33 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Tên ký hiệu                                           | Chú thích                                                                       |
-|-------------------------------------------------------|---------------------------------------------------------------------------------|
-| Cửa sổ đơn thể hiện trên mặt bằng                     | Hình vẽ tỷ lệ nhỏ hơn 1:100.                                                    |
-| Cửa sổ kép thể hiện trên mặt bằng                     |                                                                                 |
-| Cửa sổ đơn cố định thể hiện trên mặt cắt và mặt đứng  |                                                                                 |
-| Cửa sổ đơn hai cánh quay theo bản lề đứng mở ra ngoài | Ký hiệu mở cửa ước là hình tam giác cân, đỉnh tam giác biểu thị phía có bản lề. |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cửa sổ đơn thể hiện trên mặt bằng</td>
+      <td>Hình vẽ tỷ lệ nhỏ hơn 1:100.</td>
+    </tr>
+    <tr>
+      <td>Cửa sổ kép thể hiện trên mặt bằng</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ đơn cố định thể hiện trên mặt cắt và mặt đứng</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ đơn hai cánh quay theo bản lề đứng mở ra ngoài</td>
+      <td>Ký hiệu mở cửa ước là hình tam giác cân, đỉnh tam giác biểu thị phía có bản lề.</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 
@@ -61,15 +106,29 @@ TD669
 
 Lần ban hành: 1
 
-| Tên ký hiệu                                                                           | Chú thích                                                                               |
-|---------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
-| Cửa sổ đơn hai cánh quay theo hai bản lề đứng mở vào trong                            |                                                                                         |
-| Cửa sổ đơn một cánh mở quay theo trục đứng ở giữa, thể hiện trên mặt bằng và mặt đứng | Khi thể hiện ký hiệu cần chú ý hướng quay của cánh cửa.                                 |
-| Cửa sổ đơn một cánh quay theo bản lề ngang trên mở ra ngoài                           | Hình tam giác ký hiệu mở cửa thể hiện nét liền là mở ra ngoài, nét đứt là mở vào trong. |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cửa sổ đơn hai cánh quay theo hai bản lề đứng mở vào trong</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ đơn một cánh mở quay theo trục đứng ở giữa, thể hiện trên mặt bằng và mặt đứng</td>
+      <td>Khi thể hiện ký hiệu cần chú ý hướng quay của cánh cửa.</td>
+    </tr>
+    <tr>
+      <td>Cửa sổ đơn một cánh quay theo bản lề ngang trên mở ra ngoài</td>
+      <td>Hình tam giác ký hiệu mở cửa thể hiện nét liền là mở ra ngoài, nét đứt là mở vào trong.</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 
@@ -89,16 +148,38 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Tên ký hiệu                                                   | Ký hiệu   | Chú thích                                                     |
-|---------------------------------------------------------------|-----------|---------------------------------------------------------------|
-| Cửa sổ đơn một cánh quay theo bản lề ngang trên, mở vào trong |           | Chiều mở cánh cửa trên mặt cắt quy định vẽ theo độ chếch 30°. |
-| Cửa sổ đơn một cánh quay theo bản lề ngang dưới, mở vào trong |           |                                                               |
-| Cửa sổ lật một cách quay theo trục ngang ở giữa               |           |                                                               |
-| Cửa sổ cánh đẩy lên, thể hiện trên mặt đứng và mặt cắt        |           |                                                               |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cửa sổ đơn một cánh quay theo bản lề ngang trên, mở vào trong</td>
+      <td></td>
+      <td>Chiều mở cánh cửa trên mặt cắt quy định vẽ theo độ chếch 30°.</td>
+    </tr>
+    <tr>
+      <td>Cửa sổ đơn một cánh quay theo bản lề ngang dưới, mở vào trong</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ lật một cách quay theo trục ngang ở giữa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ cánh đẩy lên, thể hiện trên mặt đứng và mặt cắt</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 
@@ -108,15 +189,33 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Tên ký hiệu                                                      | Ký hiệu   | Chú thích   |
-|------------------------------------------------------------------|-----------|-------------|
-| Cửa sổ cánh đẩy ngang thể hiện trên mặt bằng và mặt đứng         |           |             |
-| Cửa sổ kép bốn cánh quay theo hai bản lề đứng mở cả hai chiều    |           |             |
-| Cửa sổ kép hai cánh quay theo bản lề ngang trên, mở cả hai chiều |           |             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cửa sổ cánh đẩy ngang thể hiện trên mặt bằng và mặt đứng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ kép bốn cánh quay theo hai bản lề đứng mở cả hai chiều</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa sổ kép hai cánh quay theo bản lề ngang trên, mở cả hai chiều</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ƯỚC THỂ HIỆN KÝ HIỆU LỖ TRỐNG VÀ KÝ HIỆU CỬA SỔ TRONG BẢN VẼ THI CÔNG
 

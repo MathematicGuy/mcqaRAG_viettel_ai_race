@@ -4,8 +4,6 @@ TD004
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 Trướ c khi l ắp đặt, ngườ i  thi  công  s ẽ xác nh ận đị a hình, v ị trí,  hướ ng và góc nghiêng theo b ả n thi ế t k ế v ới đị a hình th ự c t ế m ộ t l ầ n n ữa. Sau khi xác đị nh v ị trí l ắp đặ t t ừ ng b ộ ph ậ n s ẽ b ắ t tay vào thi công.
@@ -45,8 +43,6 @@ Trướ c khi l ắp đặt, ngườ i  thi  công  s ẽ xác nh ận đị a h
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
@@ -88,8 +84,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 TD004
@@ -130,8 +124,6 @@ Lưu ý 1 : Ch ỉ c ầ n m ộ t t ấ m pin m ặ t tr ờ i b ị bóng râm
 
 TD004
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 L ầ n ban hành: 1
@@ -144,20 +136,58 @@ L ầ n ban hành: 1
 
 ## 3 B ảng so sánh Điệ n m ặ t tr ời và Điện lưới nhà nướ c
 
-| Tiêu chí                                                                   | Điệ nm ặ t tr ờ i                                                                                                                                             | Điện lưới nhà nướ c (EVN)                                                                                                                                     |
-|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Cao (50 - 200 tri ệ u tùy công su ất, thương hiệ u, có/không pin lưu trữ ) | Không c ần đầu tư, chỉ tr ả hóa hàng tháng                                                                                                                    | Chi phí đầu tư ban đầ u đơn                                                                                                                                   |
-| Chi phí v ậ n hành Th ấ p (ch ủ y ế u v ệ sinh, b ả o trì đị nh k ỳ )      | tháng, sách                                                                                                                                                   | Thanh toán ti ền điệ n hàng có th ể tăng theo chính                                                                                                           |
-| Tu ổ i th ọ h ệ th ố ng 20 - 25                                            | năm (pin), 8 - 12 năm (inverter) thu ộ c vào h ạ t ầng điệ n qu                                                                                               | Ph ụ ố c gia                                                                                                                                                  |
-| Tính ổn đị nh                                                              | B ị ảnh hưở ng b ở i th ờ i ti ế t (mưa, nhiề u mây s ản lượ ng gi ả m) Ổn đị nh, tr ừ khim ất điệ n c ụ                                                      | c b ộ                                                                                                                                                         |
-| Tính ch ủ độ ng pin                                                        | T ự t ạo điệ n, có th ể k ế t h ợ p lưu trữ để dùng khim ấ t điệ n Ph ụ thu ộ c vào h ệ th ống điệ n qu                                                       | ố c                                                                                                                                                           |
-| Môi trườ ng                                                                | Năng lượ ng s ạ ch, gi ảm CO₂, thân thi ện môi trườ ng S ả n xu ất điệ n t ừ nhi ệt điệ n, th ủy năng lượ ng hóa th ạ ch gây phát                             | điệ th                                                                                                                                                        |
-| Kh ả năng mở r ộ ng                                                        | Có th ể l ắ p thêm t ấ mpin n ế u còn di ệ n tích mái                                                                                                         | Không áp d ụ ng cho cá nhân                                                                                                                                   |
-| Nh ậ n xét chung                                                           | Điệ nm ặ t tr ờ i có l ợ i th ế dài h ạ n v ề ti ế t ki ệ mchi phí và b ả o v ệ môi trường, nhưng cầ n v ốn đầu tư ban đầ u l ớn. Điện lưới nhà nướ c thu ậ n | Điệ nm ặ t tr ờ i có l ợ i th ế dài h ạ n v ề ti ế t ki ệ mchi phí và b ả o v ệ môi trường, nhưng cầ n v ốn đầu tư ban đầ u l ớn. Điện lưới nhà nướ c thu ậ n |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tiêu chí</th>
+      <th>Điệ nm ặ t tr ờ i</th>
+      <th>Điện lưới nhà nướ c (EVN)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cao (50 - 200 tri ệ u tùy công su ất, thương hiệ u, có/không pin lưu trữ )</td>
+      <td>Không c ần đầu tư, chỉ tr ả hóa hàng tháng</td>
+      <td>Chi phí đầu tư ban đầ u đơn</td>
+    </tr>
+    <tr>
+      <td>Chi phí v ậ n hành Th ấ p (ch ủ y ế u v ệ sinh, b ả o trì đị nh k ỳ )</td>
+      <td>tháng, sách</td>
+      <td>Thanh toán ti ền điệ n hàng có th ể tăng theo chính</td>
+    </tr>
+    <tr>
+      <td>Tu ổ i th ọ h ệ th ố ng 20 - 25</td>
+      <td>năm (pin), 8 - 12 năm (inverter) thu ộ c vào h ạ t ầng điệ n qu</td>
+      <td>Ph ụ ố c gia</td>
+    </tr>
+    <tr>
+      <td>Tính ổn đị nh</td>
+      <td>B ị ảnh hưở ng b ở i th ờ i ti ế t (mưa, nhiề u mây s ản lượ ng gi ả m) Ổn đị nh, tr ừ khim ất điệ n c ụ</td>
+      <td>c b ộ</td>
+    </tr>
+    <tr>
+      <td>Tính ch ủ độ ng pin</td>
+      <td>T ự t ạo điệ n, có th ể k ế t h ợ p lưu trữ để dùng khim ấ t điệ n Ph ụ thu ộ c vào h ệ th ống điệ n qu</td>
+      <td>ố c</td>
+    </tr>
+    <tr>
+      <td>Môi trườ ng</td>
+      <td>Năng lượ ng s ạ ch, gi ảm CO₂, thân thi ện môi trườ ng S ả n xu ất điệ n t ừ nhi ệt điệ n, th ủy năng lượ ng hóa th ạ ch gây phát</td>
+      <td>điệ th</td>
+    </tr>
+    <tr>
+      <td>Kh ả năng mở r ộ ng</td>
+      <td>Có th ể l ắ p thêm t ấ mpin n ế u còn di ệ n tích mái</td>
+      <td>Không áp d ụ ng cho cá nhân</td>
+    </tr>
+    <tr>
+      <td>Nh ậ n xét chung</td>
+      <td>Điệ nm ặ t tr ờ i có l ợ i th ế dài h ạ n v ề ti ế t ki ệ mchi phí và b ả o v ệ môi trường, nhưng cầ n v ốn đầu tư ban đầ u l ớn. Điện lưới nhà nướ c thu ậ n</td>
+      <td>Điệ nm ặ t tr ờ i có l ợ i th ế dài h ạ n v ề ti ế t ki ệ mchi phí và b ả o v ệ môi trường, nhưng cầ n v ốn đầu tư ban đầ u l ớn. Điện lưới nhà nướ c thu ậ n</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
@@ -168,8 +198,6 @@ L ầ n ban hành: 1
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 

@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
 ## 1. C ấ u trúc d ữ li ệu đặ c t ả dùng cho lưu trữ d ữ li ệ u
@@ -14,19 +12,67 @@ D ữ li ệu đặ c t ả dùng cho lưu trữ d ữ li ệu liên quan đế 
 
 Các thu ộ c tính c ủ a d ữ li ệu đặ c t ả dùng cho lưu trữ d ữ li ệ u v ớ i d ữ li ệ u 3D d ữ li ệ u đượ c th ể hi ệ n trong b ảng 1 dưới đây :
 
-| Thu ộ c tính              | Đố i chi ế u TCVN 7980: 2008                                                       | Đố i chi ế u AGRMS      |
-|---------------------------|------------------------------------------------------------------------------------|-------------------------|
-| 1. Phân lo ạ i b ề m ặ t  |                                                                                    | Face Category           |
-| 2. Phân lo ạ i v ậ t th ể |                                                                                    | Category                |
-| 3. Đị nh danh             | Đị nh danh (b ổ sung thêm thu ộ c tính con chu ỗi đị nh danh, giá tr ị đị nh danh) | Identifier              |
-| 4. Tiêu đề                | Tiêu đề (tương thích toàn b ộ )                                                    | Name                    |
-| 5. Tác gi ả               | Tác gi ả (tương thích toàn b ộ )                                                   |                         |
-| 6. Ch ủ đề                | Ch ủ đề (tương thích toàn b ộ )                                                    | Keyword                 |
-| 7. Mô t ả                 | Mô t ả (tương thích toàn bộ )                                                      | Description             |
-| 8. Ngày                   | Ngày tháng (b ổ sung thêm thu ộ c tính con ngày b ắ t đầ u, ngày k ế t thúc)       | Date Range              |
-| 9. Lo ạ i b ả o m ậ t     | Security Classification                                                            | Security Classification |
-| 10. Quy ề n               | Quy ề n (b ổ sung thêm thu ộ c tính con ki ể u quy ề n, tr ạ ng thái quy ề n)      | Rights                  |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Thu ộ c tính</th>
+      <th>Đố i chi ế u TCVN 7980: 2008</th>
+      <th>Đố i chi ế u AGRMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1. Phân lo ạ i b ề m ặ t</td>
+      <td></td>
+      <td>Face Category</td>
+    </tr>
+    <tr>
+      <td>2. Phân lo ạ i v ậ t th ể</td>
+      <td></td>
+      <td>Category</td>
+    </tr>
+    <tr>
+      <td>3. Đị nh danh</td>
+      <td>Đị nh danh (b ổ sung thêm thu ộ c tính con chu ỗi đị nh danh, giá tr ị đị nh danh)</td>
+      <td>Identifier</td>
+    </tr>
+    <tr>
+      <td>4. Tiêu đề</td>
+      <td>Tiêu đề (tương thích toàn b ộ )</td>
+      <td>Name</td>
+    </tr>
+    <tr>
+      <td>5. Tác gi ả</td>
+      <td>Tác gi ả (tương thích toàn b ộ )</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6. Ch ủ đề</td>
+      <td>Ch ủ đề (tương thích toàn b ộ )</td>
+      <td>Keyword</td>
+    </tr>
+    <tr>
+      <td>7. Mô t ả</td>
+      <td>Mô t ả (tương thích toàn bộ )</td>
+      <td>Description</td>
+    </tr>
+    <tr>
+      <td>8. Ngày</td>
+      <td>Ngày tháng (b ổ sung thêm thu ộ c tính con ngày b ắ t đầ u, ngày k ế t thúc)</td>
+      <td>Date Range</td>
+    </tr>
+    <tr>
+      <td>9. Lo ạ i b ả o m ậ t</td>
+      <td>Security Classification</td>
+      <td>Security Classification</td>
+    </tr>
+    <tr>
+      <td>10. Quy ề n</td>
+      <td>Quy ề n (b ổ sung thêm thu ộ c tính con ki ể u quy ề n, tr ạ ng thái quy ề n)</td>
+      <td>Rights</td>
+    </tr>
+  </tbody>
+</table>
 TD004
 
 L ầ n ban hành: 1
@@ -36,26 +82,66 @@ L ầ n ban hành: 1
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
-| 11. Ngôn ng ữ            | Ngôn ng ữ (tương thích toàn b ộ )                                                                                                | Language      |
-|--------------------------|----------------------------------------------------------------------------------------------------------------------------------|---------------|
-| 12. Ph ạ m vi            | Ph ạ m vi (b ổ sung thêm thu ộ c tính con ph ạ m vi th ẩ m quy ề n, ph ạ m vi th ờ i gian, ph ạ m vi không gian)                 | Coverage      |
-| 13. Lo ạ i b ỏ           | Disposal                                                                                                                         | Disposal      |
-| 14. Đị nh d ạ ng         | Đị nh d ạ ng (b ổ sung thêm thu ộc tính con tên đị nh d ạ ng, phiên b ản đị nh d ạ ng, tên ứ ng d ụ ng, phiên b ả n ứ ng d ụ ng) | Format        |
-| 15. Độ l ớ n             |                                                                                                                                  | Extent        |
-| 16. Phương tiện lưu tr ữ |                                                                                                                                  | Medium        |
-| 17. V ị trí              |                                                                                                                                  | Location      |
-| 18. Ki ể u               | Ki ểu (tương thích toàn bộ )                                                                                                     | Document Form |
-| 19. Lo ạ i máy quét 3D   |                                                                                                                                  |               |
-| 20. Ch ấ t li ệu đố i    | tượ ng                                                                                                                           | tượ ng        |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>11. Ngôn ng ữ</th>
+      <th>Ngôn ng ữ (tương thích toàn b ộ )</th>
+      <th>Language</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>12. Ph ạ m vi</td>
+      <td>Ph ạ m vi (b ổ sung thêm thu ộ c tính con ph ạ m vi th ẩ m quy ề n, ph ạ m vi th ờ i gian, ph ạ m vi không gian)</td>
+      <td>Coverage</td>
+    </tr>
+    <tr>
+      <td>13. Lo ạ i b ỏ</td>
+      <td>Disposal</td>
+      <td>Disposal</td>
+    </tr>
+    <tr>
+      <td>14. Đị nh d ạ ng</td>
+      <td>Đị nh d ạ ng (b ổ sung thêm thu ộc tính con tên đị nh d ạ ng, phiên b ản đị nh d ạ ng, tên ứ ng d ụ ng, phiên b ả n ứ ng d ụ ng)</td>
+      <td>Format</td>
+    </tr>
+    <tr>
+      <td>15. Độ l ớ n</td>
+      <td></td>
+      <td>Extent</td>
+    </tr>
+    <tr>
+      <td>16. Phương tiện lưu tr ữ</td>
+      <td></td>
+      <td>Medium</td>
+    </tr>
+    <tr>
+      <td>17. V ị trí</td>
+      <td></td>
+      <td>Location</td>
+    </tr>
+    <tr>
+      <td>18. Ki ể u</td>
+      <td>Ki ểu (tương thích toàn bộ )</td>
+      <td>Document Form</td>
+    </tr>
+    <tr>
+      <td>19. Lo ạ i máy quét 3D</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20. Ch ấ t li ệu đố i</td>
+      <td>tượ ng</td>
+      <td>tượ ng</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
@@ -72,8 +158,6 @@ L ầ n ban hành: 1
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
@@ -104,8 +188,6 @@ Quá trình s ố hóa bao g ồ m b ảy giai đoạ n mà d ữ li ệu đặ 
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
 TD004
@@ -127,24 +209,54 @@ Các thông tin liên quan đế n s ố hóa nghi ệ p v ụ , chính sách v�
 
 B ả ng 2 -Đánh chỉ s ố ti ể u s ử
 
-| Nghĩa v ụ    | Quá trình s ố hóa 3D                              | Các thu ộc tính đánh chỉ s ố s ố hóa 3D                                                                                                                                                                                                                                                                                    |
-|--------------|---------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| B ắ t bu ộ c | Quét d ữ li ệ u 3D                                | - Đối tượ ng, d ữ li ệ u 3D liên quan; - Ngày và th ờ i gian s ố hóa 3D (Lưu ý: thờ i gian đượ c khuy ến khích, nhưng không bắ t bu ộ c); - S ố lượ ng v ậ t th ể đượ c s ố hóa; - Ngườ i v ậ n hành máy quét 3D và tên, nhãn hi ệ u, qu ố c gia s ả n xu ấ t máy quét 3D; - Thông tin tham kh ả o chéo v ề d ữ li ệ u 3D. |
-| B ắ t bu ộ c | Quét l ạ i (n ế u quá trình này là c ầ n thi ế t) | - Đối tượ ng, d ữ li ệ u 3D liên quan; - Ngày và th ờ i gian s ố hóa 3D (Lưu ý: thờ i gian đượ c khuy ến khích, nhưng không bắ t bu ộ c); - S ố lượ ng v ậ t th ể đượ c s ố hóa; - Ngườ i v ậ n hành máy quét 3D và tên, nhãn hi ệ u, qu ố c gia s ả n xu ấ t máy quét 3D; - Thông tin tham kh ả o chéo v ề d ữ li ệ u 3D. |
-| B ắ t bu ộ c | Đả m b ả o ch ấ t lượ ng (khi                     | - Tài li ệ u tham kh ả o hàng lo ạ t (b ắ t bu ộ c cho hàng lo ạt đầ u vào);                                                                                                                                                                                                                                               |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nghĩa v ụ</th>
+      <th>Quá trình s ố hóa 3D</th>
+      <th>Các thu ộc tính đánh chỉ s ố s ố hóa 3D</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B ắ t bu ộ c</td>
+      <td>Quét d ữ li ệ u 3D</td>
+      <td>- Đối tượ ng, d ữ li ệ u 3D liên quan; - Ngày và th ờ i gian s ố hóa 3D (Lưu ý: thờ i gian đượ c khuy ến khích, nhưng không bắ t bu ộ c); - S ố lượ ng v ậ t th ể đượ c s ố hóa; - Ngườ i v ậ n hành máy quét 3D và tên, nhãn hi ệ u, qu ố c gia s ả n xu ấ t máy quét 3D; - Thông tin tham kh ả o chéo v ề d ữ li ệ u 3D.</td>
+    </tr>
+    <tr>
+      <td>B ắ t bu ộ c</td>
+      <td>Quét l ạ i (n ế u quá trình này là c ầ n thi ế t)</td>
+      <td>- Đối tượ ng, d ữ li ệ u 3D liên quan; - Ngày và th ờ i gian s ố hóa 3D (Lưu ý: thờ i gian đượ c khuy ến khích, nhưng không bắ t bu ộ c); - S ố lượ ng v ậ t th ể đượ c s ố hóa; - Ngườ i v ậ n hành máy quét 3D và tên, nhãn hi ệ u, qu ố c gia s ả n xu ấ t máy quét 3D; - Thông tin tham kh ả o chéo v ề d ữ li ệ u 3D.</td>
+    </tr>
+    <tr>
+      <td>B ắ t bu ộ c</td>
+      <td>Đả m b ả o ch ấ t lượ ng (khi</td>
+      <td>- Tài li ệ u tham kh ả o hàng lo ạ t (b ắ t bu ộ c cho hàng lo ạt đầ u vào);</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
 ## TD004
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE
-
 ## HƯỚ NG D Ẫ N KHAI BÁO QOS CHO THI Ế T B Ị TRUY Ề N D Ẫ N VIBA
 
-|                            | hoàn thành)            | - Ngườ i th ự c hi ện đả m b ả o ch ất lượ ng; - Ngày phê duy ệ t ki ể m tra đả mb ả o ch ất lượ ng.   |
-|----------------------------|------------------------|--------------------------------------------------------------------------------------------------------|
-| B ắ t bu ộ c n ế u có th ể | Chuy ể n d ữ li ệ u 3D | - Ngày chuy ể n - Tiêu đề chuy ể n - Chuy ể n mô t ả - Lý do chuy ể n - Ti ế p nh ậ n chuy ể n         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>hoàn thành)</th>
+      <th>- Ngườ i th ự c hi ện đả m b ả o ch ất lượ ng; - Ngày phê duy ệ t ki ể m tra đả mb ả o ch ất lượ ng.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>B ắ t bu ộ c n ế u có th ể</td>
+      <td>Chuy ể n d ữ li ệ u 3D</td>
+      <td>- Ngày chuy ể n - Tiêu đề chuy ể n - Chuy ể n mô t ả - Lý do chuy ể n - Ti ế p nh ậ n chuy ể n</td>
+    </tr>
+  </tbody>
+</table>
 M ộ t  s ố ho ặ c t ấ t  c ả các thông tin này có th ể đượ c l ấ y t ự độ ng b ở i  máy quét và ph ầ n m ề m s ố hóa 3D. Trong trườ ng h ợ p chuy ển giao để đả m b ảo lưu trữ, điề u quan tr ọ ng là ph ả i bi ế t ngày chuy ển giao để xác đị nh b ấ t k ỳ s ự ch ậ m tr ễ nào đó có h ợ p lý không.T ổ ch ứ c c ầ n th ự c hi ệ n các th ủ t ục để ngăn chặ n b ấ t k ỳ hình th ứ c s ửa đổ i sau khi hình ảnh đã đượ c l ấ y m ộ t cách phù h ợ p và l ậ p ch ỉ m ụ c.

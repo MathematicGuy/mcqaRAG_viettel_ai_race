@@ -4,8 +4,6 @@ TD004
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 ## 1 Xác định Điện đang sử d ụ ng thu ộc nhóm đối tượ ng nào?
@@ -38,8 +36,6 @@ Dưới đây là các hệ th ống Điệ n m ặ t tr ờ i ph ổ bi ế n h
 - Có c ần lưu trữ điệ n s ử d ụng trong trườ ng h ợ p m ất điện hay ban đêm không?
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
@@ -85,8 +81,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 - Mi ề n Trung s ố gi ờ n ắng trung bình năm 3.5 giờ / ngày
@@ -127,8 +121,6 @@ TD004
 L ầ n ban hành: 1
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
@@ -176,8 +168,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 
 ## 9 Ti ế n hành l ắp đặ t h ệ th ống Điệ n m ặ t tr ời cho gia đình
@@ -186,30 +176,107 @@ Trướ c khi l ắp đặt, ngườ i thi công s ẽ xác nh ận đị a hìn
 
 ## 10 B ả ng giá thi công l ắp đặ t h ệ th ống điệ n m ặ t tr ờ i t ạ i Vi ệ t Nam (tham kh ả o)
 
-| Đơn vị thi công       | Công su ấ t h ệ th ố ng   | Chi phí ướ c tính / tr ọ n gói                                               | Ghi chú                                              |
-|-----------------------|---------------------------|------------------------------------------------------------------------------|------------------------------------------------------|
-| Techpal Solar         | 5 kWp                     | 40 - 45 tri ệu đồ ng                                                         | Hòa lướ i, s ản lượ ng ~550 kWh/tháng, mái ~30 m²    |
-| Techpal Solar         | 8 kWp                     | 65 - 75 tri ệu đồ ng                                                         | Hòa lướ i, mái ~50 m²                                |
-| Techpal Solar         | 10 kWp                    | 75 - 85 tri ệu đồ ng                                                         | Hòa lướ i, mái ~60 m²                                |
-| BntechSolar           | 3 kWp                     | 45 - 56 tri ệu đồ ng                                                         | Áp mái cho h ộ gia đình                              |
-| BntechSolar           | 5 kWp                     | 75 - 86 tri ệu đồ ng                                                         | S ản lượ ng ~600 kWh/tháng                           |
-| BntechSolar           | 10 kWp                    | 155 - 190 tri ệu đồ ng                                                       | Không lưu trữ                                        |
-| BntechSolar           | 15 kWp                    | 200 - 250 tri ệu đồ ng                                                       | Công su ấ t l ớ n, yêu c ầ u thi ế t b ị t ốt hơn    |
-| Lithaco               | 10 kWp + Battery 5.3 kWh  | 130 tri ệu đồ ng                                                             | Có lưu trữ, chi phí cao hơn hệ hòa lướ i             |
-| SunPower / AE Solar   | 6.2 kWp                   | 84 tri ệu đồ ng (khuy ế n m ạ i)                                             | Pin AE Solar Mono 400W, inverter Growatt/GoodWe/INVT |
-| SunPower / AE Solar   | 8 kWp                     | 110 tri ệu đồ ng (khuy ế n m ạ i)                                            | Hòa lướ i, thi ế t b ị tương tự                      |
-| DHC Solar             | 50 - 100 kWp              | 13 - 15 tri ệu đồ ng/kWp                                                     | H ệ doanh nghi ệp, mái xưở ng                        |
-| DHC Solar             | 500 - 1000 kWp            | 10 - 12 tri ệu đồ ng/kWp                                                     | Quy mô l ớn, đơn giá thấp hơn                        |
-| Vũ Phong Energy Group | 100 - 500 kWp             | 15 - 16 tri ệu đồ ng/kWp (tiêu chu ẩ n) 16 - 18 tri ệu đồ ng/kWp (cao c ấ p) | Mái nhà máy, d ự án thương m ạ i                     |
-| Vũ Phong Energy Group | >1MWp                     | 14 - 15 tri ệu đồ ng/kWp (tiêu chu ẩ n) 15 - 17 tri ệu đồ ng/kWp             | D ự án quy mô c ự c l ớ n                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Đơn vị thi công</th>
+      <th>Công su ấ t h ệ th ố ng</th>
+      <th>Chi phí ướ c tính / tr ọ n gói</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Techpal Solar</td>
+      <td>5 kWp</td>
+      <td>40 - 45 tri ệu đồ ng</td>
+      <td>Hòa lướ i, s ản lượ ng ~550 kWh/tháng, mái ~30 m²</td>
+    </tr>
+    <tr>
+      <td>Techpal Solar</td>
+      <td>8 kWp</td>
+      <td>65 - 75 tri ệu đồ ng</td>
+      <td>Hòa lướ i, mái ~50 m²</td>
+    </tr>
+    <tr>
+      <td>Techpal Solar</td>
+      <td>10 kWp</td>
+      <td>75 - 85 tri ệu đồ ng</td>
+      <td>Hòa lướ i, mái ~60 m²</td>
+    </tr>
+    <tr>
+      <td>BntechSolar</td>
+      <td>3 kWp</td>
+      <td>45 - 56 tri ệu đồ ng</td>
+      <td>Áp mái cho h ộ gia đình</td>
+    </tr>
+    <tr>
+      <td>BntechSolar</td>
+      <td>5 kWp</td>
+      <td>75 - 86 tri ệu đồ ng</td>
+      <td>S ản lượ ng ~600 kWh/tháng</td>
+    </tr>
+    <tr>
+      <td>BntechSolar</td>
+      <td>10 kWp</td>
+      <td>155 - 190 tri ệu đồ ng</td>
+      <td>Không lưu trữ</td>
+    </tr>
+    <tr>
+      <td>BntechSolar</td>
+      <td>15 kWp</td>
+      <td>200 - 250 tri ệu đồ ng</td>
+      <td>Công su ấ t l ớ n, yêu c ầ u thi ế t b ị t ốt hơn</td>
+    </tr>
+    <tr>
+      <td>Lithaco</td>
+      <td>10 kWp + Battery 5.3 kWh</td>
+      <td>130 tri ệu đồ ng</td>
+      <td>Có lưu trữ, chi phí cao hơn hệ hòa lướ i</td>
+    </tr>
+    <tr>
+      <td>SunPower / AE Solar</td>
+      <td>6.2 kWp</td>
+      <td>84 tri ệu đồ ng (khuy ế n m ạ i)</td>
+      <td>Pin AE Solar Mono 400W, inverter Growatt/GoodWe/INVT</td>
+    </tr>
+    <tr>
+      <td>SunPower / AE Solar</td>
+      <td>8 kWp</td>
+      <td>110 tri ệu đồ ng (khuy ế n m ạ i)</td>
+      <td>Hòa lướ i, thi ế t b ị tương tự</td>
+    </tr>
+    <tr>
+      <td>DHC Solar</td>
+      <td>50 - 100 kWp</td>
+      <td>13 - 15 tri ệu đồ ng/kWp</td>
+      <td>H ệ doanh nghi ệp, mái xưở ng</td>
+    </tr>
+    <tr>
+      <td>DHC Solar</td>
+      <td>500 - 1000 kWp</td>
+      <td>10 - 12 tri ệu đồ ng/kWp</td>
+      <td>Quy mô l ớn, đơn giá thấp hơn</td>
+    </tr>
+    <tr>
+      <td>Vũ Phong Energy Group</td>
+      <td>100 - 500 kWp</td>
+      <td>15 - 16 tri ệu đồ ng/kWp (tiêu chu ẩ n) 16 - 18 tri ệu đồ ng/kWp (cao c ấ p)</td>
+      <td>Mái nhà máy, d ự án thương m ạ i</td>
+    </tr>
+    <tr>
+      <td>Vũ Phong Energy Group</td>
+      <td>>1MWp</td>
+      <td>14 - 15 tri ệu đồ ng/kWp (tiêu chu ẩ n) 15 - 17 tri ệu đồ ng/kWp</td>
+      <td>D ự án quy mô c ự c l ớ n</td>
+    </tr>
+  </tbody>
+</table>
 TD004
 
 L ầ n ban hành: 1
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Hướ ng d ẫ n t ự l ắp Điệ n M ặ t Tr ờ i
 

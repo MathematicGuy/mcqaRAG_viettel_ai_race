@@ -93,26 +93,64 @@ services:
     networks:
       - rag-network
 
-  # === Ollama Service ===
-  ollama:
-    image: ollama/ollama:0.11.2
-    container_name: rag-ollama
-    ports:
-      - "${OLLAMA_PORT}:${OLLAMA_PORT}"
-    env_file:
-      - ./.env
-    volumes:
-      - ollama_data:/root/.ollama
-      - ./src/services/ollama/entrypoint.sh:/entrypoint.sh
-    entrypoint: ["/bin/bash", "/entrypoint.sh"]
-    healthcheck:
-      test: ["CMD", "ollama", "list"]
-      interval: 10s
-      timeout: 5s
-      retries: 10
-      start_period: 20s
-    networks:
-      - rag-network
+  # === Ollama Service (DISABLED - Using llama.cpp instead) ===
+  # ollama:
+  #   image: ollama/ollama:0.11.2
+  #   container_name: rag-ollama
+  #   ports:
+  #     - "${OLLAMA_PORT}:${OLLAMA_PORT}"
+  #   env_file:
+  #     - ./.env
+  #   volumes:
+  #     - ollama_data:/root/.ollama
+  #     - ./src/services/ollama/entrypoint.sh:/entrypoint.sh
+  #   entrypoint: ["/bin/bash", "/entrypoint.sh"]
+  #   healthcheck:
+  #     test: ["CMD", "ollama", "list"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 10
+  #     start_period: 20s
+  #   networks:
+  #     - rag-network
+
+  # llama-cpp-server:
+  #   image: ghcr.io/ggml-org/llama.cpp:server-cuda
+  #   container_name: rag-llama-cpp-server
+  #   runtime: nvidia  # Requires nvidia-container-toolkit
+  #   environment:
+  #     - CUDA_VISIBLE_DEVICES=0
+  #   ports:
+  #     - "8080:8080"
+  #   volumes:
+  #     - llama-models:/models
+  #   command: >
+  #     -m hf://bartowski/SmallThinker-3B-Preview-GGUF/SmallThinker-3B-Preview-Q4_K_M.gguf
+  #     --host 0.0.0.0
+  #     --port 8080
+  #     --ctx-size 4096
+  #     --n-gpu-layers 35
+  #     --threads 8
+  #     --batch-size 512
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [gpu]
+  #   healthcheck:
+  #     test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+  #     interval: 10s
+  #     timeout: 5s
+  #     retries: 10
+  #     start_period: 60s
+  #   networks:
+  #     - rag-network
+
+  # volumes:
+  #   llama-models:
+
 
   # === FastAPI Application ===
   api:
@@ -144,8 +182,8 @@ services:
         condition: service_healthy
       redis:
         condition: service_healthy
-      ollama:
-        condition: service_healthy
+      # ollama:  # DISABLED - Using llama.cpp instead
+      #   condition: service_healthy
     command: uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
@@ -201,7 +239,7 @@ volumes:
   postgres_data:
   opensearch_data:
   redis_data:
-  ollama_data:
+  # ollama_data:  # DISABLED - Using llama.cpp instead
   # airflow_postgres_data:
   # airflow_logs:
 

@@ -1,6 +1,6 @@
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
 
 ## 1. GI Ớ I THI Ệ U:
 
@@ -19,19 +19,43 @@ Trong bản vẽ, tất cả các thiết bị, khí cụ điện đều đượ
 
 Các chi tiết của một căn phòng, một mặt bằng xây dựng thường dùng trong vẽ điện được thể hiện trong
 
-|   STT | Tên gọi           | Ký hiệu   | Ghi chú   |
-|-------|-------------------|-----------|-----------|
-|     1 | Tường nhà         |           |           |
-|     2 | Cửa ra vào 1 cánh |           |           |
-|     3 | Cửa ra vào 2 cánh |           |           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên gọi</th>
+      <th>Ký hiệu</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Tường nhà</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cửa ra vào 1 cánh</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cửa ra vào 2 cánh</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 TD672
 
 Lần ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
 
 <!-- image -->
 
@@ -43,56 +67,190 @@ TD672
 
 Lần ban hành: 1
 
-|   STT | Tên gọi                | Ghi chú                                                                                        |
-|-------|------------------------|------------------------------------------------------------------------------------------------|
-|     4 | Cửa gấp, cửa kéo       |                                                                                                |
-|     5 | Cửa lùa 1 cánh, 2 cánh |                                                                                                |
-|     6 | Cửa sổ đơn không mở    |                                                                                                |
-|     7 | Cửa sổ kép không mở    |                                                                                                |
-|     8 | Cửa sổ đơn quay        |                                                                                                |
-|     9 | Cầu thang 1 cánh       | - Cầu thang được thể hiện bởi hình chiếu bằng. Bao gồm: cánh, bậc thang và chiếu nghỉ.         |
-|    10 | Cầu thang 2 cánh       | - Hướng đi lên thể hiện bằng đường gãy khúc: chấm tròn ở bậc đầu tiên, mũi tên ở bậc cuối cùng |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên gọi</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>4</td>
+      <td>Cửa gấp, cửa kéo</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Cửa lùa 1 cánh, 2 cánh</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Cửa sổ đơn không mở</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Cửa sổ kép không mở</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa sổ đơn quay</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Cầu thang 1 cánh</td>
+      <td>- Cầu thang được thể hiện bởi hình chiếu bằng. Bao gồm: cánh, bậc thang và chiếu nghỉ.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Cầu thang 2 cánh</td>
+      <td>- Hướng đi lên thể hiện bằng đường gãy khúc: chấm tròn ở bậc đầu tiên, mũi tên ở bậc cuối cùng</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
 
 TD672
 
 Lần ban hành: 1
 
-|   STT | Tên gọi          | Ký hiệu   | Ghi chú   |
-|-------|------------------|-----------|-----------|
-|    11 | Cầu thang 3 cánh |           |           |
-|    12 | Bếp              |           |           |
-|    13 | Bồn tắm          |           |           |
-|    14 | Sàn nước         |           |           |
-|    15 | Chậu rửa mặt     |           |           |
-|    16 | Hố xí            |           |           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên gọi</th>
+      <th>Ký hiệu</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>Cầu thang 3 cánh</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Bếp</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Bồn tắm</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Sàn nước</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Chậu rửa mặt</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Hố xí</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 Vẽ các ký hiệu điện trong sơ đồ điện chiếu sáng: Nguồn điện
 
 Các dạng nguồn điện và các ký hiệu liên quan được quy định trong TCVN 1613-75;
 
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
 
 thường dùng các ký hiệu phổ biến sau
 
-|   STT | Tên gọi                                                | Ký hiệu          | Ghi chú                                    |
-|-------|--------------------------------------------------------|------------------|--------------------------------------------|
-|     1 | Dòng điện 1 chiều                                      |                  |                                            |
-|     2 | Dòng điện xoay chiều                                   | AC; ~            |                                            |
-|     3 | Dây trung tính                                         | N                |                                            |
-|     4 | Mạng điện 3 pha 4 dây                                  | 3~ +N            |                                            |
-|     5 | Dòng điện xoay chiều có số pha m, tần số f và điện ápU | m~, f, U         |                                            |
-|     6 | Các dây pha của mạng điện 3 pha                        | A/L1; B/L2; C/L3 | Thường dùng màu: A (vàng); B (xanh);C (đỏ) |
-|     7 | Hai dây dẫn không nối nhau về điện                     |                  |                                            |
-|     8 | Hai dây dẫn nối nhau về điện                           |                  |                                            |
-|     9 | Nối đất                                                |                  |                                            |
-|    10 | Nối vỏ, nối mass                                       |                  |                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Tên gọi</th>
+      <th>Ký hiệu</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Dòng điện 1 chiều</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Dòng điện xoay chiều</td>
+      <td>AC; ~</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Dây trung tính</td>
+      <td>N</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Mạng điện 3 pha 4 dây</td>
+      <td>3~ +N</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Dòng điện xoay chiều có số pha m, tần số f và điện ápU</td>
+      <td>m~, f, U</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Các dây pha của mạng điện 3 pha</td>
+      <td>A/L1; B/L2; C/L3</td>
+      <td>Thường dùng màu: A (vàng); B (xanh);C (đỏ)</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Hai dây dẫn không nối nhau về điện</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Hai dây dẫn nối nhau về điện</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Nối đất</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Nối vỏ, nối mass</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 ## · Các loại đèn điện và thiết bị dùng điện
 
 Các dạng đèn điện và các thiết bị liên quan dùng trong chiếu sáng được qui định trong TCVN 161375; thường dùng các ký hiệu phổ biến sau
@@ -103,7 +261,7 @@ Lần ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN
 
 TD672
 
@@ -111,15 +269,59 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Tên gọi                    | Ký hiệu              | Ký hiệu           |
-|----------------------------|----------------------|-------------------|
-|                            | Trên sơ đồ nguyên lí | Trên sơ đồ vị trí |
-| Chuông điện                |                      |                   |
-| Quạt trần, quạt treo tường |                      |                   |
-| Đèn sợi đốt                |                      |                   |
-| Đèn huỳnh quang            |                      |                   |
-| Đèn nung sáng có chụp      |                      |                   |
-| Lò điện trở                |                      |                   |
-| Lò hồ quang                |                      |                   |
-| Lò cảm ứng                 |                      |                   |
-| Lò điện phân               |                      |                   |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên gọi</th>
+      <th>Ký hiệu</th>
+      <th>Ký hiệu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Trên sơ đồ nguyên lí</td>
+      <td>Trên sơ đồ vị trí</td>
+    </tr>
+    <tr>
+      <td>Chuông điện</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Quạt trần, quạt treo tường</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Đèn sợi đốt</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Đèn huỳnh quang</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Đèn nung sáng có chụp</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò điện trở</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò hồ quang</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò cảm ứng</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>| Lò điện phân               |                      |                   |

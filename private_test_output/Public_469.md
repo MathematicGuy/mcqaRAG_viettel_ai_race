@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
 L ầ n ban hành: 1
@@ -31,8 +29,6 @@ L ầ n ban hành: 1
 - B ầ u gi ảm thanh và đườ ng ố ng d ẫ n khí th ải đượ c b ố trí để không
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
@@ -71,8 +67,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
 TD004
@@ -105,8 +99,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
 người điề u khi ể n.
@@ -138,8 +130,6 @@ Ph ải đo khoả ng cách d ừng đố i v ớ i h ệ th ố ng phanh chính
 L ầ n ban hành: 1
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
@@ -177,8 +167,6 @@ TD004
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE
-
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
 ti ế n  hành  2  l ầ n  th ử khi  xe  di  chuy ể n  theo  chi ề u  ti ến  theo  hai  hướ ng ngượ c nhau. Th ờ i gian gi ữ a 2 l ầ n th ử t ố i thi ể u là 10 phút.
@@ -187,22 +175,60 @@ Kho ả ng  cách  d ừng  đố i  v ớ i  phanh  chính  và  phanh  d ự p
 
 B ả ng 1 - Kho ả ng cách d ừ ng c ủ a XMCD
 
-|                                                                                                                                                            | Kho ả ng cách d ừ ng t ối đa                                                          | Kho ả ng cách d ừ ng t ối đa                                                          |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|
-| Lo ạ i phương tiệ n                                                                                                                                        | Phanh chính                                                                           | Phanh ph ụ                                                                            |
-| Máy c ạ p, xe t ự đổ khung c ứ ng và xe t ự đổ khung kh ớ p n ố i có kh ố i lượ ng th ử ≤32 000 kg và máy tự đổ n ửa rơ moóc có kh ối lượ ng b ấ t k ỳ (*) | 𝒗 𝟐 𝟒𝟒 +𝟎,𝟏(𝟑𝟐-𝒗)                                                                     | 𝒗 𝟐 𝟑𝟎 +𝟎,𝟏(𝟑𝟐-𝒗)                                                                     |
-| Máy c ạ p, máy xúc l ậ t khung c ứ ng và máy xúc l ậ t khung kh ớ p n ố i v ớ i kh ố i lượ ng th ử >32 000 kg                                              | 𝒗 𝟐 𝟒𝟖 -𝟐,𝟔𝒂                                                                          | 𝒗 𝟐 𝟑𝟒 -𝟐,𝟔𝒂                                                                          |
-| Xe lu các lo ạ i                                                                                                                                           | 𝒗 𝟐 𝟏𝟓𝟎 +𝟎,𝟐(𝟓+𝒗)                                                                     | 𝒗 𝟐 𝟕𝟓 +𝟎,𝟒(𝟓+𝒗)                                                                      |
-| Các Xe khác, bao g ồm các xe kéo rơ móc có t ả i                                                                                                           | 𝒗 𝟐 𝟏𝟔𝟎 +𝟎,𝟐(𝟓+𝒗)                                                                     | 𝒗 𝟐 𝟖𝟎 +𝟎,𝟒(𝟓+𝒗)                                                                      |
-| 𝒗 là v ậ n t ố c th ử (km/h)                                                                                                                               | 𝒗 là v ậ n t ố c th ử (km/h)                                                          | 𝒗 là v ậ n t ố c th ử (km/h)                                                          |
-| 𝑎 là độ d ố c ki ể m tra (8-10%)                                                                                                                           | 𝑎 là độ d ố c ki ể m tra (8-10%)                                                      | 𝑎 là độ d ố c ki ể m tra (8-10%)                                                      |
-| Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h                                                                      | Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h | Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Kho ả ng cách d ừ ng t ối đa</th>
+      <th>Kho ả ng cách d ừ ng t ối đa</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Lo ạ i phương tiệ n</td>
+      <td>Phanh chính</td>
+      <td>Phanh ph ụ</td>
+    </tr>
+    <tr>
+      <td>Máy c ạ p, xe t ự đổ khung c ứ ng và xe t ự đổ khung kh ớ p n ố i có kh ố i lượ ng th ử ≤32 000 kg và máy tự đổ n ửa rơ moóc có kh ối lượ ng b ấ t k ỳ (*)</td>
+      <td>𝒗 𝟐 𝟒𝟒 +𝟎,𝟏(𝟑𝟐-𝒗)</td>
+      <td>𝒗 𝟐 𝟑𝟎 +𝟎,𝟏(𝟑𝟐-𝒗)</td>
+    </tr>
+    <tr>
+      <td>Máy c ạ p, máy xúc l ậ t khung c ứ ng và máy xúc l ậ t khung kh ớ p n ố i v ớ i kh ố i lượ ng th ử >32 000 kg</td>
+      <td>𝒗 𝟐 𝟒𝟖 -𝟐,𝟔𝒂</td>
+      <td>𝒗 𝟐 𝟑𝟒 -𝟐,𝟔𝒂</td>
+    </tr>
+    <tr>
+      <td>Xe lu các lo ạ i</td>
+      <td>𝒗 𝟐 𝟏𝟓𝟎 +𝟎,𝟐(𝟓+𝒗)</td>
+      <td>𝒗 𝟐 𝟕𝟓 +𝟎,𝟒(𝟓+𝒗)</td>
+    </tr>
+    <tr>
+      <td>Các Xe khác, bao g ồm các xe kéo rơ móc có t ả i</td>
+      <td>𝒗 𝟐 𝟏𝟔𝟎 +𝟎,𝟐(𝟓+𝒗)</td>
+      <td>𝒗 𝟐 𝟖𝟎 +𝟎,𝟒(𝟓+𝒗)</td>
+    </tr>
+    <tr>
+      <td>𝒗 là v ậ n t ố c th ử (km/h)</td>
+      <td>𝒗 là v ậ n t ố c th ử (km/h)</td>
+      <td>𝒗 là v ậ n t ố c th ử (km/h)</td>
+    </tr>
+    <tr>
+      <td>𝑎 là độ d ố c ki ể m tra (8-10%)</td>
+      <td>𝑎 là độ d ố c ki ể m tra (8-10%)</td>
+      <td>𝑎 là độ d ố c ki ể m tra (8-10%)</td>
+    </tr>
+    <tr>
+      <td>Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h</td>
+      <td>Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h</td>
+      <td>Chú thích *: Xóa công th ứ c 0,1(32- v) đố i v ớ i các xe có t ốc độ l ớn hơn 32 km/h</td>
+    </tr>
+  </tbody>
+</table>
 Kh ả năng giữ xe đứ ng yên ngang d ố c  c ủ a  h ệ th ố ng phanh chính và
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 
@@ -214,8 +240,6 @@ phanh đỗ đố i v ớ i XMCD s ử d ụng bánh xe để di chuy ể n và 
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 TD004
 
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
@@ -224,17 +248,57 @@ L ầ n ban hành: 1
 
 ## B ả ng 2 - Kh ả năng giữ XMCD đứ ng yên ngang d ố c
 
-| Lo ạ i phanh   | Lo ạ i xe                                                                                     |   Độ d ố c (%) |
-|----------------|-----------------------------------------------------------------------------------------------|----------------|
-| Phanh chính    | Xe t ự đổ có kh ối lượ ng th ử > 32000 kg                                                     |             20 |
-| Phanh chính    | Xe lu các lo ạ i                                                                              |             20 |
-| Phanh chính    | Xe t ự đổ, sơ mi rơ moóc tự đổ đượ c k ế t h ợ p v ớ i xe kéo có kh ối lượ ng th ử ≤ 32000 kg |             25 |
-| Phanh chính    | T ấ t c ả các xe khác                                                                         |             25 |
-| Phanh đỗ       | Xe t ự đổ , xe c ạp đất đượ c k ế t h ợ p v ớ i xe kéo                                        |             15 |
-| Phanh đỗ       | Xe lu các lo ạ i                                                                              |             20 |
-| Phanh đỗ       | Sơ mi rơ moóc tự đổ                                                                           |             20 |
-| Phanh đỗ       | T ấ t c ả các xe khác                                                                         |             20 |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Lo ạ i phanh</th>
+      <th>Lo ạ i xe</th>
+      <th>Độ d ố c (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Phanh chính</td>
+      <td>Xe t ự đổ có kh ối lượ ng th ử > 32000 kg</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Phanh chính</td>
+      <td>Xe lu các lo ạ i</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Phanh chính</td>
+      <td>Xe t ự đổ, sơ mi rơ moóc tự đổ đượ c k ế t h ợ p v ớ i xe kéo có kh ối lượ ng th ử ≤ 32000 kg</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Phanh chính</td>
+      <td>T ấ t c ả các xe khác</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>Phanh đỗ</td>
+      <td>Xe t ự đổ , xe c ạp đất đượ c k ế t h ợ p v ớ i xe kéo</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Phanh đỗ</td>
+      <td>Xe lu các lo ạ i</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Phanh đỗ</td>
+      <td>Sơ mi rơ moóc tự đổ</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Phanh đỗ</td>
+      <td>T ấ t c ả các xe khác</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
 ## Chú ý:
 
 1.  Khi  th ử phanh c ầ n ng ắ t  h ệ th ố ng truy ề n l ực, động cơ hoạt độ ng ở tr ạ ng thái
@@ -246,8 +310,6 @@ không t ả i ho ặ c d ừ ng
 tương tự .
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## QUY ĐỊ NH K Ỹ THU ẬT ĐỐ I V Ớ I XE CHƯA QUA SỬ D Ụ NG
 

@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## GHÉP B Ằ NG REN
 
 ## 1. CÁC CHI TI Ế T GHÉP CÓ REN
@@ -10,33 +8,84 @@ Các chi ti ế t l ắ p xi ế t g ồm có: bulông, đai ố c, vít c ấy,
 
 B ả ng dưới đây là các hình chi ế u và cách ghi ký hi ệ u các chi ti ế t l ắ p xi ế t cách ghi ký hi ệ u các chi ti ế t l ắ p xi ế t
 
-| Phân lo ạ i   | Tên g ọ i                   | Hình d ạ ng   | Hình chi ế u   | Ký hi ệ u                          |
-|---------------|-----------------------------|---------------|----------------|------------------------------------|
-| Bulông        | Bulông tinh đầ u Sáu c ạ nh |               |                | Bulông M12x50 TCVN 1892-76         |
-| Vít           | Vít c ấ y                   |               |                | Vít c ấ y A1- M12 x45 TCVN 3608-81 |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Phân lo ạ i</th>
+      <th>Tên g ọ i</th>
+      <th>Hình d ạ ng</th>
+      <th>Hình chi ế u</th>
+      <th>Ký hi ệ u</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bulông</td>
+      <td>Bulông tinh đầ u Sáu c ạ nh</td>
+      <td></td>
+      <td></td>
+      <td>Bulông M12x50 TCVN 1892-76</td>
+    </tr>
+    <tr>
+      <td>Vít</td>
+      <td>Vít c ấ y</td>
+      <td></td>
+      <td></td>
+      <td>Vít c ấ y A1- M12 x45 TCVN 3608-81</td>
+    </tr>
+  </tbody>
+</table>
 TD665
 
 L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE GHÉP B Ằ NG REN
+GHÉP B Ằ NG REN
 
 TD665
 
 L ầ n ban hành: 1
 
-| Phân lo ạ i   | Tên g ọ i     | Hình d ạ ng   | Ký hi ệ u                                    |
-|---------------|---------------|---------------|----------------------------------------------|
-|               | Vít đầ u tr ụ |               | Vít đầ u tr ụ M10x 45 TCVN52-86              |
-|               | Vít đầ u chìm |               | Vít đầ u chìm M10 x45 TCVN58-86              |
-|               | Vít đị nh v ị |               | Vít đuôi th ẳ ng hìnhnón M5x20 TCVN 1905- 76 |
-| Đai           | Đai ố c       |               | Đai ố c 1-M16 TCVN 1905- 76                  |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Phân lo ạ i</th>
+      <th>Tên g ọ i</th>
+      <th>Hình d ạ ng</th>
+      <th>Ký hi ệ u</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Vít đầ u tr ụ</td>
+      <td></td>
+      <td>Vít đầ u tr ụ M10x 45 TCVN52-86</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Vít đầ u chìm</td>
+      <td></td>
+      <td>Vít đầ u chìm M10 x45 TCVN58-86</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Vít đị nh v ị</td>
+      <td></td>
+      <td>Vít đuôi th ẳ ng hìnhnón M5x20 TCVN 1905- 76</td>
+    </tr>
+    <tr>
+      <td>Đai</td>
+      <td>Đai ố c</td>
+      <td></td>
+      <td>Đai ố c 1-M16 TCVN 1905- 76</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-## VIETTEL AI RACE GHÉP B Ằ NG REN
+GHÉP B Ằ NG REN
 
 <!-- image -->
 
@@ -44,11 +93,33 @@ TD665
 
 L ầ n ban hành: 1
 
-| Phân lo ạ i   | Tên g ọ i        | Hình d ạ ng   | Hình chi ế u   | Ký hi ệ u                            |
-|---------------|------------------|---------------|----------------|--------------------------------------|
-|               | Đai ố c x ẻ rãnh |               |                | Đai ố c x ẻ rãnh 1- M16 TCVN 1911-76 |
-|               | Vòng đệ m        |               |                | Vòng đệ m 16 TCVN 2061- 77           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Phân lo ạ i</th>
+      <th>Tên g ọ i</th>
+      <th>Hình d ạ ng</th>
+      <th>Hình chi ế u</th>
+      <th>Ký hi ệ u</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Đai ố c x ẻ rãnh</td>
+      <td></td>
+      <td></td>
+      <td>Đai ố c x ẻ rãnh 1- M16 TCVN 1911-76</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Vòng đệ m</td>
+      <td></td>
+      <td></td>
+      <td>Vòng đệ m 16 TCVN 2061- 77</td>
+    </tr>
+  </tbody>
+</table>
 ## 2. M Ố I GHÉP REN
 
 ## · M ố i ghép bulông
@@ -63,7 +134,7 @@ Hình 7.10 Cách v ẽ đầ u bulông
 
 <!-- image -->
 
-## VIETTEL AI RACE GHÉP B Ằ NG REN
+GHÉP B Ằ NG REN
 
 ## 3. M Ố I GHÉP VÍT C Ấ Y
 
@@ -87,7 +158,7 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE GHÉP B Ằ NG REN
+GHÉP B Ằ NG REN
 
 Tiêu chu ẩ n qui đị nh rãnh vít trên m ặ t ph ẳ ng hình chi ế u đặ t song song v ớ i tr ụ c c ủ a vít, chi ếu dài rãnh vít đặ t song song v ới phương chiế u. Trên hình chi ế u vuông góc v ớ i tr ụ c, rãnh vít đượ c v ẽ ớ v ị trí đã xoay đi góc 45°.
 

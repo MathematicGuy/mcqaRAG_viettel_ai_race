@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## C ấ u t ạ o c ủ a laptop
 
 ## 1. T ổ ng quan c ấ u t ạ o c ủ a m ộ t chi ế c laptop
@@ -42,8 +40,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## C ấ u t ạ o c ủ a laptop
 
 TD004
@@ -72,8 +68,6 @@ Card đồ h ọ a VGA là thi ế t b ị giao ti ế p giao ti ế p gi ữ a 
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## C ấ u t ạ o c ủ a laptop
 
 L ầ n ban hành: 1
@@ -89,8 +83,6 @@ Nơi lưu trữ t ạ m th ời để CPU có th ể x ử lý nhanh hơn, chún
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## C ấ u t ạ o c ủ a laptop
 
@@ -124,8 +116,6 @@ L ầ n ban hành: 1
 
 Là m ộ t  b ộ các con chip điề u khi ể n m ọ i  ho ạt  độ ng truy ề n t ả i  d ữ li ệ u.  Chip set đượ c  k ế t  n ố i  tr ự c  ti ế p v ớ i  CPU và ho ạt  động như trung gian truyề n thông cho RAM, PCI.
 
-## VIETTEL AI RACE
-
 ## C ấ u t ạ o c ủ a laptop
 
 TD004
@@ -138,8 +128,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## C ấ u t ạ o c ủ a laptop
 
 TD004
@@ -150,17 +138,61 @@ L ầ n ban hành: 1
 
 Chip set
 
-| Hãng                        | Intel                                 | Intel                       | AMD                                      | AMD                           | Apple                                 |
-|-----------------------------|---------------------------------------|-----------------------------|------------------------------------------|-------------------------------|---------------------------------------|
-| Dòng chip                   | Core i3/i5/i7/i9                      | Core Ultra (Meteor Lake)    | Ryzen 5/7/9                              | Ryzen AI (Phoenix/Hawk Point) | Apple M1/M2/M3                        |
-| Hi ệ u năng                 | Ph ổ thông đế n cao c ấ p             | T ối ưu AI, hi ệ u năng cao | Đa nhân m ạ nh m ẽ , hi ệ u su ấ t t ố t | Tích h ợ p NPU, t ối ưu AI    | T ối ưu hiệ u năng và tiế t ki ệ mpin |
-| GPU tích h ợ p              | Intel Iris Xe                         | Intel Arc GPU               | Radeon Graphics                          | RDNA 3 iGPU                   | GPU tích h ợ p m ạ nh (Metal)         |
-| TDP (m ứ c tiêu th ụ điệ n) | 15W - 125W                            | 15W - 45W                   | 15W - 65W                                | 15W - 45W                     | 10W - 30W                             |
-| Ứ ng d ụ ng ph ổ bi ế n     | Laptop văn phòng, gaming, workstation | Laptop AI, hi ệ u năng cao  | Gaming, đồ h ọ a, văn phòng              | Laptop AI, gaming t ầ m trung | MacBook Air, Pro, Studio              |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Hãng</th>
+      <th>Intel</th>
+      <th>Intel</th>
+      <th>AMD</th>
+      <th>AMD</th>
+      <th>Apple</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dòng chip</td>
+      <td>Core i3/i5/i7/i9</td>
+      <td>Core Ultra (Meteor Lake)</td>
+      <td>Ryzen 5/7/9</td>
+      <td>Ryzen AI (Phoenix/Hawk Point)</td>
+      <td>Apple M1/M2/M3</td>
+    </tr>
+    <tr>
+      <td>Hi ệ u năng</td>
+      <td>Ph ổ thông đế n cao c ấ p</td>
+      <td>T ối ưu AI, hi ệ u năng cao</td>
+      <td>Đa nhân m ạ nh m ẽ , hi ệ u su ấ t t ố t</td>
+      <td>Tích h ợ p NPU, t ối ưu AI</td>
+      <td>T ối ưu hiệ u năng và tiế t ki ệ mpin</td>
+    </tr>
+    <tr>
+      <td>GPU tích h ợ p</td>
+      <td>Intel Iris Xe</td>
+      <td>Intel Arc GPU</td>
+      <td>Radeon Graphics</td>
+      <td>RDNA 3 iGPU</td>
+      <td>GPU tích h ợ p m ạ nh (Metal)</td>
+    </tr>
+    <tr>
+      <td>TDP (m ứ c tiêu th ụ điệ n)</td>
+      <td>15W - 125W</td>
+      <td>15W - 45W</td>
+      <td>15W - 65W</td>
+      <td>15W - 45W</td>
+      <td>10W - 30W</td>
+    </tr>
+    <tr>
+      <td>Ứ ng d ụ ng ph ổ bi ế n</td>
+      <td>Laptop văn phòng, gaming, workstation</td>
+      <td>Laptop AI, hi ệ u năng cao</td>
+      <td>Gaming, đồ h ọ a, văn phòng</td>
+      <td>Laptop AI, gaming t ầ m trung</td>
+      <td>MacBook Air, Pro, Studio</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## C ấ u t ạ o c ủ a laptop
 

@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 
 ## 1. PHÍM CH ỨC NĂNG CỦ A MÁY TÍNH
@@ -16,8 +14,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 
 L ầ n ban hành: 1
@@ -26,19 +22,45 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-| Mô tả                                                                        | Phím   | Mô tả                                                                                                      |
-|------------------------------------------------------------------------------|--------|------------------------------------------------------------------------------------------------------------|
-| Mở màn hình Trợ giúp                                                         |        | K iểm tra chính tả và ngữ pháp của tài liệu trong Microsoft Apps (ví dụ: Word                              |
-| Sửa tên tệp hoặc thư mục đã chọn                                             |        | N hấn phím F8 ngay khi laptop vừa khởi động để khởi động laptop ở chế độ Safe Mode.                        |
-| Mở tính năng tìm kiếm cho một ứng dụng đang hoạt động tại thời điểm hiện tại |        | Làm mới tài liệu trong Microsoft Word và gửi và nhận email trong Outlook                                   |
-| Mở thanh địa chỉ trên Windows Explorer và Internet Explorer.                 |        | Kích hoạt thanh menu của ứng dụng đang mở                                                                  |
-| L àm mới hoặc tải lại trang hoặc cửa sổ tài liệu                             |        | Sử dụng phím F11 để mở chế độ toàn màn hình trên các trình duyệt phổ biến (IE, Firefox, Google Chrome...). |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Mô tả</th>
+      <th>Phím</th>
+      <th>Mô tả</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mở màn hình Trợ giúp</td>
+      <td></td>
+      <td>K iểm tra chính tả và ngữ pháp của tài liệu trong Microsoft Apps (ví dụ: Word</td>
+    </tr>
+    <tr>
+      <td>Sửa tên tệp hoặc thư mục đã chọn</td>
+      <td></td>
+      <td>N hấn phím F8 ngay khi laptop vừa khởi động để khởi động laptop ở chế độ Safe Mode.</td>
+    </tr>
+    <tr>
+      <td>Mở tính năng tìm kiếm cho một ứng dụng đang hoạt động tại thời điểm hiện tại</td>
+      <td></td>
+      <td>Làm mới tài liệu trong Microsoft Word và gửi và nhận email trong Outlook</td>
+    </tr>
+    <tr>
+      <td>Mở thanh địa chỉ trên Windows Explorer và Internet Explorer.</td>
+      <td></td>
+      <td>Kích hoạt thanh menu của ứng dụng đang mở</td>
+    </tr>
+    <tr>
+      <td>L àm mới hoặc tải lại trang hoặc cửa sổ tài liệu</td>
+      <td></td>
+      <td>Sử dụng phím F11 để mở chế độ toàn màn hình trên các trình duyệt phổ biến (IE, Firefox, Google Chrome...).</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 
@@ -64,29 +86,63 @@ Mở chức năng xem mã nguồn website trên bất kỳ trình duyệt nào.
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 
 ## 3. CÁC PHÍM THÔNG D Ụ NG KHÁC
 
-|   STT | Phím   | Mô tả                                                                                                                                                                                                                                                                                                                                                                   |
-|-------|--------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     1 |        | Phím Esc (vi ế t t ắ t c ủ a t ừ escape) có tác d ụ ng d ừ ng (stop) ho ặ c thoát (quit) m ột chương trình hoặ c ho ạ t độ ng.                                                                                                                                                                                                                                          |
-|     1 |        | Phím Esc cũng giúp đóng các menu chuột phải và có thể dùng để loại bỏ một số hộp bật lên                                                                                                                                                                                                                                                                                |
-|     2 |        | Phím Tab để di chuyển con trỏ đến trường tiếp theo trên một biểu mẫu.                                                                                                                                                                                                                                                                                                   |
-|     2 |        | Hoặc cho phép bạn thụt lề văn bản khi gõ văn bản                                                                                                                                                                                                                                                                                                                        |
-|     3 |        | Phím Caps Lock cho phép quý vị gõ các chữ cái IN HOA (UPPERCASE).                                                                                                                                                                                                                                                                                                       |
-|     3 |        | Nhấn phím này một lần để bắt đầu sử dụng chữ viết hoa và một lần nữa để quay lại chữ thường.                                                                                                                                                                                                                                                                            |
-|     4 |        | Di chuyển xuống xa hơn về phía tay trái chúng ta tìm thấy phím Shift. Nếu nhấn cùng một lúc phím Shift và một phím chữ cái, có thể biến chữ cái đó thành một chữ in hoa. Nếu nhấn phím Shift và một trong các phím số ở trên cùng bàn phím, quý vị có thể gõ ký hiệu xuất hiện bên cạnh số đó. Ví dụ - Shift + 2 sẽ cho phép bạn gõ @ - Shift + 5 sẽ cho phép bạn gõ %. |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Phím</th>
+      <th>Mô tả</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td>Phím Esc (vi ế t t ắ t c ủ a t ừ escape) có tác d ụ ng d ừ ng (stop) ho ặ c thoát (quit) m ột chương trình hoặ c ho ạ t độ ng.</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td></td>
+      <td>Phím Esc cũng giúp đóng các menu chuột phải và có thể dùng để loại bỏ một số hộp bật lên</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td></td>
+      <td>Phím Tab để di chuyển con trỏ đến trường tiếp theo trên một biểu mẫu.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td></td>
+      <td>Hoặc cho phép bạn thụt lề văn bản khi gõ văn bản</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td>Phím Caps Lock cho phép quý vị gõ các chữ cái IN HOA (UPPERCASE).</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td></td>
+      <td>Nhấn phím này một lần để bắt đầu sử dụng chữ viết hoa và một lần nữa để quay lại chữ thường.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td></td>
+      <td>Di chuyển xuống xa hơn về phía tay trái chúng ta tìm thấy phím Shift. Nếu nhấn cùng một lúc phím Shift và một phím chữ cái, có thể biến chữ cái đó thành một chữ in hoa. Nếu nhấn phím Shift và một trong các phím số ở trên cùng bàn phím, quý vị có thể gõ ký hiệu xuất hiện bên cạnh số đó. Ví dụ - Shift + 2 sẽ cho phép bạn gõ @ - Shift + 5 sẽ cho phép bạn gõ %.</td>
+    </tr>
+  </tbody>
+</table>
 TD652
 
 L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE ỤNG BÀN PHÍM ĐÚNG CÁCH
+ỤNG BÀN PHÍM ĐÚNG CÁCH
 
 ## S Ử D
 
@@ -96,15 +152,29 @@ TD652
 
 L ầ n ban hành: 1
 
-|   5 | Phím Delete (hay Del) cho phép xóa ký tự (chữ, số, khoảng trống hoặc ký tự, tập tin) được chọn. Ngoài ra, phím Delete còn có một số chức năng khác như: - Khởi động lại máy tính: Nhấn và giữ Delete khi khởi động máy tính có thể truy cập vào BIOS hoặc menu khởi động. - Xóa dữ liệu khỏi ổ cứng: Một số chương trình cho phép bạn sử dụng Delete để xóa dữ liệu khỏi ổ cứng một cách an toàn. - Thực hiện các phím tắt: Một số phím tắt yêu cầu nhấn Delete kết hợp với các phím khác.   |
-|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   6 | Phím Backspace cho phép xóa ký tự (chữ, số, khoảng trống hoặc ký tự cuối cùng ) ở bên trái của đườngthẳng đứngnhấp nháy, hay con trỏ, trên màn hình máy tính.                                                                                                                                                                                                                                                                                                                                |
-|   7 | Phím Enter hoặc Return để bắt đầu một dòng mới khi bạn đang gõ một tài liệu hoặc bắt đầu tìm kiếm khi duyệt trang mạng (trong trường hợp duyệt trang web, bạn có thể sử dụng nó thay con chuột để nhấn nút Tìm kiếm (Search) trên màn hình máy tính)                                                                                                                                                                                                                                         |
-|   8 | Các phím mũi tên (arrow) giúp di chuyển xung quanh và điều hướng. Bạn có thể sử dụng các phím mũi tên để di chuyển con trỏ đường thẳng đứng nhấp nháy trên một tài                                                                                                                                                                                                                                                                                                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>5</th>
+      <th>Phím Delete (hay Del) cho phép xóa ký tự (chữ, số, khoảng trống hoặc ký tự, tập tin) được chọn. Ngoài ra, phím Delete còn có một số chức năng khác như: - Khởi động lại máy tính: Nhấn và giữ Delete khi khởi động máy tính có thể truy cập vào BIOS hoặc menu khởi động. - Xóa dữ liệu khỏi ổ cứng: Một số chương trình cho phép bạn sử dụng Delete để xóa dữ liệu khỏi ổ cứng một cách an toàn. - Thực hiện các phím tắt: Một số phím tắt yêu cầu nhấn Delete kết hợp với các phím khác.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>6</td>
+      <td>Phím Backspace cho phép xóa ký tự (chữ, số, khoảng trống hoặc ký tự cuối cùng ) ở bên trái của đườngthẳng đứngnhấp nháy, hay con trỏ, trên màn hình máy tính.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Phím Enter hoặc Return để bắt đầu một dòng mới khi bạn đang gõ một tài liệu hoặc bắt đầu tìm kiếm khi duyệt trang mạng (trong trường hợp duyệt trang web, bạn có thể sử dụng nó thay con chuột để nhấn nút Tìm kiếm (Search) trên màn hình máy tính)</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Các phím mũi tên (arrow) giúp di chuyển xung quanh và điều hướng. Bạn có thể sử dụng các phím mũi tên để di chuyển con trỏ đường thẳng đứng nhấp nháy trên một tài</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 
@@ -116,10 +186,20 @@ L ầ n ban hành: 1
 
 Lưu ý: Windows có một công cụ Trợ năng tích hợp sẵn có tên là Bàn phím ảo (OSK) có thể được sử dụng thay cho bàn phím vật lý.
 
-|    | liệu khi gõ. Sử dụng các mũi tên để đi lên và xuống giữa các dòng văn bản hoặc sang trái và phải giữa các ký tự trong một câu.                                                                                                                                                                                                                                                                                                              |
-|----|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|  9 | Ở dưới cùng bàn phím là Thanh dấu cách (Spacebar). Phím này có thể không có bất cứ chữ cái hoặc số nào trên đó hoặc có chữ 'Space', đây là phím dài nhất trên bàn phím (vì cả hai ngón tay cái đều phải đặt trên phím cách), thường ở dưới cùng của bàn phím. Thanh dấu cách cho phép tạo một khoảng trống ở bên phải của con trỏ đường thẳng đứng nhấp nháy trên màn hình khi bạn đang soạn thảo văn bản để tạo khoảng trống giữa các từ . |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>liệu khi gõ. Sử dụng các mũi tên để đi lên và xuống giữa các dòng văn bản hoặc sang trái và phải giữa các ký tự trong một câu.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>9</td>
+      <td>Ở dưới cùng bàn phím là Thanh dấu cách (Spacebar). Phím này có thể không có bất cứ chữ cái hoặc số nào trên đó hoặc có chữ 'Space', đây là phím dài nhất trên bàn phím (vì cả hai ngón tay cái đều phải đặt trên phím cách), thường ở dưới cùng của bàn phím. Thanh dấu cách cho phép tạo một khoảng trống ở bên phải của con trỏ đường thẳng đứng nhấp nháy trên màn hình khi bạn đang soạn thảo văn bản để tạo khoảng trống giữa các từ .</td>
+    </tr>
+  </tbody>
+</table>
 Bạn không nhất thiết phải sử dụng màn hình cảm ứng để sử dụng OSK. OSK được thiết kể để hiển thị trực quan với tất cả các phím chuẩn, bạn có thể sử dụng chuột máy tính để chọn phím. Nếu máy tính bạn có màn hình cảm ứng thì chắc chắn bạn có thể dùng bàn phím cảm ứng. Bàn phím cảm ứng sẽ xuất hiện khi bạn chạm vào hộp văn bản khi PC của bạn ở chế độ máy tính bảng. Để mở Bàn phím ảo trên màn hình:
 
 - -Di chuyển chuột đến Bắt đầu (Starts), chọn Cài đặt (Settings)
@@ -128,8 +208,6 @@ Bạn không nhất thiết phải sử dụng màn hình cảm ứng để sử
 - -Tại mục Bàn phím ảo (On -Screen Keyboard), trượt sang chế độ Bật (On) hoặc
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## S Ử D ỤNG BÀN PHÍM ĐÚNG CÁCH
 

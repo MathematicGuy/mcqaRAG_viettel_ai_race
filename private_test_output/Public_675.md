@@ -7,17 +7,45 @@
 
 Các ký hiệu trong Điều này được quy ước để thể hiện các loại vách ngăn trên mặt bằng trong các bản vẽ có tỷ lệ 1:200 và nhỏ hơn. Ký hiệu thể hiện bằng nét liền đậm (kèm theo chú thích về vật liệu). Trường hợp bản vẽ tỷ lệ 1:50 và lớn hơn, ký hiệu vách ngăn phải thễ hiện chi tiết vật liệu và cấu tạo theo đúng tỷ lệ tính toán của kết cấu.
 
-| Tên ký hiệu                                                      | Ký hiệu   | Chú thích                                                                                                                                                      |
-|------------------------------------------------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Vách ngăn, ký hiệu chung trên mặt bằng                           |           |                                                                                                                                                                |
-| Vách ngăn lưới kim loại                                          |           |                                                                                                                                                                |
-| Vách ngăn bằng các tấm đúc sẵn                                   |           |                                                                                                                                                                |
-| Vách ngăn bằng kính hay vật liệu trong, vật liệu trổ hoa rỗng    |           |                                                                                                                                                                |
-| Vách ngăn bằng vật liệu phổ thông: tre, gỗ, cốt phê, tấm sợi ép… |           | Để vách có thể làm bằng gỗ, tre, mai, vầu, lồ ô. Tấm vách có thể làm bằng gỗ dán, gỗ ván, phên, da, cốt… (Vật liệu vách có thể chú thích trên trên đường dẫn). |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Vách ngăn, ký hiệu chung trên mặt bằng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vách ngăn lưới kim loại</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vách ngăn bằng các tấm đúc sẵn</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vách ngăn bằng kính hay vật liệu trong, vật liệu trổ hoa rỗng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Vách ngăn bằng vật liệu phổ thông: tre, gỗ, cốt phê, tấm sợi ép…</td>
+      <td></td>
+      <td>Để vách có thể làm bằng gỗ, tre, mai, vầu, lồ ô. Tấm vách có thể làm bằng gỗ dán, gỗ ván, phên, da, cốt… (Vật liệu vách có thể chú thích trên trên đường dẫn).</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-## VIETTEL AI RACE VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN: VÁCH NGĂN VÀ BỘ PHẬN
+VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN: VÁCH NGĂN VÀ BỘ PHẬN
 
 TD675
 
@@ -38,22 +66,59 @@ Trong thực tế, các loại vách ngăn có thể được chế tạo sẵn 
 
 ## 2. Ký hiệu các bộ phận cần sửa chữa
 
-| Tên ký hiệu   | Tên ký hiệu                                      | Ký hiệu   | Chú thích                            |
-|---------------|--------------------------------------------------|-----------|--------------------------------------|
-| Tường         | Tường hiện có cần sửa chữa                       |           |                                      |
-| Tường         | Tường mới thiết kế khi sửa chữa hay xây mới      |           |                                      |
-| Tường         | Tường cần phá bỏ khi sửa chữa                    |           |                                      |
-|               | Lỗ trống hiện có cần được mở rộng trên tường     |           | Thể hiện trên mặt đứng và mặt cắt.   |
-|               | Lỗ trống hiện có trên tường cần được thu hẹp     |           | Thể hiện trên mặt đứng và mặt cắt.   |
-|               | Lỗ trống mới thiết kế trên tường hay sàn hiện có |           | Có thể chú thích trên trên đường dẫn |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên ký hiệu</th>
+      <th>Tên ký hiệu</th>
+      <th>Ký hiệu</th>
+      <th>Chú thích</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tường</td>
+      <td>Tường hiện có cần sửa chữa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tường</td>
+      <td>Tường mới thiết kế khi sửa chữa hay xây mới</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Tường</td>
+      <td>Tường cần phá bỏ khi sửa chữa</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Lỗ trống hiện có cần được mở rộng trên tường</td>
+      <td></td>
+      <td>Thể hiện trên mặt đứng và mặt cắt.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Lỗ trống hiện có trên tường cần được thu hẹp</td>
+      <td></td>
+      <td>Thể hiện trên mặt đứng và mặt cắt.</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Lỗ trống mới thiết kế trên tường hay sàn hiện có</td>
+      <td></td>
+      <td>Có thể chú thích trên trên đường dẫn</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN: VÁCH NGĂN VÀ BỘ PHẬN
 
@@ -76,8 +141,6 @@ Tường mới thiết kế khi sửa chữa hay xây mới là những bức t�
 Tường cần phá bỏ khi sửa chữa được ký hiệu nhằm thông báo rằng phần tường đó sẽ được tháo dỡ trong giai đoạn thi công. Việc thể hiện rõ các tường cần phá giúp
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## VẼ CÁC KÝ HIỆU, QUY ƯỚC DÙNG TRONG BẢN VẼ ĐIỆN: VÁCH NGĂN VÀ BỘ PHẬN
 

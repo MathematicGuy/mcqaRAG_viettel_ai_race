@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## MÀN HÌNH CÀI ĐẶT E-DRIVE VÀ MÀN HÌNH CÀI ĐẶT CỬA VAN CỦA MÀN HÌNH CẢM ỨNG E-MULTI
 
 ## 1. Màn hình cài đặt (Cấp độ giám sát)
@@ -21,8 +19,6 @@ TD661
 Lần ban hành: 1
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## MÀN HÌNH CÀI ĐẶT E-DRIVE VÀ MÀN HÌNH CÀI ĐẶT CỬA VAN CỦA MÀN HÌNH CẢM ỨNG E-MULTI
 
@@ -60,8 +56,6 @@ Gear Ratio Value: (Giá trị tỷ số truyền): Đây là độ xoay tổng t
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## MÀN HÌNH CÀI ĐẶT E-DRIVE VÀ MÀN HÌNH CÀI ĐẶT CỬA VAN CỦA MÀN
 
 ## HÌNH CẢM ỨNG E-MULTI
@@ -92,8 +86,6 @@ Lần ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## MÀN HÌNH CÀI ĐẶT E-DRIVE VÀ MÀN HÌNH CÀI ĐẶT CỬA VAN CỦA MÀN
 
 ## HÌNH CẢM ỨNG E-MULTI
@@ -106,12 +98,28 @@ Màn hình này dùng để điều khiển từng cửa van, thường cho các
 
 <!-- image -->
 
-| Các thành phần trên màn hình   | Mô tả                                                                                                                                                                                                                                                                                                                                                 |
-|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                                | Các tab ở đầu màn hình Các tab ở đầu màn hình sẽ đưa người dùng đến phần cài đặt cho hai cửa van cùng một lúc (ví dụ: Van 1 và 2; Van 3 và 4). Người dùng có thể đặt thời gian và bộ kích hoạt Mở và Đóng                                                                                                                                             |
-|                                | Open Trigger (Bộ kích hoạt mở) Các tùy chọn thả xuống: Off (Tắt) MoldClosing (Đóng khuôn) Khuôn ZA6 đã đóng - tín hiệu ZB3 Phun lùi 1 - tín hiệu (phun) ZB4 Phun tiến 1 - tín hiệu (phun) ZB5 Lõi 1 Vị trí 1 - tín hiệu (rô-bốt) ZB5 Lõi 1 Vị trí 2 - tín hiệu (rô-bốt) ZB5 Lõi 2 Vị trí 1 - tín hiệu (rô-bốt) ZB5 Lõi 2 Vị trí 2 - tín hiệu (rô-bốt) |
-|                                | Delay time open (Thời gian trễ mở) Ngoài bộ kích hoạt mở, bạn có thể thêm thời gian trễ tính theo giây để tinh chỉnh                                                                                                                                                                                                                                  |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Các thành phần trên màn hình</th>
+      <th>Mô tả</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Các tab ở đầu màn hình Các tab ở đầu màn hình sẽ đưa người dùng đến phần cài đặt cho hai cửa van cùng một lúc (ví dụ: Van 1 và 2; Van 3 và 4). Người dùng có thể đặt thời gian và bộ kích hoạt Mở và Đóng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Open Trigger (Bộ kích hoạt mở) Các tùy chọn thả xuống: Off (Tắt) MoldClosing (Đóng khuôn) Khuôn ZA6 đã đóng - tín hiệu ZB3 Phun lùi 1 - tín hiệu (phun) ZB4 Phun tiến 1 - tín hiệu (phun) ZB5 Lõi 1 Vị trí 1 - tín hiệu (rô-bốt) ZB5 Lõi 1 Vị trí 2 - tín hiệu (rô-bốt) ZB5 Lõi 2 Vị trí 1 - tín hiệu (rô-bốt) ZB5 Lõi 2 Vị trí 2 - tín hiệu (rô-bốt)</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Delay time open (Thời gian trễ mở) Ngoài bộ kích hoạt mở, bạn có thể thêm thời gian trễ tính theo giây để tinh chỉnh</td>
+    </tr>
+  </tbody>
+</table>
 TD661
 
 Lần ban hành: 1
@@ -121,15 +129,23 @@ Lần ban hành: 1
 TD661
 
 Lần ban hành: 1
-
-## VIETTEL AI RACE
 
 ## MÀN HÌNH CÀI ĐẶT E-DRIVE VÀ MÀN HÌNH CÀI ĐẶT CỬA VAN CỦA MÀN HÌNH CẢM ỨNG E-MULTI
 
 <!-- image -->
 
-| chuyển động của van tương ứng với tín hiệu của bộ kích hoạt.                                                                                                                           |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Close Trigger (Bộ kích hoạt đóng) Các tùy chọn thả xuống: Sau khi giữ E- Multi Sau khi giảm áp E-Multi Sau khi dẻo hóa E-Multi                                                         |
-| Delay time close (Thời gian trễ đóng) Ngoài bộ kích hoạt đóng, bạn có thể thêm thời gian trễ tính theo giây để tinh chỉnh chuyển động của van tương ứng với tín hiệu của bộ kích hoạt. |
-| Trạng thái hiện tại Một hộp chỉ báo màu lục cho biết liệu cửa van hiện đang mở hay đã đóng.                                                                                            |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>chuyển động của van tương ứng với tín hiệu của bộ kích hoạt.</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Close Trigger (Bộ kích hoạt đóng) Các tùy chọn thả xuống: Sau khi giữ E- Multi Sau khi giảm áp E-Multi Sau khi dẻo hóa E-Multi</td>
+    </tr>
+    <tr>
+      <td>Delay time close (Thời gian trễ đóng) Ngoài bộ kích hoạt đóng, bạn có thể thêm thời gian trễ tính theo giây để tinh chỉnh chuyển động của van tương ứng với tín hiệu của bộ kích hoạt.</td>
+    </tr>
+  </tbody>
+</table>| Trạng thái hiện tại Một hộp chỉ báo màu lục cho biết liệu cửa van hiện đang mở hay đã đóng.                                                                                            |

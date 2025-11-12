@@ -16,17 +16,45 @@ Học xong chương này, người học có khả năng:
 
 ## 3. MỘT SỐ KÍ HIỆU QUY ƯỚC TRONG BẢN VẼ SƠ ĐỒ HỆ THỐNG ĐIỆN:
 
-| Tên các phần tử trên sơ đồ     | Kí hiệu   |
-|--------------------------------|-----------|
-| Máy phát điện (F)              |           |
-| Trạm biến áp (TBA)             |           |
-| Trạm phân phối, trạm cắt (TPP) |           |
-| Máy biến áp (BA)               |           |
-| Máy cắt điện (MC)              |           |
-| Máy biến áp đo lường (BU)      |           |
-| Máy biến dòng điện (BI)        |           |
-
-## VIETTEL AI RACE BẢN VẼ SƠ ĐỒ HỆ
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Tên các phần tử trên sơ đồ</th>
+      <th>Kí hiệu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Máy phát điện (F)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Trạm biến áp (TBA)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Trạm phân phối, trạm cắt (TPP)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Máy biến áp (BA)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Máy cắt điện (MC)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Máy biến áp đo lường (BU)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Máy biến dòng điện (BI)</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+BẢN VẼ SƠ ĐỒ HỆ
 
 TD671
 
@@ -34,7 +62,7 @@ Lần ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE BẢN VẼ SƠ ĐỒ HỆ
+BẢN VẼ SƠ ĐỒ HỆ
 
 ## QUY ƯỚC TRONG THỐNG ĐIỆN
 
@@ -44,27 +72,63 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Máy cắt phụ tải (MCPT) Dao cắt phụ tải (DCPT)   |
-|-------------------------------------------------|
-| Dao cách ly (DCL)                               |
-| Cầu dao (CD)                                    |
-| Cầu chì (CC)                                    |
-| Cầu chì tự rơi                                  |
-| Tụ bù                                           |
-| Áp tô mát (A)                                   |
-| Khởi động từ (KĐT) Công tắc tơ (CT)             |
-| Động cơ điện (Đ)                                |
-| Thanh góp (thanh cái) (TG)                      |
-| Dây trung tính                                  |
-| Dây dẫn                                         |
-| Đèn sợi đốt                                     |
-| Đèn túyp                                        |
-| Chuông                                          |
-| Công tắc (đơn, kép)                             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Máy cắt phụ tải (MCPT) Dao cắt phụ tải (DCPT)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dao cách ly (DCL)</td>
+    </tr>
+    <tr>
+      <td>Cầu dao (CD)</td>
+    </tr>
+    <tr>
+      <td>Cầu chì (CC)</td>
+    </tr>
+    <tr>
+      <td>Cầu chì tự rơi</td>
+    </tr>
+    <tr>
+      <td>Tụ bù</td>
+    </tr>
+    <tr>
+      <td>Áp tô mát (A)</td>
+    </tr>
+    <tr>
+      <td>Khởi động từ (KĐT) Công tắc tơ (CT)</td>
+    </tr>
+    <tr>
+      <td>Động cơ điện (Đ)</td>
+    </tr>
+    <tr>
+      <td>Thanh góp (thanh cái) (TG)</td>
+    </tr>
+    <tr>
+      <td>Dây trung tính</td>
+    </tr>
+    <tr>
+      <td>Dây dẫn</td>
+    </tr>
+    <tr>
+      <td>Đèn sợi đốt</td>
+    </tr>
+    <tr>
+      <td>Đèn túyp</td>
+    </tr>
+    <tr>
+      <td>Chuông</td>
+    </tr>
+    <tr>
+      <td>Công tắc (đơn, kép)</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-## VIETTEL AI RACE QUY ƯỚC TRONG BẢN VẼ SƠ ĐỒ HỆ THỐNG ĐIỆN
+QUY ƯỚC TRONG BẢN VẼ SƠ ĐỒ HỆ THỐNG ĐIỆN
 
 TD671
 
@@ -72,17 +136,39 @@ Lần ban hành: 1
 
 <!-- image -->
 
-| Bảng điện                         |
-|-----------------------------------|
-| Đồng hồ vôn, Ampe, cos           |
-| Công tơ hữu công, công tơ vô công |
-| Nối đất                           |
-| Quạt điện                         |
-| Tiếp điểm thường mở               |
-| Tiếp điểm thường đóng             |
-| Nút ấn thường mở                  |
-| Nút ấn thường đóng                |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Bảng điện</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Đồng hồ vôn, Ampe, cos </td>
+    </tr>
+    <tr>
+      <td>Công tơ hữu công, công tơ vô công</td>
+    </tr>
+    <tr>
+      <td>Nối đất</td>
+    </tr>
+    <tr>
+      <td>Quạt điện</td>
+    </tr>
+    <tr>
+      <td>Tiếp điểm thường mở</td>
+    </tr>
+    <tr>
+      <td>Tiếp điểm thường đóng</td>
+    </tr>
+    <tr>
+      <td>Nút ấn thường mở</td>
+    </tr>
+    <tr>
+      <td>Nút ấn thường đóng</td>
+    </tr>
+  </tbody>
+</table>
 ## 4. CÁC LOẠI SƠ ĐỒ ĐIỆN:
 
 - Sơ đồ nhất thứ
@@ -95,7 +181,7 @@ Sơ đồ một sợi: Là sơ đồ chỉ vẽ một pha để biểu thị s�
 
 <!-- image -->
 
-## VIETTEL AI RACE BẢN VẼ SƠ ĐỒ HỆ
+BẢN VẼ SƠ ĐỒ HỆ
 
 ## QUY ƯỚC TRONG THỐNG ĐIỆN
 
@@ -115,7 +201,7 @@ Nguồn cung cấp cho mạch nhị thứ là các máy biến dòng điện và
 
 <!-- image -->
 
-## VIETTEL AI RACE QUY ƯỚC TRONG BẢN VẼ SƠ ĐỒ HỆ THỐNG ĐIỆN
+QUY ƯỚC TRONG BẢN VẼ SƠ ĐỒ HỆ THỐNG ĐIỆN
 
 Lần ban hành: 1
 

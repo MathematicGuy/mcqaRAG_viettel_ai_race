@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Máy in 3D Elegoo Saturn 4 Ultra 4 Nh ự a Ultra 16K
 
 TD004
@@ -20,16 +18,68 @@ M ột  đặc  điể m n ổ i  b ậ t  c ủ a  Elegoo Saturn 4 Ultra Máy i
 
 i
 
-| Nh ự a      | Độ dày l ớ   | p Th ờ i phơi (giây)   | L ớp s ở /l ớ p chuy ể n ti ế p   | cơ Ti ế p xúc l ớp cơ sở   | T ốc độ     | Ch ế ch ờ   | độ Th ờ i ngh ỉ bướ c (giây)   | gian m ỗ i   |
-|-------------|--------------|------------------------|-----------------------------------|----------------------------|-------------|-------------|--------------------------------|--------------|
-|             | 100 µm       | n / a                  |                                   |                            |             |             |                                |              |
-| Deep Blue   | 50 µm        | n / a                  |                                   |                            |             |             |                                |              |
-|             | 100 µm       | n / a                  |                                   |                            |             |             |                                |              |
-| Stone Black | 50 µm        | 6,5                    | 2 / 15                            | 40                         | NHANH CHÓNG | Gi ờ ngh ỉ  |                                | 2,0/0/0,5    |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nh ự a</th>
+      <th>Độ dày l ớ</th>
+      <th>p Th ờ i phơi (giây)</th>
+      <th>L ớp s ở /l ớ p chuy ể n ti ế p</th>
+      <th>cơ Ti ế p xúc l ớp cơ sở</th>
+      <th>T ốc độ</th>
+      <th>Ch ế ch ờ</th>
+      <th>độ Th ờ i ngh ỉ bướ c (giây)</th>
+      <th>gian m ỗ i</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>100 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Deep Blue</td>
+      <td>50 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>100 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Stone Black</td>
+      <td>50 µm</td>
+      <td>6,5</td>
+      <td>2 / 15</td>
+      <td>40</td>
+      <td>NHANH CHÓNG</td>
+      <td>Gi ờ ngh ỉ</td>
+      <td></td>
+      <td>2,0/0/0,5</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Máy in 3D Elegoo Saturn 4 Ultra 4 Nh ự a Ultra 16K
 
@@ -37,21 +87,95 @@ TD004
 
 L ầ n ban hành: 1
 
-| Bio-Med     | 100 µm   | n / a   |        |    |             |            |           |
-|-------------|----------|---------|--------|----|-------------|------------|-----------|
-| Clear       | 50 µm    | 5,0     | 2 / 15 | 40 | NHANH CHÓNG | Gi ờ ngh ỉ | 2,0/0/0,5 |
-| Tough-X     | 100 µm   | 15,0    | 2 / 15 | 40 | Ch ậ m      | Gi ờ ngh ỉ | 2,0/0/0,5 |
-| Tough-X     | 50 µm    | n / a   |        |    |             |            |           |
-| Flexible-X  | 100 µm   | n / a   |        |    |             |            |           |
-| Flexible-X  | 50 µm    | 12,0    | 2 / 15 | 50 | Ch ậ m      | Gi ờ ngh ỉ | 2,0/0/0,5 |
-| Elastomer-X | 100 µm   | 16,0    | 2 / 20 | 60 | Ch ậ m      | Gi ờ ngh ỉ | 2,0/0/0,5 |
-| Elastomer-X | 50 µm    | n / a   |        |    |             |            |           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Bio-Med</th>
+      <th>100 µm</th>
+      <th>n / a</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Clear</td>
+      <td>50 µm</td>
+      <td>5,0</td>
+      <td>2 / 15</td>
+      <td>40</td>
+      <td>NHANH CHÓNG</td>
+      <td>Gi ờ ngh ỉ</td>
+      <td>2,0/0/0,5</td>
+    </tr>
+    <tr>
+      <td>Tough-X</td>
+      <td>100 µm</td>
+      <td>15,0</td>
+      <td>2 / 15</td>
+      <td>40</td>
+      <td>Ch ậ m</td>
+      <td>Gi ờ ngh ỉ</td>
+      <td>2,0/0/0,5</td>
+    </tr>
+    <tr>
+      <td>Tough-X</td>
+      <td>50 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Flexible-X</td>
+      <td>100 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Flexible-X</td>
+      <td>50 µm</td>
+      <td>12,0</td>
+      <td>2 / 15</td>
+      <td>50</td>
+      <td>Ch ậ m</td>
+      <td>Gi ờ ngh ỉ</td>
+      <td>2,0/0/0,5</td>
+    </tr>
+    <tr>
+      <td>Elastomer-X</td>
+      <td>100 µm</td>
+      <td>16,0</td>
+      <td>2 / 20</td>
+      <td>60</td>
+      <td>Ch ậ m</td>
+      <td>Gi ờ ngh ỉ</td>
+      <td>2,0/0/0,5</td>
+    </tr>
+    <tr>
+      <td>Elastomer-X</td>
+      <td>50 µm</td>
+      <td>n / a</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Máy in 3D Elegoo Saturn 4 Ultra 4 Nh ự a Ultra 16K
 
@@ -74,8 +198,6 @@ Elegoo Saturn 4 Ultra Máy in nh ự a resin 4 Ultra 16K có th ể tích in ấ
 <!-- image -->
 
 TD004
-
-## VIETTEL AI RACE
 
 ## Máy in 3D Elegoo Saturn 4 Ultra 4 Nh ự a Ultra 16K
 
@@ -102,8 +224,6 @@ Elegoo Saturn 4 Ultra Máy in nh ự a 4 Ultra 16K c ự c k ỳ linh ho ạt, t
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## Máy in 3D Elegoo Saturn 4 Ultra 4 Nh ự a Ultra 16K
 

@@ -1,6 +1,6 @@
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -39,7 +39,7 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
 
 Public 624
 
@@ -70,7 +70,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -87,13 +87,42 @@ Kích thướ c n ề n ga c ần đả m b ả o các yêu c ầ u trong b ả 
 
 B ảng 4.1: Kích thướ c n ề n các lo ạ i ga
 
-| Lo ạ i ga                                  | Ki ể u b ố trí đường đón, tiễ n tàu       | Chi ề u dài n ề n ga (m)   | Chi ề u r ộ ng n ề n ga (m)   |
-|--------------------------------------------|-------------------------------------------|----------------------------|-------------------------------|
-| 1- Ga hành khách - Ga c ụ t - Ga thông qua |                                           | ≥1000 ≥1400                | ≥200 ≥100                     |
-| 2- Ga hàng hóa                             |                                           | ≥500                       | ≥100                          |
-| 3- Ga k ỹ thu ậ t                          | N ố i ti ế p H ỗ n h ợ p Song song        | ≥4000 ≥2700 ≥2200          | ≥200 ≥250 ≥700                |
-| 4- Ga h ỗ n h ợ p                          | X ế p d ọ c N ử a x ế p d ọ c X ế p ngang | ≥1500 ≥1300 ≥900           | ≥50 ≥50 ≥ 100                 |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Lo ạ i ga</th>
+      <th>Ki ể u b ố trí đường đón, tiễ n tàu</th>
+      <th>Chi ề u dài n ề n ga (m)</th>
+      <th>Chi ề u r ộ ng n ề n ga (m)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1- Ga hành khách - Ga c ụ t - Ga thông qua</td>
+      <td></td>
+      <td>≥1000 ≥1400</td>
+      <td>≥200 ≥100</td>
+    </tr>
+    <tr>
+      <td>2- Ga hàng hóa</td>
+      <td></td>
+      <td>≥500</td>
+      <td>≥100</td>
+    </tr>
+    <tr>
+      <td>3- Ga k ỹ thu ậ t</td>
+      <td>N ố i ti ế p H ỗ n h ợ p Song song</td>
+      <td>≥4000 ≥2700 ≥2200</td>
+      <td>≥200 ≥250 ≥700</td>
+    </tr>
+    <tr>
+      <td>4- Ga h ỗ n h ợ p</td>
+      <td>X ế p d ọ c N ử a x ế p d ọ c X ế p ngang</td>
+      <td>≥1500 ≥1300 ≥900</td>
+      <td>≥50 ≥50 ≥ 100</td>
+    </tr>
+  </tbody>
+</table>
 - 4) Đườ ng th ủ y:
 - a) Quy ho ạ ch các c ả ng bi ể n, c ả ng và b ế n th ủ y n ội đị a ph ả i b ố trí ở v ị trí phù h ợ p v ớ i
 
@@ -107,7 +136,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -126,23 +155,67 @@ Kích thướ c c ả ng c ần đả m b ảo các quy đị nh trong b ả ng 
 
 B ả ng 4.1: Kích thướ c n ề n các lo ạ i ga
 
-| Lo ạ i ga                               | Ki ể u b ố trí đường đón, tiễ n tàu   | Chi ề u dài n ề n ga (m)   | Chi ề u r ộ ng n ề n ga (m)   |
-|-----------------------------------------|---------------------------------------|----------------------------|-------------------------------|
-| 1- Ga hành khách, Ga c ụ t Ga thông qua |                                       | ≥1000 ≥1400                | ≥200 ≥100                     |
-| 2- Ga hàng hóa                          |                                       | ≥500                       | ≥100                          |
-| 3- Ga k ỹ thu ậ t                       | N ố i ti ế p H ỗ n h ợ p              | ≥4000 ≥2700                | ≥200 ≥250 ≥700                |
-|                                         | Song song                             | ≥2200                      |                               |
-| 4- Ga h ỗ n h ợ p                       | X ế p d ọ c                           | ≥1500                      | ≥50                           |
-|                                         | N ử a x ế p d ọ c                     | ≥1300                      | ≥50                           |
-|                                         | X ế p ngang                           | ≥900                       | ≥ 100                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Lo ạ i ga</th>
+      <th>Ki ể u b ố trí đường đón, tiễ n tàu</th>
+      <th>Chi ề u dài n ề n ga (m)</th>
+      <th>Chi ề u r ộ ng n ề n ga (m)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1- Ga hành khách, Ga c ụ t Ga thông qua</td>
+      <td></td>
+      <td>≥1000 ≥1400</td>
+      <td>≥200 ≥100</td>
+    </tr>
+    <tr>
+      <td>2- Ga hàng hóa</td>
+      <td></td>
+      <td>≥500</td>
+      <td>≥100</td>
+    </tr>
+    <tr>
+      <td>3- Ga k ỹ thu ậ t</td>
+      <td>N ố i ti ế p H ỗ n h ợ p</td>
+      <td>≥4000 ≥2700</td>
+      <td>≥200 ≥250 ≥700</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Song song</td>
+      <td>≥2200</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>4- Ga h ỗ n h ợ p</td>
+      <td>X ế p d ọ c</td>
+      <td>≥1500</td>
+      <td>≥50</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>N ử a x ế p d ọ c</td>
+      <td>≥1300</td>
+      <td>≥50</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>X ế p ngang</td>
+      <td>≥900</td>
+      <td>≥ 100</td>
+    </tr>
+  </tbody>
+</table>
 - 5) Đườ ng th ủ y:
 - c) Quy ho ạ ch  các c ả ng bi ể n,  c ả ng và b ế n  th ủ y n ộ i đị a  ph ả i  b ố trí ở v ị trí  phù h ợ p  v ớ i t ừ ng lo ạ i c ả ng:
 3. -C ả ng b ế n hành khách: b ố trí g ầ n trung tâm d ị ch v ụ , trung tâm dân cư.
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
 
 Public 624
 
@@ -173,7 +246,7 @@ Kích thướ c c ả ng c ầ n đả m b ả o các quy đị nh trong b ả n
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
 
 Public 624
 
@@ -211,7 +284,7 @@ c: 13 %
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 Public 624
 
@@ -221,20 +294,120 @@ L ầ n ban hành: 1
 
 B ả ng 4.4. Quy đị nh v ề các lo ạ i đườ ng trong đô th ị
 
-| C ấ p đườ ng       | Lo ạ i đườ ng                   | T ố c độ thi ế t k ế (km/h)   | B ề r ộ ng 1 làn xe (m)   | B ề r ộ ng c ủ a đườ ng (m)   | Kho ả ng cách hai đườ ng (m)   | M ậ t độ đườ n g km/km 2   |
-|--------------------|---------------------------------|-------------------------------|---------------------------|-------------------------------|--------------------------------|----------------------------|
-| C ấ p đô th ị (**) | 1.Đườ ng cao t ố c đô thị       |                               |                           |                               | 4.800 - 8.000                  | 0,4 - 0,25                 |
-| C ấ p đô th ị (**) | - C ấ p 100                     | 100                           | 3,75                      | 27 - 110                      | -                              |                            |
-| C ấ p đô th ị (**) | - C ấ p 80                      | 80                            | 3,75                      | 27 - 90                       | -                              |                            |
-| C ấ p đô th ị (**) | 2. Đườ ng tr ụ c chính đô thị   | 80 - 100                      | 3,75                      | 30 - 80 (*)                   | 2400 - 4000                    | 0,83 - 0,5                 |
-| C ấ p đô th ị (**) | 3. Đườ ng chính đô th ị         | 80 - 100                      | 3,75                      | 30 - 70 (*)                   | 1200 - 2000                    | 1,5 - 1,0                  |
-| C ấ p đô th ị (**) | 4. Đườ ng liên khu v ự c        | 60 - 80                       | 3,75                      | 30 - 50                       | 600 - 1000                     | 3,3 - 2,0                  |
-| C ấ p khu v ự c    | 5. Đườ ng chính khu v ự c       | 50 - 60                       | 3,5                       | 22 - 35                       | 300 - 500                      | 6,5 - 4,0                  |
-| C ấ p khu v ự c    | 6. Đườ ng khu v ự               | c40 - 50                      | 3,5                       | 16 - 25                       | 250 - 300                      | 8,0 - 6,5                  |
-| C ấ p n ộ i b ộ    | 7.Đườ ng phân khu v ự c         | 40                            | 3,5                       | 13 - 20                       | 150 - 250                      | 13,3 - 10                  |
-| C ấ p n ộ i b ộ    | 8. Đườ ng nhóm nhà ở , vào nhà  | 20 - 30                       | 3,0                       | 7 - 15                        | -                              | -                          |
-| C ấ p n ộ i b ộ    | 9.Đườ ng đi xe đạp Đường đi b ộ |                               | 1,5 0,75                  | 3,0 1,5                       | -                              | -                          |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>C ấ p đườ ng</th>
+      <th>Lo ạ i đườ ng</th>
+      <th>T ố c độ thi ế t k ế (km/h)</th>
+      <th>B ề r ộ ng 1 làn xe (m)</th>
+      <th>B ề r ộ ng c ủ a đườ ng (m)</th>
+      <th>Kho ả ng cách hai đườ ng (m)</th>
+      <th>M ậ t độ đườ n g km/km 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>1.Đườ ng cao t ố c đô thị</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>4.800 - 8.000</td>
+      <td>0,4 - 0,25</td>
+    </tr>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>- C ấ p 100</td>
+      <td>100</td>
+      <td>3,75</td>
+      <td>27 - 110</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>- C ấ p 80</td>
+      <td>80</td>
+      <td>3,75</td>
+      <td>27 - 90</td>
+      <td>-</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>2. Đườ ng tr ụ c chính đô thị</td>
+      <td>80 - 100</td>
+      <td>3,75</td>
+      <td>30 - 80 (*)</td>
+      <td>2400 - 4000</td>
+      <td>0,83 - 0,5</td>
+    </tr>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>3. Đườ ng chính đô th ị</td>
+      <td>80 - 100</td>
+      <td>3,75</td>
+      <td>30 - 70 (*)</td>
+      <td>1200 - 2000</td>
+      <td>1,5 - 1,0</td>
+    </tr>
+    <tr>
+      <td>C ấ p đô th ị (**)</td>
+      <td>4. Đườ ng liên khu v ự c</td>
+      <td>60 - 80</td>
+      <td>3,75</td>
+      <td>30 - 50</td>
+      <td>600 - 1000</td>
+      <td>3,3 - 2,0</td>
+    </tr>
+    <tr>
+      <td>C ấ p khu v ự c</td>
+      <td>5. Đườ ng chính khu v ự c</td>
+      <td>50 - 60</td>
+      <td>3,5</td>
+      <td>22 - 35</td>
+      <td>300 - 500</td>
+      <td>6,5 - 4,0</td>
+    </tr>
+    <tr>
+      <td>C ấ p khu v ự c</td>
+      <td>6. Đườ ng khu v ự</td>
+      <td>c40 - 50</td>
+      <td>3,5</td>
+      <td>16 - 25</td>
+      <td>250 - 300</td>
+      <td>8,0 - 6,5</td>
+    </tr>
+    <tr>
+      <td>C ấ p n ộ i b ộ</td>
+      <td>7.Đườ ng phân khu v ự c</td>
+      <td>40</td>
+      <td>3,5</td>
+      <td>13 - 20</td>
+      <td>150 - 250</td>
+      <td>13,3 - 10</td>
+    </tr>
+    <tr>
+      <td>C ấ p n ộ i b ộ</td>
+      <td>8. Đườ ng nhóm nhà ở , vào nhà</td>
+      <td>20 - 30</td>
+      <td>3,0</td>
+      <td>7 - 15</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td>C ấ p n ộ i b ộ</td>
+      <td>9.Đườ ng đi xe đạp Đường đi b ộ</td>
+      <td></td>
+      <td>1,5 0,75</td>
+      <td>3,0 1,5</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+  </tbody>
+</table>
 ## Ghi chú:
 
 - (*) Ph ụ thu ộc quy mô, hình dáng đô thị và nhu c ầ u giao thông
@@ -249,7 +422,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -277,7 +450,7 @@ Kích thướ c qu ảng trường giao thông hình tròn (đả o tròn) ph �
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO THÔNG
 
 Public 624
 
@@ -309,7 +482,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -339,7 +512,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
@@ -385,19 +558,38 @@ Ch ỗ đỗ xe: các công trình ph ả i có s ố ch ỗ đỗ xe t ố i th
 
 <!-- image -->
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 
 B ả ng 4.5: S ố ch ỗ đỗ xe ô-tô con t ố i thi ể u
 
-| Lo ạ i nhà                                                                 | Nhu c ầ u t ố i thi ể u v ề ch ỗ đỗ ô-tô   |
-|----------------------------------------------------------------------------|--------------------------------------------|
-| - Khách s ạ n t ừ 3 sao tr ở lên                                           | 4 phòng/1 ch ỗ                             |
-| - Văn phòng cao cấ p, tr ụ s ở cơ quan đố i ngo ạ i                        | 100m 2 sàn s ử d ụ ng/1ch ỗ                |
-| - Siêu th ị , c ử a hàng l ớ n, trung tâm h ộ i ngh ị , tri lãm, trưng bày | n 100m 2 sàn s ử d ụ ng/1 ch ỗ             |
-| - Chung cư cao cấ p                                                        | 1 căn hộ /1,5 ch ỗ                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Lo ạ i nhà</th>
+      <th>Nhu c ầ u t ố i thi ể u v ề ch ỗ đỗ ô-tô</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>- Khách s ạ n t ừ 3 sao tr ở lên</td>
+      <td>4 phòng/1 ch ỗ</td>
+    </tr>
+    <tr>
+      <td>- Văn phòng cao cấ p, tr ụ s ở cơ quan đố i ngo ạ i</td>
+      <td>100m 2 sàn s ử d ụ ng/1ch ỗ</td>
+    </tr>
+    <tr>
+      <td>- Siêu th ị , c ử a hàng l ớ n, trung tâm h ộ i ngh ị , tri lãm, trưng bày</td>
+      <td>n 100m 2 sàn s ử d ụ ng/1 ch ỗ</td>
+    </tr>
+    <tr>
+      <td>- Chung cư cao cấ p</td>
+      <td>1 căn hộ /1,5 ch ỗ</td>
+    </tr>
+  </tbody>
+</table>
 Đố i v ớ i các công trình khách s ạn dướ i 3 sao, tr ụ s ở cơ quan, công trình dị ch v ụ , ph ả i có s ố ch ỗ đỗ xe &gt; 50% quy đị nh trong b ả ng trên.
 
 ## 3.4 Quy ho ạch đả m b ảo an toàn giao thông đô thị
@@ -433,7 +625,7 @@ Public 624
 
 L ầ n ban hành: 1
 
-## VIETTEL AI RACE TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
+TIÊU CHU Ẩ N QUY HO Ạ CH GIAO
 
 ## THÔNG
 

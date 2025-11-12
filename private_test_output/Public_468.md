@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## M ỏ c ắ t Plasma
 
 TD004
@@ -30,8 +28,6 @@ Khí dẫn điện tạo nên dòng điện giữa điện cực và đầu phun
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## M ỏ c ắ t Plasma
 
 L ầ n ban hành: 1
@@ -54,8 +50,6 @@ Cắt plasma sử dụng khí ni tơ: Phương pháp được sử dụng phổ 
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## M ỏ c ắ t Plasma
 
 TD004
@@ -67,8 +61,6 @@ Cắt plasma sử dụng Argon - Hidro: khi cắt nhôm và thép không gỉ d�
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## M ỏ c ắ t Plasma
 
@@ -103,8 +95,6 @@ L ầ n ban hành: 1
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## M ỏ c ắ t Plasma
 

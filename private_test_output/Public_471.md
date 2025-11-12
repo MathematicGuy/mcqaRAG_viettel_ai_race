@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Yêu c ầ u k ỹ thu ật đố i v ớ i tài li ệ u gi ấ y và hình ả nh in/ghi
 
 ## 1. M ật độ quang h ọ c
@@ -38,8 +36,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Yêu c ầ u k ỹ thu ật đố i v ớ i tài li ệ u gi ấ y và hình ả nh in/ghi
 
 TD004
@@ -50,31 +46,97 @@ ho ặ c các ph ầ n c ủ a ký t ự không đượ c nhìn th ấ y trên g
 
 B ả ng 1 - M ật độ quang h ọ c t ố i thi ể u (m ật độ hi ể n th ị ISO) c ủ a các hình ả nh m ộ t màu
 
-| Hình th ứ c ghi                                         | Màu            | M ật độ quang h ọ c t ố i thi ể u   | M ật độ quang h ọ c t ố i thi ể u   |
-|---------------------------------------------------------|----------------|-------------------------------------|-------------------------------------|
-| Hình th ứ c ghi                                         | Màu            | Điề u 4.1, 4.4 và 4.7               | Điề u 4.3                           |
-| Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác | Đen            | 0,90                                | 0,80                                |
-| Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác | Xanh da tr ờ i | 0,65                                | 0,55                                |
-| Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác | Màu khác       | 0,40                                | 0,30                                |
-| Các tài li ệ u ghi khác                                 | Đen            | 0,50                                | 0,40                                |
-| Các tài li ệ u ghi khác                                 | Xanh da tr ờ i | 0,40                                | 0,35                                |
-| Các tài li ệ u ghi khác                                 | Màu khác       | 0,35                                | 0,30                                |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Hình th ứ c ghi</th>
+      <th>Màu</th>
+      <th>M ật độ quang h ọ c t ố i thi ể u</th>
+      <th>M ật độ quang h ọ c t ố i thi ể u</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Hình th ứ c ghi</td>
+      <td>Màu</td>
+      <td>Điề u 4.1, 4.4 và 4.7</td>
+      <td>Điề u 4.3</td>
+    </tr>
+    <tr>
+      <td>Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác</td>
+      <td>Đen</td>
+      <td>0,90</td>
+      <td>0,80</td>
+    </tr>
+    <tr>
+      <td>Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác</td>
+      <td>Xanh da tr ờ i</td>
+      <td>0,65</td>
+      <td>0,55</td>
+    </tr>
+    <tr>
+      <td>Máy sao ch ụ p, máy in laser và các thi ế t b ị in khác</td>
+      <td>Màu khác</td>
+      <td>0,40</td>
+      <td>0,30</td>
+    </tr>
+    <tr>
+      <td>Các tài li ệ u ghi khác</td>
+      <td>Đen</td>
+      <td>0,50</td>
+      <td>0,40</td>
+    </tr>
+    <tr>
+      <td>Các tài li ệ u ghi khác</td>
+      <td>Xanh da tr ờ i</td>
+      <td>0,40</td>
+      <td>0,35</td>
+    </tr>
+    <tr>
+      <td>Các tài li ệ u ghi khác</td>
+      <td>Màu khác</td>
+      <td>0,35</td>
+      <td>0,30</td>
+    </tr>
+  </tbody>
+</table>
 CHÚ THÍCH 1: Lý do c ủ a các giá tr ị t ố i thi ể u khác nhau v ớ i các hình th ứ c ghi khác nhau đượ c nêu trong Ph ụ l ụ c C.
 
 CHÚ THÍCH 2: S ử d ụng máy đo mật độ có s ẵ n trên th ị trườ ng v ớ i các b ộ l ọ c mà không phù h ợ p v ớ i ISO 53 đượ c x ử lý trong 6.1 và đượ c nêu trong Ph ụ l ụ c C
 
 B ả ng 2 Các thay đổ i t ối đa củ a hình ả nh nhi ề u màu
 
-|                                                                     |  L *                                                               |  a *                                                               |  b *                                                               |
-|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------------------|
-| điề u 4.3                                                           | ± 8                                                                 | ± 5                                                                 | ± 5                                                                 |
-| điề u 4.4 và 4.7                                                    | + 5                                                                 | ± 3                                                                 | ± 3                                                                 |
-| CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c. | CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c. | CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c. | CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c. |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th> L *</th>
+      <th> a *</th>
+      <th> b *</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>điề u 4.3</td>
+      <td>± 8</td>
+      <td>± 5</td>
+      <td>± 5</td>
+    </tr>
+    <tr>
+      <td>điề u 4.4 và 4.7</td>
+      <td>+ 5</td>
+      <td>± 3</td>
+      <td>± 3</td>
+    </tr>
+    <tr>
+      <td>CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c.</td>
+      <td>CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c.</td>
+      <td>CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c.</td>
+      <td>CHÚ THÍCH:  L *,  a * và  b * là nh ữ ng chênh l ệ ch màu s ắ c.</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Yêu c ầ u k ỹ thu ật đố i v ớ i tài li ệ u gi ấ y và hình ả nh in/ghi
 
@@ -85,8 +147,6 @@ L ầ n ban hành: 1
 <!-- image -->
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Yêu c ầ u k ỹ thu ật đố i v ớ i tài li ệ u gi ấ y và hình ả nh in/ghi
 
@@ -111,8 +171,6 @@ Sau khi được lưu giữ theo 6.7 trong 12 ngày, m ật độ quang h ọ c 
 TD004
 
 L ầ n ban hành: 1
-
-## VIETTEL AI RACE
 
 ## Yêu c ầ u k ỹ thu ật đố i v ớ i tài li ệ u gi ấ y và hình ả nh in/ghi
 

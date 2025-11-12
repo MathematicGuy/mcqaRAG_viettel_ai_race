@@ -1,1305 +1,4074 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Thi ế t b ị            | Thông s ố                | M ứ c yêu c ầ u   | Tiêu chu ẩ n   | Mô t ả chi ti ế t                                                                                                                       | Ghi chú                              |
-|------------------------|--------------------------|-------------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Switch Cisco 9300      | RAM≥ 128GB ECC           | Khuy ế n ngh ị    | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.            | Yêu c ầ u c ấ u hình HA cluster      |
-| Server Dell R740       | Latency < 20ms           | Khuy ế n ngh ị    | ISO 27001      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.              | Yêu c ầ u c ấ u hình HA cluster      |
-| Storage NetApp AFF     | Throughput ≥ 40Gbps      | Khuy ế n ngh ị    | ITU-T G.826    | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.    | Yêu c ầ u c ấ u hình HA cluster      |
-| Firewall PaloAlto 5220 | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c      | ANSI/TIA- 942  | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                               |                |               | 942.                                                                                                                                           |                                      |
-|------------------------|-------------------------------|----------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Router Huawei NE40E    | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Router Huawei NE40E    | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.    | H ỗ tr ợ SNMPv3 để giám sát          |
-| Switch Cisco 9300      | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                 | H ỗ tr ợ SNMPv3 để giám sát          |
-| Firewall PaloAlto 5220 | RAM≥ 128GB ECC                | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                 | Có ch ứ ng nh ậ n CO/CQ              |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Router Huawei NE40E   | Ch ố ng ồn ≥ 35dB           | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.             | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|-----------------------|-----------------------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Storage NetApp AFF    | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Yêu c ầ u c ấ u hình HA cluster                   |
-| Server Dell R740      | Ch ố ng ồn ≥ 35dB           | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                | Yêu c ầ u c ấ u hình HA cluster                   |
-| Router Huawei NE40E   | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS              |
-| Firewall PaloAlto     | H ỗ tr ợ 2 ngu ồn điệ n     | B ắ t bu ộ c   | 3GPP TS       | Thi ế t b ị Firewall PaloAlto 5220 c ầ n                                                                                                     | Yêu c ầ u c ấ u hình                              |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| 5220                | AC/DC                         |                | 29.060        | đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                                     | HA cluster                                      |
-|---------------------|-------------------------------|----------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Switch Cisco 9300   | Latency < 20ms                | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                       | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E | CPU ≥ 32 core Intel Xeon      | Khuy ế n ngh ị | ITU-T G.826   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.     | Yêu c ầ u c ấ u hình HA cluster                 |
-| Switch Cisco 9300   | CPU ≥ 32 core Intel           | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU                                                                                      | Có ch ứ ng nh ậ n                               |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     | Xeon                        |                |                | ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.                                                         | CO/CQ                                |
-|---------------------|-----------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Server Dell R740    | Latency < 20ms              | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.              | H ỗ tr ợ SNMPv3 để giám sát          |
-| Router Huawei NE40E | Latency < 20ms              | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.            | Yêu c ầ u c ấ u hình HA cluster      |
-| Storage NetApp AFF  | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Storage NetApp AFF  | CPU ≥ 32 core Intel Xeon    | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo                        | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                     |                |               | tiêu chu ẩ n 3GPP TS 29.060.                                                                                                           |                                                 |
-|-------------------------|---------------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Headset Jabra Evolve 75 | Latency < 20ms      | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.         | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Switch Cisco 9300       | Uptime ≥ 99.999%    | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.      | Có ch ứ ng nh ậ n CO/CQ                         |
-| Firewall PaloAlto 5220  | Throughput ≥ 40Gbps | Khuy ế n ngh ị | TCVN 7560     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Firewall PaloAlto 5220  | Latency < 20ms      | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                    |                          |                |               | G.826.                                                                                                                                  |                                                 |
-|--------------------|--------------------------|----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740   | RAM≥ 128GB ECC           | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.             | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Switch Cisco 9300  | Uptime ≥ 99.999%         | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Server Dell R740   | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.            | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | TCVN 7560     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Firewall PaloAlto 5220   | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | ANSI/TIA- 942   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.        | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|--------------------------|--------------------------|----------------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Firewall PaloAlto 5220   | Latency < 20ms           | B ắ t bu ộ c   | TCVN 7560       | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                 | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-| Firewall PaloAlto 5220   | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ANSI/TIA- 942   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS              |
-| Router Huawei NE40E      | Uptime ≥ 99.999%         | B ắ t bu ộ c   | ISO 27001       | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                  | H ỗ tr ợ SNMPv3 để giám sát                       |
-| Firewall PaloAlto        | H ỗ tr ợ 2 ngu ồn điệ n  | B ắ t bu ộ c   | TCVN            | Thi ế t b ị Firewall PaloAlto 5220 c ầ n                                                                                                       | H ỗ tr ợ SNMPv3                                   |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| 5220                | AC/DC                    |                | 7560        | đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                                | để giám sát                     |
-|---------------------|--------------------------|----------------|-------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Storage NetApp AFF  | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | TCVN 7560   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560. | Có ch ứ ng nh ậ n CO/CQ         |
-| Router Huawei NE40E | Ch ố ng ồn ≥ 35dB        | B ắ t bu ộ c   | ISO 27001   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.       | Có ch ứ ng nh ậ n CO/CQ         |
-| Switch Cisco 9300   | Ch ố ng ồn ≥ 35dB        | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.     | Yêu c ầ u c ấ u hình HA cluster |
-| Server Dell R740    | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | ITU-T G.826 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥                                                                    | Yêu c ầ u c ấ u hình HA cluster |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                               |                |                | 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.                                                                           |                                      |
-|------------------------|-------------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Server Dell R740       | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Storage NetApp AFF     | Uptime ≥ 99.999%              | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.        | Yêu c ầ u c ấ u hình HA cluster      |
-| Server Dell R740       | RAM≥ 128GB ECC                | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.          | Yêu c ầ u c ấ u hình HA cluster      |
-| Firewall PaloAlto 5220 | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n                 | Có ch ứ ng nh ậ n CO/CQ              |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |                |               | ISO 27001.                                                                                                                                  |                                 |
-|-------------------------|-------------------------------|----------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Router Huawei NE40E     | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Yêu c ầ u c ấ u hình HA cluster |
-| Server Dell R740        | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                | Có ch ứ ng nh ậ n CO/CQ         |
-| Headset Jabra Evolve 75 | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.     | Yêu c ầ u c ấ u hình HA cluster |
-| Switch Cisco 9300       | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO            | Yêu c ầ u c ấ u hình HA cluster |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                    |                     |                |             | 27001.                                                                                                                         |                                                 |
-|--------------------|---------------------|----------------|-------------|--------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF | RAM≥ 128GB ECC      | Khuy ế n ngh ị | ISO 27001   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.  | Yêu c ầ u c ấ u hình HA cluster                 |
-| Switch Cisco 9300  | Throughput ≥ 40Gbps | B ắ t bu ộ c   | TCVN 7560   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300  | Uptime ≥ 99.999%    | B ắ t bu ộ c   | TCVN 7560   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.     | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Server Dell R740   | Uptime ≥ 99.999%    | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Firewall PaloAlto 5220   | Latency < 20ms              | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.             | H ỗ tr ợ SNMPv3 để giám sát          |
-|--------------------------|-----------------------------|----------------|---------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Switch Cisco 9300        | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.     | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75  | RAM≥ 128GB ECC              | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Storage NetApp AFF       | CPU ≥ 32 core Intel Xeon    | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | H ỗ tr ợ SNMPv3 để giám sát          |
-| Storage                  | Throughput                  | Khuy ế n       | TCVN          | Thi ế t b ị Storage                                                                                                                        | Ph ả i ki ể m                        |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NetApp AFF              | ≥ 40Gbps                 | ngh ị          | 7560           | NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.                              | th ử trong môi trườ ng DataCenter               |
-|-------------------------|--------------------------|----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300       | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.       | Yêu c ầ u c ấ u hình HA cluster                 |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | TCVN 7560      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Yêu c ầ u c ấ u hình HA cluster                 |
-| Router Huawei NE40E     | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.       | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Firewall PaloAlto 5220   | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.               | H ỗ tr ợ SNMPv3 để giám sát                     |
-|--------------------------|-------------------------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E      | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.                     | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Server Dell R740         | Latency < 20ms                | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                        | Có ch ứ ng nh ậ n CO/CQ                         |
-| Headset Jabra Evolve 75  | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Storage NetApp AFF     | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | 3GPP TS 29.060   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.            | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-|------------------------|-------------------------------|----------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Firewall PaloAlto 5220 | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | 3GPP TS 29.060   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Yêu c ầ u c ấ u hình HA cluster        |
-| Switch Cisco 9300      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ANSI/TIA- 942    | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.     | Yêu c ầ u c ấ u hình HA cluster        |
-| Storage NetApp AFF     | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c   | ITU-T G.826      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.                 | Có ch ứ ng nh ậ n CO/CQ                |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Switch Cisco 9300       | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | ANSI/TIA- 942   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.        | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-|-------------------------|-------------------------------|----------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Server Dell R740        | Uptime ≥ 99.999%              | Khuy ế n ngh ị | ANSI/TIA- 942   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.                | H ỗ tr ợ SNMPv3 để giám sát            |
-| Router Huawei NE40E     | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | 3GPP TS 29.060  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon      | Khuy ế n ngh ị | ISO 27001       | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.     | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Switch Cisco 9300      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC   | B ắ t bu ộ c   | 3GPP TS 29.060   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.        | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-|------------------------|---------------------------------|----------------|------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Server Dell R740       | Latency < 20ms                  | Khuy ế n ngh ị | ITU-T G.826      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                        | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-| Firewall PaloAlto 5220 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC   | B ắ t bu ộ c   | 3GPP TS 29.060   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát            |
-| Router Huawei NE40E    | Uptime ≥ 99.999%                | Khuy ế n ngh ị | ANSI/TIA- 942    | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.                | H ỗ tr ợ SNMPv3 để giám sát            |
-| Headset                | Uptime ≥                        | Khuy ế n       | ANSI/TIA-        | Thi ế t b ị Headset                                                                                                                                 | Có ch ứ ng                             |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Jabra Evolve 75         | 99.999%                       | ngh ị          | 942         | Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.                        | nh ậ n CO/CQ                                    |
-|-------------------------|-------------------------------|----------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740        | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ISO 27001   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001. | Yêu c ầ u c ấ u hình HA cluster                 |
-| Switch Cisco 9300       | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | Throughput ≥ 40Gbps           | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Storage                 | Uptime ≥                      | Khuy ế n       | TCVN        | Thi ế t b ị Storage                                                                                                                       | Yêu c ầ u                                       |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NetApp AFF          | 99.999%        | ngh ị          | 7560          | NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.                      | c ấ u hình HA cluster                           |
-|---------------------|----------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF  | RAM≥ 128GB ECC | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Storage NetApp AFF  | Latency < 20ms | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E | RAM≥ 128GB ECC | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.    | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Router Huawei NE40E | RAM≥ 128GB ECC | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB                                                              | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                               |                |                | ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                                                                                     |                                                 |
-|------------------------|-------------------------------|----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740       | Latency < 20ms                | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                | Có ch ứ ng nh ậ n CO/CQ                         |
-| Router Huawei NE40E    | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Router Huawei NE40E    | Uptime ≥ 99.999%              | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.       | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Firewall PaloAlto 5220 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị ,                        | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                   |                |                | theo tiêu chu ẩ n ITU-T G.826.                                                                                                      |                                                 |
-|---------------------|-------------------|----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740    | Latency < 20ms    | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.          | Có ch ứ ng nh ậ n CO/CQ                         |
-| Storage NetApp AFF  | Uptime ≥ 99.999%  | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.   | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300   | Latency < 20ms    | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.            | Yêu c ầ u c ấ u hình HA cluster                 |
-| Router Huawei NE40E | Ch ố ng ồn ≥ 35dB | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Router Huawei NE40E     | Uptime ≥ 99.999%              | Khuy ế n ngh ị   | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                  | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-|-------------------------|-------------------------------|------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF      | RAM≥ 128GB ECC                | Khuy ế n ngh ị   | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.                  | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Server Dell R740        | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị   | ITU-T G.826   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.       | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị   | TCVN 7560     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Storage NetApp AFF   | H ỗ tr ợ 2 ngu ồn điệ n AC/DC   | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.    | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-|----------------------|---------------------------------|----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740     | RAM≥ 128GB ECC                  | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                      | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF   | Ch ố ng ồn ≥ 35dB               | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                 | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Switch Cisco 9300    | H ỗ tr ợ 2 ngu ồn điệ n AC/DC   | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch               | Ch ố ng ồn ≥                    | B ắ t bu ộ c   | ANSI/TIA-     | Thi ế t b ị Switch Cisco 9300 c ần đáp                                                                                                        | Tích h ợ p v ớ i h ệ                            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Cisco 9300        | 35dB                     |                | 942            | ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                                                   | th ố ng OSS/NMS                                 |
-|-------------------|--------------------------|----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740  | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300 | Uptime ≥ 99.999%         | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                | Yêu c ầ u c ấ u hình HA cluster                 |
-| Server Dell R740  | RAM≥ 128GB ECC           | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.             | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Switch Cisco 9300 | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t                                                  | Yêu c ầ u c ấ u hình HA cluster                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                  |                |                | bu ộ c, theo tiêu chu ẩ n ISO 27001.                                                                                                     |                                      |
-|-------------------------|------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Storage NetApp AFF      | Latency < 20ms   | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.         | H ỗ tr ợ SNMPv3 để giám sát          |
-| Router Huawei NE40E     | Uptime ≥ 99.999% | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.         | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75 | Uptime ≥ 99.999% | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Headset Jabra Evolve 75 | RAM≥ 128GB ECC   | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T                | Yêu c ầ u c ấ u hình HA cluster      |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | G.826.                                                                                                                                     |                                      |
-|-------------------------|-----------------------------|----------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Firewall PaloAlto 5220  | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560. | Yêu c ầ u c ấ u hình HA cluster      |
-| Router Huawei NE40E     | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.   | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon    | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Router Huawei NE40E     | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-     | Có ch ứ ng nh ậ n CO/CQ              |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                               |                |                | 942.                                                                                                                                             |                                                 |
-|---------------------|-------------------------------|----------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740    | Latency < 20ms                | Khuy ế n ngh ị | TCVN 7560      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.                       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Storage NetApp AFF  | Latency < 20ms                | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                    | Có ch ứ ng nh ậ n CO/CQ                         |
-| Switch Cisco 9300   | RAM≥ 128GB ECC                | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.                  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Storage NetApp AFF   | Latency < 20ms              | B ắ t bu ộ c   | 3GPP TS 29.060   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.       | Yêu c ầ u c ấ u hình HA cluster                 |
-|----------------------|-----------------------------|----------------|------------------|---------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740     | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ITU-T G.826      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Server Dell R740     | Latency < 20ms              | B ắ t bu ộ c   | ISO 27001        | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.               | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Switch Cisco 9300    | RAM≥ 128GB ECC              | Khuy ế n ngh ị | ISO 27001        | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.          | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300    | Throughput ≥ 40Gbps         | B ắ t bu ộ c   | ANSI/TIA- 942    | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố                                                                                 | H ỗ tr ợ SNMPv3                                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                             |                |                | T hroughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.                                                                    | để giám sát                     |
-|------------------------|-----------------------------|----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Switch Cisco 9300      | Ch ố ng ồn ≥ 35dB           | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.              | Có ch ứ ng nh ậ n CO/CQ         |
-| Firewall PaloAlto 5220 | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát     |
-| Server Dell R740       | CPU ≥ 32 core Intel Xeon    | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.         | Yêu c ầ u c ấ u hình HA cluster |
-| Router Huawei          | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố                                                                                        | Tích h ợ p v ớ i h ệ th ố ng    |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NE40E                   |                               |                |                | Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                                                                        | OSS/NMS                                         |
-|-------------------------|-------------------------------|----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Headset Jabra Evolve 75 | RAM≥ 128GB ECC                | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.            | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E     | Latency < 20ms                | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                  | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Headset Jabra Evolve 75 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001. | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF      | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB,                                                                        | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                               |                |               | ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                                                                                          |                                                 |
-|---------------------|-------------------------------|----------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Server Dell R740    | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | TCVN 7560     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.                  | Có ch ứ ng nh ậ n CO/CQ                         |
-| Router Huawei NE40E | RAM≥ 128GB ECC                | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                 | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu                                       | Yêu c ầ u c ấ u hình HA cluster                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                          |                |                | chu ẩ n ANSI/TIA- 942.                                                                                                                    |                                      |
-|-------------------------|--------------------------|----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Router Huawei NE40E     | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.     | Yêu c ầ u c ấ u hình HA cluster      |
-| Headset Jabra Evolve 75 | Throughput ≥ 40Gbps      | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Yêu c ầ u c ấ u hình HA cluster      |
-| Router Huawei NE40E     | Uptime ≥ 99.999%         | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.     | Yêu c ầ u c ấ u hình HA cluster      |
-| Switch Cisco 9300       | Ch ố ng ồn ≥ 35dB        | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS               | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | 29.060.                                                                                                                                        |                                                 |
-|-------------------------|-----------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E     | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.        | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300       | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.          | Có ch ứ ng nh ậ n CO/CQ                         |
-| Switch Cisco 9300       | CPU ≥ 32 core Intel Xeon    | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-              | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                          |                |                | 942.                                                                                                                                          |                                                 |
-|------------------------|--------------------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF     | Ch ố ng ồn ≥ 35dB        | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                 | Yêu c ầ u c ấ u hình HA cluster                 |
-| Firewall PaloAlto 5220 | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Yêu c ầ u c ấ u hình HA cluster                 |
-| Firewall PaloAlto 5220 | RAM≥ 128GB ECC           | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.             | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Firewall PaloAlto 5220 | RAM≥ 128GB ECC           | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Switch Cisco 9300      | CPU ≥ 32 core Intel Xeon   | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.   | H ỗ tr ợ SNMPv3 để giám sát                     |
-|------------------------|----------------------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Firewall PaloAlto 5220 | Throughput ≥ 40Gbps        | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.    | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Firewall PaloAlto 5220 | Uptime ≥ 99.999%           | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.    | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Server Dell R740       | CPU ≥ 32 core Intel Xeon   | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.   | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch                 | RAM≥ 128GB                 | Khuy ế n       | ISO 27001     | Thi ế t b ị Switch Cisco 9300 c ần đáp                                                                                                 | H ỗ tr ợ SNMPv3                                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Cisco 9300              | ECC                         | ngh ị          |                | ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                                                  | để giám sát                                     |
-|-------------------------|-----------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E     | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | TCVN 7560      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.    | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Firewall PaloAlto 5220  | Latency < 20ms              | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.         | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Firewall PaloAlto 5220  | Ch ố ng ồn ≥ 35dB           | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Headset Jabra Evolve 75 | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở                                             | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                          |                |               | m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                                                                                          |                                      |
-|-------------------------|--------------------------|----------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Firewall PaloAlto 5220  | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.          | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Firewall PaloAlto 5220  | Ch ố ng ồn ≥ 35dB        | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.              | Có ch ứ ng nh ậ n CO/CQ              |
-| Firewall PaloAlto 5220  | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75 | Throughput ≥ 40Gbps      | Khuy ế n ngh ị | ITU-T G.826   | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo                                 | Yêu c ầ u c ấ u hình HA cluster      |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                     |              |                | tiêu chu ẩ n ITU-T G.826.                                                                                                        |                                                 |
-|---------------------|---------------------|--------------|----------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300   | Ch ố ng ồn ≥ 35dB   | B ắ t bu ộ c | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Server Dell R740    | Ch ố ng ồn ≥ 35dB   | B ắ t bu ộ c | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E | Latency < 20ms      | B ắ t bu ộ c | TCVN 7560      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.      | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300   | Throughput ≥ 40Gbps | B ắ t bu ộ c | ITU-T G.826    | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.  | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Storage NetApp AFF   | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | ANSI/TIA- 942   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.      | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|----------------------|-------------------------------|----------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Switch Cisco 9300    | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | 3GPP TS 29.060  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Yêu c ầ u c ấ u hình HA cluster                   |
-| Server Dell R740     | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | ISO 27001       | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                   | H ỗ tr ợ SNMPv3 để giám sát                       |
-| Router Huawei NE40E  | Latency < 20ms                | Khuy ế n ngh ị | 3GPP TS 29.060  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.             | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS              |
-| Router Huawei        | Latency <                     | Khuy ế n       | ISO 27001       | Thi ế t b ị Router Huawei NE40E c ầ n                                                                                                           | Có ch ứ ng nh ậ n                                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NE40E                   | 20ms                          | ngh ị        |             | đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                                               | CO/CQ                                           |
-|-------------------------|-------------------------------|--------------|-------------|----------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740        | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c | ISO 27001   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.    | Yêu c ầ u c ấ u hình HA cluster                 |
-| Server Dell R740        | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c | TCVN 7560   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Storage NetApp AFF      | CPU ≥ 32 core Intel Xeon      | B ắ t bu ộ c | ITU-T G.826 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c | ITU-T G.826 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở                                          | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                          |                |               | m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.                                                                                      |                                      |
-|------------------------|--------------------------|----------------|---------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Server Dell R740       | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Server Dell R740       | Latency < 20ms           | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                 | Yêu c ầ u c ấ u hình HA cluster      |
-| Firewall PaloAlto 5220 | RAM≥ 128GB ECC           | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.    | Có ch ứ ng nh ậ n CO/CQ              |
-| Server Dell R740       | Latency < 20ms           | B ắ t bu ộ c   | TCVN 7560     | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN                       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                        |                               |                |                | 7560.                                                                                                                                                  |                                 |
-|------------------------|-------------------------------|----------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Firewall PaloAlto 5220 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Có ch ứ ng nh ậ n CO/CQ         |
-| Switch Cisco 9300      | RAM≥ 128GB ECC                | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                         | Yêu c ầ u c ấ u hình HA cluster |
-| Switch Cisco 9300      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.          | Yêu c ầ u c ấ u hình HA cluster |
-| Storage NetApp AFF     | Latency < 20ms                | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                        | H ỗ tr ợ SNMPv3 để giám sát     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Router Huawei NE40E   | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.   | H ỗ tr ợ SNMPv3 để giám sát                     |
-|-----------------------|-------------------------------|----------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E   | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.           | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Router Huawei NE40E   | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | ITU-T G.826   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.        | Yêu c ầ u c ấ u hình HA cluster                 |
-| Storage NetApp AFF    | Uptime ≥ 99.999%              | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei         | Uptime ≥                      | B ắ t bu ộ c   | ANSI/TIA-     | Thi ế t b ị Router Huawei NE40E c ầ n                                                                                                     | Yêu c ầ u c ấ u hình                            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NE40E                  | 99.999%                  |                | 942            | đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                                                  | HA cluster                                      |
-|------------------------|--------------------------|----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Firewall PaloAlto 5220 | Throughput ≥ 40Gbps      | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Storage NetApp AFF     | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.           | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Storage NetApp AFF     | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.             | Yêu c ầ u c ấ u hình HA cluster                 |
-| Storage NetApp AFF     | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core                                                                       | Ph ả i ki ể m th ử trong môi trườ ng            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                                                                      | DataCenter                      |
-|-------------------------|-----------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Switch Cisco 9300       | Uptime ≥ 99.999%            | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.               | Có ch ứ ng nh ậ n CO/CQ         |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon    | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | H ỗ tr ợ SNMPv3 để giám sát     |
-| Switch Cisco 9300       | Throughput ≥ 40Gbps         | Khuy ế n ngh ị | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.         | Yêu c ầ u c ấ u hình HA cluster |
-| Switch Cisco 9300       | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu                        | Có ch ứ ng nh ậ n CO/CQ         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | chu ẩ n 3GPP TS 29.060.                                                                                                                  |                                                 |
-|-------------------------|-----------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Firewall PaloAlto 5220  | RAM≥ 128GB ECC              | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.   | Yêu c ầ u c ấ u hình HA cluster                 |
-| Server Dell R740        | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | RAM≥ 128GB ECC              | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.      | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon    | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo                      | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |                |                | tiêu chu ẩ n ISO 27001.                                                                                                                        |                                                 |
-|-------------------------|-------------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E     | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.    | Có ch ứ ng nh ậ n CO/CQ                         |
-| Headset Jabra Evolve 75 | Latency < 20ms                | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.            | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Storage NetApp AFF      | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Yêu c ầ u c ấ u hình HA cluster                 |
-| Firewall PaloAlto 5220  | CPU ≥ 32 core Intel Xeon      | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu                          | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                               |                |             | chu ẩ n 3GPP TS 29.060.                                                                                                                   |                                 |
-|---------------------|-------------------------------|----------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Router Huawei NE40E | Latency < 20ms                | Khuy ế n ngh ị | TCVN 7560   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.            | H ỗ tr ợ SNMPv3 để giám sát     |
-| Server Dell R740    | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | TCVN 7560   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Yêu c ầ u c ấ u hình HA cluster |
-| Storage NetApp AFF  | Uptime ≥ 99.999%              | B ắ t bu ộ c   | ISO 27001   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.              | H ỗ tr ợ SNMPv3 để giám sát     |
-| Server Dell R740    | Throughput ≥ 40Gbps           | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T                | H ỗ tr ợ SNMPv3 để giám sát     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |              |               | G.826.                                                                                                                                      |                                 |
-|-------------------------|-------------------------------|--------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Router Huawei NE40E     | RAM≥ 128GB ECC                | B ắ t bu ộ c | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                 | H ỗ tr ợ SNMPv3 để giám sát     |
-| Headset Jabra Evolve 75 | RAM≥ 128GB ECC                | B ắ t bu ộ c | ANSI/TIA- 942 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.          | Yêu c ầ u c ấ u hình HA cluster |
-| Switch Cisco 9300       | Latency < 20ms                | B ắ t bu ộ c | ISO 27001     | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                    | H ỗ tr ợ SNMPv3 để giám sát     |
-| Router Huawei NE40E     | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Có ch ứ ng nh ậ n CO/CQ         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Firewall PaloAlto 5220   | RAM≥ 128GB ECC                | Khuy ế n ngh ị   | ITU-T G.826    | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.              | Có ch ứ ng nh ậ n CO/CQ              |
-|--------------------------|-------------------------------|------------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Firewall PaloAlto 5220   | Uptime ≥ 99.999%              | B ắ t bu ộ c     | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.            | H ỗ tr ợ SNMPv3 để giám sát          |
-| Switch Cisco 9300        | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c     | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                      | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Router Huawei NE40E      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c     | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Server Dell              | H ỗ tr ợ 2 ngu ồn điệ n       | B ắ t bu ộ c     | 3GPP TS        | Thi ế t b ị Server Dell R740 c ần đáp                                                                                                            | Tích h ợ p v ớ i h ệ                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| R740                    | AC/DC                       |                | 29.060      | ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                                          | th ố ng OSS/NMS                                 |
-|-------------------------|-----------------------------|----------------|-------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300       | Uptime ≥ 99.999%            | Khuy ế n ngh ị | TCVN 7560   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.                  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị | TCVN 7560   | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Switch Cisco 9300       | RAM≥ 128GB ECC              | Khuy ế n ngh ị | ITU-T G.826 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                 | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Firewall PaloAlto 5220  | RAM≥ 128GB ECC              | B ắ t bu ộ c   | ITU-T G.826 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB                                                                         | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                               |                |             | ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.                                                                           |                                      |
-|---------------------|-------------------------------|----------------|-------------|-------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Router Huawei NE40E | Throughput ≥ 40Gbps           | Khuy ế n ngh ị | TCVN 7560   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Yêu c ầ u c ấ u hình HA cluster      |
-| Router Huawei NE40E | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | ITU-T G.826 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.  | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Storage NetApp AFF  | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | ISO 27001   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.    | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Switch Cisco 9300   | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ISO 27001   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t                                  | Yêu c ầ u c ấ u hình HA cluster      |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |              |                | bu ộ c, theo tiêu chu ẩ n ISO 27001.                                                                                                          |                                                 |
-|-------------------------|-------------------------------|--------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF      | Throughput ≥ 40Gbps           | B ắ t bu ộ c | TCVN 7560      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.               | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Switch Cisco 9300       | CPU ≥ 32 core Intel Xeon      | B ắ t bu ộ c | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.            | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon      | B ắ t bu ộ c | 3GPP TS 29.060 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO       | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                     |                |                | 27001.                                                                                                                              |                             |
-|---------------------|---------------------|----------------|----------------|-------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Switch Cisco 9300   | Throughput ≥ 40Gbps | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.   | Có ch ứ ng nh ậ n CO/CQ     |
-| Server Dell R740    | Uptime ≥ 99.999%    | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.         | Có ch ứ ng nh ậ n CO/CQ     |
-| Router Huawei NE40E | RAM≥ 128GB ECC      | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát |
-| Switch Cisco 9300   | Latency < 20ms      | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.       | Có ch ứ ng nh ậ n CO/CQ     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Storage NetApp AFF     | Latency < 20ms           | Khuy ế n ngh ị   | 3GPP TS 29.060   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.   | Có ch ứ ng nh ậ n CO/CQ                         |
-|------------------------|--------------------------|------------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300      | Ch ố ng ồn ≥ 35dB        | Khuy ế n ngh ị   | TCVN 7560        | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.       | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Firewall PaloAlto 5220 | Throughput ≥ 40Gbps      | B ắ t bu ộ c     | TCVN 7560        | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300      | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c     | ITU-T G.826      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Router Huawei          | CPU ≥ 32 core Intel      | B ắ t bu ộ c     | TCVN 7560        | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố                                                                             | Tích h ợ p v ớ i h ệ th ố ng                    |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| NE40E                  | Xeon                        |              |                | CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                                                             | OSS/NMS                              |
-|------------------------|-----------------------------|--------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Firewall PaloAlto 5220 | Throughput ≥ 40Gbps         | B ắ t bu ộ c | 3GPP TS 29.060 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Server Dell R740       | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.  | Yêu c ầ u c ấ u hình HA cluster      |
-| Server Dell R740       | CPU ≥ 32 core Intel Xeon    | B ắ t bu ộ c | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.    | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Server Dell R740       | CPU ≥ 32 core Intel Xeon    | B ắ t bu ộ c | TCVN 7560      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel                                                                 | Ph ả i ki ể m th ử trong môi trườ ng |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                    |                     |                |                | Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                                                                             | DataCenter                                      |
-|--------------------|---------------------|----------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Server Dell R740   | Throughput ≥ 40Gbps | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Switch Cisco 9300  | Throughput ≥ 40Gbps | Khuy ế n ngh ị | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.     | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF | RAM≥ 128GB ECC      | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.       | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300  | RAM≥ 128GB ECC      | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị ,                                      | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                   |                |                | theo tiêu chu ẩ n ANSI/TIA-942.                                                                                                  |                                                 |
-|---------------------|-------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E | Latency < 20ms    | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Router Huawei NE40E | RAM≥ 128GB ECC    | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.   | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Storage NetApp AFF  | RAM≥ 128GB ECC    | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.  | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Switch Cisco 9300   | Ch ố ng ồn ≥ 35dB | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n                 | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                     |                          |                |                | ITU-T G.826.                                                                                                                                 |                                                 |
-|---------------------|--------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF  | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Storage NetApp AFF  | Uptime ≥ 99.999%         | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                 | Yêu c ầ u c ấ u hình HA cluster                 |
-| Server Dell R740    | Throughput ≥ 40Gbps      | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.            | Yêu c ầ u c ấ u hình HA cluster                 |
-| Router Huawei NE40E | RAM≥ 128GB ECC           | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                  | Yêu c ầ u c ấ u hình HA cluster                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Server Dell R740       | Throughput ≥ 40Gbps         | Khuy ế n ngh ị   | 3GPP TS 29.060   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.           | Có ch ứ ng nh ậ n CO/CQ                         |
-|------------------------|-----------------------------|------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF     | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị   | 3GPP TS 29.060   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Server Dell R740       | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c     | 3GPP TS 29.060   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.       | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Firewall PaloAlto 5220 | Ch ố ng ồn ≥ 35dB           | B ắ t bu ộ c     | ISO 27001        | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Firewall PaloAlto 5220   | Dung lượng lưu tr ữ ≥ 100TB   | B ắ t bu ộ c   | ITU-T G.826    | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.        | H ỗ tr ợ SNMPv3 để giám sát     |
-|--------------------------|-------------------------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| Router Huawei NE40E      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát     |
-| Router Huawei NE40E      | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.       | Yêu c ầ u c ấ u hình HA cluster |
-| Server Dell R740         | CPU ≥ 32 core Intel Xeon      | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                   | H ỗ tr ợ SNMPv3 để giám sát     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Switch Cisco 9300   | Latency < 20ms                | B ắ t bu ộ c   | ANSI/TIA- 942   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                     | H ỗ tr ợ SNMPv3 để giám sát                     |
-|---------------------|-------------------------------|----------------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Storage NetApp AFF  | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | 3GPP TS 29.060  | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF  | RAM≥ 128GB ECC                | Khuy ế n ngh ị | ITU-T G.826     | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                 | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Server Dell R740    | RAM≥ 128GB ECC                | Khuy ế n ngh ị | ISO 27001       | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                     | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Server Dell         | CPU ≥ 32 core Intel           | Khuy ế n       | ISO 27001       | Thi ế t b ị Server Dell R740 c ần đáp                                                                                                           | Có ch ứ ng nh ậ n                               |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| R740                    | Xeon                     | ngh ị          |                | ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.                                           | CO/CQ                                           |
-|-------------------------|--------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Router Huawei NE40E     | Uptime ≥ 99.999%         | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.       | Có ch ứ ng nh ậ n CO/CQ                         |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | Latency < 20ms           | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.      | Yêu c ầ u c ấ u hình HA cluster                 |
-| Firewall PaloAlto 5220  | RAM≥ 128GB ECC           | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB                                                                   | Ph ả i ki ể m th ử trong môi trườ ng            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                    |                               |                |                | ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.                                                                                  | DataCenter                  |
-|--------------------|-------------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------|
-| Storage NetApp AFF | CPU ≥ 32 core Intel Xeon      | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060. | H ỗ tr ợ SNMPv3 để giám sát |
-| Switch Cisco 9300  | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.      | Có ch ứ ng nh ậ n CO/CQ     |
-| Storage NetApp AFF | Latency < 20ms                | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.              | Có ch ứ ng nh ậ n CO/CQ     |
-| Server Dell R740   | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n                                | H ỗ tr ợ SNMPv3 để giám sát |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                          |                |                | ANSI/TIA-942.                                                                                                                                |                                      |
-|-------------------------|--------------------------|----------------|----------------|----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Storage NetApp AFF      | Latency < 20ms           | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.              | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75 | Ch ố ng ồn ≥ 35dB        | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.        | Có ch ứ ng nh ậ n CO/CQ              |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942. | Yêu c ầ u c ấ u hình HA cluster      |
-| Router Huawei NE40E     | Ch ố ng ồn ≥ 35dB        | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS               | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | 29.060.                                                                                                                                     |                                                 |
-|-------------------------|-----------------------------|----------------|----------------|---------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Headset Jabra Evolve 75 | RAM≥ 128GB ECC              | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.         | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Server Dell R740        | Uptime ≥ 99.999%            | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Router Huawei NE40E     | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942. | Yêu c ầ u c ấ u hình HA cluster                 |
-| Server Dell R740        | Dung lượng lưu tr ữ ≥ 100TB | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP            | Có ch ứ ng nh ậ n CO/CQ                         |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                             |                |                | TS 29.060.                                                                                                                                     |                                                 |
-|-------------------------|-----------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300       | Latency < 20ms              | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.                       | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon    | Khuy ế n ngh ị | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.    | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Firewall PaloAlto 5220  | Dung lượng lưu tr ữ ≥ 100TB | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942. | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Server Dell R740        | Latency < 20ms              | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.                   | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Headset Jabra Evolve 75   | Throughput ≥ 40Gbps           | Khuy ế n ngh ị   | TCVN 7560     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.            | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|---------------------------|-------------------------------|------------------|---------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Server Dell R740          | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị   | ITU-T G.826   | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.          | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS              |
-| Headset Jabra Evolve 75   | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị   | TCVN 7560     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560. | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-| Router Huawei NE40E       | RAM≥ 128GB ECC                | Khuy ế n ngh ị   | ANSI/TIA- 942 | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.                 | Yêu c ầ u c ấ u hình HA cluster                   |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Switch Cisco 9300      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC   | Khuy ế n ngh ị   | ITU-T G.826   | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.   | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-|------------------------|---------------------------------|------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|
-| Router Huawei NE40E    | Ch ố ng ồn ≥ 35dB               | Khuy ế n ngh ị   | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.              | H ỗ tr ợ SNMPv3 để giám sát            |
-| Storage NetApp AFF     | Ch ố ng ồn ≥ 35dB               | Khuy ế n ngh ị   | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.           | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS   |
-| Firewall PaloAlto 5220 | Ch ố ng ồn ≥ 35dB               | Khuy ế n ngh ị   | ITU-T G.826   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.         | H ỗ tr ợ SNMPv3 để giám sát            |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Server Dell R740       | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | TCVN 7560      | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.                     | Yêu c ầ u c ấ u hình HA cluster      |
-|------------------------|-------------------------------|----------------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| Storage NetApp AFF     | Throughput ≥ 40Gbps           | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.             | H ỗ tr ợ SNMPv3 để giám sát          |
-| Firewall PaloAlto 5220 | Uptime ≥ 99.999%              | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.          | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS |
-| Storage NetApp AFF     | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ANSI/TIA- 942  | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | H ỗ tr ợ SNMPv3 để giám sát          |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Headset Jabra Evolve 75   | RAM≥ 128GB ECC           | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.         | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|---------------------------|--------------------------|----------------|---------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Headset Jabra Evolve 75   | Uptime ≥ 99.999%         | Khuy ế n ngh ị | ANSI/TIA- 942 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942. | H ỗ tr ợ SNMPv3 để giám sát                       |
-| Storage NetApp AFF        | RAM≥ 128GB ECC           | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.         | Yêu c ầ u c ấ u hình HA cluster                   |
-| Switch Cisco 9300         | CPU ≥ 32 core Intel Xeon | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942. | Yêu c ầ u c ấ u hình HA cluster                   |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| Router Huawei NE40E     | Uptime ≥ 99.999%    | Khuy ế n ngh ị   | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.   | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-|-------------------------|---------------------|------------------|---------------|------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| Storage NetApp AFF      | RAM≥ 128GB ECC      | B ắ t bu ộ c     | ITU-T G.826   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.       | Ph ả i ki ể m th ử trong môi trườ ng DataCenter   |
-| Headset Jabra Evolve 75 | Latency < 20ms      | B ắ t bu ộ c     | ANSI/TIA- 942 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.  | H ỗ tr ợ SNMPv3 để giám sát                       |
-| Firewall PaloAlto 5220  | RAM≥ 128GB ECC      | Khuy ế n ngh ị   | TCVN 7560     | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.  | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS              |
-| Storage NetApp          | CPU ≥ 32 core Intel | Khuy ế n         | 3GPP TS       | Thi ế t b ị Storage NetApp AFF c ầ n                                                                                               | Yêu c ầ u c ấ u hình                              |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-| AFF                     | Xeon                     | ngh ị          | 29.060         | đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.                                  | HA cluster                                      |
-|-------------------------|--------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Headset Jabra Evolve 75 | Throughput ≥ 40Gbps      | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Storage NetApp AFF      | Uptime ≥ 99.999%         | B ắ t bu ộ c   | 3GPP TS 29.060 | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.        | Có ch ứ ng nh ậ n CO/CQ                         |
-| Switch Cisco 9300       | Ch ố ng ồn ≥ 35dB        | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.              | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Headset Jabra Evolve 75 | CPU ≥ 32 core Intel Xeon | Khuy ế n ngh ị | ITU-T G.826    | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core                                                                | Yêu c ầ u c ấ u hình HA cluster                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |                |                | Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.                                                                            |                                                 |
-|-------------------------|-------------------------------|----------------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Headset Jabra Evolve 75 | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ISO 27001      | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Switch Cisco 9300       | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                 | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Server Dell R740        | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942  | Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                    | Yêu c ầ u c ấ u hình HA cluster                 |
-| Switch Cisco 9300       | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | 3GPP TS 29.060 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu                                    | Yêu c ầ u c ấ u hình HA cluster                 |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
-## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
-
-TD446
-
-L ầ n ban hành: 1
-
-|                         |                               |                |               | chu ẩ n 3GPP TS 29.060.                                                                                                                         |                                                 |
-|-------------------------|-------------------------------|----------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Switch Cisco 9300       | RAM≥ 128GB ECC                | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.                    | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Router Huawei NE40E     | Ch ố ng ồn ≥ 35dB             | Khuy ế n ngh ị | ITU-T G.826   | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.             | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Storage NetApp AFF      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | Khuy ế n ngh ị | ITU-T G.826   | Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | Có ch ứ ng nh ậ n CO/CQ                         |
-| Headset Jabra Evolve 75 | Uptime ≥ 99.999%              | B ắ t bu ộ c   | ISO 27001     | Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu                                   | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-
-<!-- image -->
-
-## VIETTEL AI RACE
-
 ## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
 
 TD446
 
 L ầ n ban hành: 1
-
-|                        |                               |                |               | chu ẩ n ISO 27001.                                                                                                                              |                                                 |
-|------------------------|-------------------------------|----------------|---------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| Firewall PaloAlto 5220 | Ch ố ng ồn ≥ 35dB             | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.            | Tích h ợ p v ớ i h ệ th ố ng OSS/NMS            |
-| Switch Cisco 9300      | H ỗ tr ợ 2 ngu ồn điệ n AC/DC | B ắ t bu ộ c   | ANSI/TIA- 942 | Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.     | Ph ả i ki ể m th ử trong môi trườ ng DataCenter |
-| Firewall PaloAlto 5220 | Dung lượng lưu tr ữ ≥ 100TB   | Khuy ế n ngh ị | ITU-T G.826   | Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826. | H ỗ tr ợ SNMPv3 để giám sát                     |
-| Router Huawei NE40E    | CPU ≥ 32 core Intel Xeon      | Khuy ế n ngh ị | ISO 27001     | Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO               | H ỗ tr ợ SNMPv3 để giám sát                     |
-
-<!-- image -->
-
-| VIETTEL AI RACE   | TD446   |
-|-------------------|---------|
 
-| 27001.   |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Thi ế t b ị</th>
+      <th>Thông s ố</th>
+      <th>M ứ c yêu c ầ u</th>
+      <th>Tiêu chu ẩ n</th>
+      <th>Mô t ả chi ti ế t</th>
+      <th>Ghi chú</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Router Huawei NE40E</th>
+      <th>Ch ố ng ồn ≥ 35dB</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n</td>
+      <td>Yêu c ầ u c ấ u hình</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>5220</th>
+      <th>AC/DC</th>
+      <th></th>
+      <th>29.060</th>
+      <th>đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU</td>
+      <td>Có ch ứ ng nh ậ n</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Xeon</th>
+      <th></th>
+      <th></th>
+      <th>≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th>CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Firewall PaloAlto 5220</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ANSI/TIA- 942</th>
+      <th>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n</td>
+      <td>H ỗ tr ợ SNMPv3</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>5220</th>
+      <th>AC/DC</th>
+      <th></th>
+      <th>7560</th>
+      <th>đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Firewall PaloAlto 5220</th>
+      <th>Latency < 20ms</th>
+      <th>B ắ t bu ộ c</th>
+      <th>TCVN 7560</th>
+      <th>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>Throughput</td>
+      <td>Khuy ế n</td>
+      <td>TCVN</td>
+      <td>Thi ế t b ị Storage</td>
+      <td>Ph ả i ki ể m</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NetApp AFF</th>
+      <th>≥ 40Gbps</th>
+      <th>ngh ị</th>
+      <th>7560</th>
+      <th>NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Firewall PaloAlto 5220</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Storage NetApp AFF</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>B ắ t bu ộ c</th>
+      <th>3GPP TS 29.060</th>
+      <th>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Switch Cisco 9300</th>
+      <th>Dung lượng lưu tr ữ ≥ 100TB</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ANSI/TIA- 942</th>
+      <th>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Switch Cisco 9300</th>
+      <th>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</th>
+      <th>B ắ t bu ộ c</th>
+      <th>3GPP TS 29.060</th>
+      <th>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Headset</td>
+      <td>Uptime ≥</td>
+      <td>Khuy ế n</td>
+      <td>ANSI/TIA-</td>
+      <td>Thi ế t b ị Headset</td>
+      <td>Có ch ứ ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Jabra Evolve 75</th>
+      <th>99.999%</th>
+      <th>ngh ị</th>
+      <th>942</th>
+      <th>Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th>nh ậ n CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>Uptime ≥</td>
+      <td>Khuy ế n</td>
+      <td>TCVN</td>
+      <td>Thi ế t b ị Storage</td>
+      <td>Yêu c ầ u</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NetApp AFF</th>
+      <th>99.999%</th>
+      <th>ngh ị</th>
+      <th>7560</th>
+      <th>NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>c ấ u hình HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị ,</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Router Huawei NE40E</th>
+      <th>Uptime ≥ 99.999%</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>ISO 27001</th>
+      <th>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Storage NetApp AFF</th>
+      <th>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</th>
+      <th>B ắ t bu ộ c</th>
+      <th>TCVN 7560</th>
+      <th>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch</td>
+      <td>Ch ố ng ồn ≥</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA-</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp</td>
+      <td>Tích h ợ p v ớ i h ệ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Cisco 9300</th>
+      <th>35dB</th>
+      <th></th>
+      <th>942</th>
+      <th>ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th>th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>bu ộ c, theo tiêu chu ẩ n ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Storage NetApp AFF</th>
+      <th>Latency < 20ms</th>
+      <th>B ắ t bu ộ c</th>
+      <th>3GPP TS 29.060</th>
+      <th>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>Yêu c ầ u c ấ u hình HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố</td>
+      <td>H ỗ tr ợ SNMPv3</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>T hroughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</th>
+      <th>để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NE40E</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB,</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>chu ẩ n ANSI/TIA- 942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Switch Cisco 9300</th>
+      <th>CPU ≥ 32 core Intel Xeon</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch</td>
+      <td>RAM≥ 128GB</td>
+      <td>Khuy ế n</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp</td>
+      <td>H ỗ tr ợ SNMPv3</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Cisco 9300</th>
+      <th>ECC</th>
+      <th>ngh ị</th>
+      <th></th>
+      <th>ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Storage NetApp AFF</th>
+      <th>Dung lượng lưu tr ữ ≥ 100TB</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ANSI/TIA- 942</th>
+      <th>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei</td>
+      <td>Latency <</td>
+      <td>Khuy ế n</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n</td>
+      <td>Có ch ứ ng nh ậ n</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NE40E</th>
+      <th>20ms</th>
+      <th>ngh ị</th>
+      <th></th>
+      <th>đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>7560.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Router Huawei NE40E</th>
+      <th>Dung lượng lưu tr ữ ≥ 100TB</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ISO 27001</th>
+      <th>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei</td>
+      <td>Uptime ≥</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA-</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n</td>
+      <td>Yêu c ầ u c ấ u hình</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NE40E</th>
+      <th>99.999%</th>
+      <th></th>
+      <th>942</th>
+      <th>đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th>HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>chu ẩ n 3GPP TS 29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>tiêu chu ẩ n ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>chu ẩ n 3GPP TS 29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Firewall PaloAlto 5220</th>
+      <th>RAM≥ 128GB ECC</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>Có ch ứ ng nh ậ n CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp</td>
+      <td>Tích h ợ p v ớ i h ệ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>R740</th>
+      <th>AC/DC</th>
+      <th></th>
+      <th>29.060</th>
+      <th>ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Dung lượng lưu tr ữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>bu ộ c, theo tiêu chu ẩ n ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Storage NetApp AFF</th>
+      <th>Latency < 20ms</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>3GPP TS 29.060</th>
+      <th>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>Có ch ứ ng nh ậ n CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei</td>
+      <td>CPU ≥ 32 core Intel</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>NE40E</th>
+      <th>Xeon</th>
+      <th></th>
+      <th></th>
+      <th>CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị ,</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Server Dell R740</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>3GPP TS 29.060</th>
+      <th>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>Có ch ứ ng nh ậ n CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Firewall PaloAlto 5220</th>
+      <th>Dung lượng lưu tr ữ ≥ 100TB</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Switch Cisco 9300</th>
+      <th>Latency < 20ms</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ANSI/TIA- 942</th>
+      <th>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</th>
+      <th>H ỗ tr ợ SNMPv3 để giám sát</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Server Dell</td>
+      <td>CPU ≥ 32 core Intel</td>
+      <td>Khuy ế n</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp</td>
+      <td>Có ch ứ ng nh ậ n</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>R740</th>
+      <th>Xeon</th>
+      <th>ngh ị</th>
+      <th></th>
+      <th>ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>CO/CQ</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</th>
+      <th>DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>ANSI/TIA-942.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>TS 29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Headset Jabra Evolve 75</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>TCVN 7560</th>
+      <th>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Switch Cisco 9300</th>
+      <th>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>ITU-T G.826</th>
+      <th>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Server Dell R740</th>
+      <th>Throughput ≥ 40Gbps</th>
+      <th>B ắ t bu ộ c</th>
+      <th>TCVN 7560</th>
+      <th>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n TCVN 7560.</th>
+      <th>Yêu c ầ u c ấ u hình HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Headset Jabra Evolve 75</th>
+      <th>RAM≥ 128GB ECC</th>
+      <th>B ắ t bu ộ c</th>
+      <th>ISO 27001</th>
+      <th>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ốRAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Router Huawei NE40E</th>
+      <th>Uptime ≥ 99.999%</th>
+      <th>Khuy ế n ngh ị</th>
+      <th>ISO 27001</th>
+      <th>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO 27001.</th>
+      <th>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Latency < 20ms</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Latency < 20ms, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>TCVN 7560</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố RAM≥ 128GB ECC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n TCVN 7560.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp</td>
+      <td>CPU ≥ 32 core Intel</td>
+      <td>Khuy ế n</td>
+      <td>3GPP TS</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n</td>
+      <td>Yêu c ầ u c ấ u hình</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>AFF</th>
+      <th>Xeon</th>
+      <th>ngh ị</th>
+      <th>29.060</th>
+      <th>đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n 3GPP TS 29.060.</th>
+      <th>HA cluster</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Throughput ≥ 40Gbps</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Throughput ≥ 40Gbps, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n 3GPP TS 29.060.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố CPU ≥ 32 core</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ISO 27001.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Server Dell R740</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Server Dell R740 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>3GPP TS 29.060</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu</td>
+      <td>Yêu c ầ u c ấ u hình HA cluster</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>chu ẩ n 3GPP TS 29.060.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>RAM≥ 128GB ECC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố RAM ≥ 128GB ECC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Storage NetApp AFF</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Storage NetApp AFF c ầ n đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồ n điệ n AC/DC, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>Có ch ứ ng nh ậ n CO/CQ</td>
+    </tr>
+    <tr>
+      <td>Headset Jabra Evolve 75</td>
+      <td>Uptime ≥ 99.999%</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Headset Jabra Evolve 75 c ần đáp ứ ng thông s ố Uptime ≥ 99.999%, ở m ứ c B ắ t bu ộ c, theo tiêu</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+## THÔNG S Ố K Ỹ THU Ậ T H Ạ T Ầ NG
+
+TD446
+
+L ầ n ban hành: 1
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>chu ẩ n ISO 27001.</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Ch ố ng ồn ≥ 35dB</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Ch ố ng ồn ≥ 35dB, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA-942.</td>
+      <td>Tích h ợ p v ớ i h ệ th ố ng OSS/NMS</td>
+    </tr>
+    <tr>
+      <td>Switch Cisco 9300</td>
+      <td>H ỗ tr ợ 2 ngu ồn điệ n AC/DC</td>
+      <td>B ắ t bu ộ c</td>
+      <td>ANSI/TIA- 942</td>
+      <td>Thi ế t b ị Switch Cisco 9300 c ần đáp ứ ng thông s ố H ỗ tr ợ 2 ngu ồn điệ n AC/DC, ở m ứ c B ắ t bu ộ c, theo tiêu chu ẩ n ANSI/TIA- 942.</td>
+      <td>Ph ả i ki ể m th ử trong môi trườ ng DataCenter</td>
+    </tr>
+    <tr>
+      <td>Firewall PaloAlto 5220</td>
+      <td>Dung lượng lưu tr ữ ≥ 100TB</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ITU-T G.826</td>
+      <td>Thi ế t b ị Firewall PaloAlto 5220 c ầ n đáp ứ ng thông s ố Dung lượng lưu trữ ≥ 100TB, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ITU-T G.826.</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+    <tr>
+      <td>Router Huawei NE40E</td>
+      <td>CPU ≥ 32 core Intel Xeon</td>
+      <td>Khuy ế n ngh ị</td>
+      <td>ISO 27001</td>
+      <td>Thi ế t b ị Router Huawei NE40E c ầ n đáp ứ ng thông s ố CPU ≥ 32 core Intel Xeon, ở m ứ c Khuy ế n ngh ị , theo tiêu chu ẩ n ISO</td>
+      <td>H ỗ tr ợ SNMPv3 để giám sát</td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+27001.   |
 |----------|

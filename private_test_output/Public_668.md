@@ -1,7 +1,5 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## VẼ QUY ƯỚC LÒ XO
 
 ## 1. KH ÁI NIỆM CHUNG
@@ -50,40 +48,128 @@ Lò xo đĩa (H. 7-13) gồm nhiều đĩa làm bằng kim loại ghép chồng 
 
 <!-- image -->
 
-| VIETTEL AI RACE   | TD668           |
-|-------------------|-----------------|
-| VẼ QUY ƯỚC LÒ XO  | Lần ban hành: 1 |
+VẼ QUY ƯỚC LÒ XO  | Lần ban hành: 1 |
 
 <!-- image -->
 
-|               |                                                                      | Hình vẽ quy ước   | Hình vẽ quy ước   | Hình vẽ quy ước                     |
-|---------------|----------------------------------------------------------------------|-------------------|-------------------|-------------------------------------|
-| Tên gọi lò xo | Tên gọi lò xo                                                        | Hình chiếu        | Hình cắt          | Khi chiếu dây mặt cắt của dây ≤ 2mm |
-| Lò xo nén     | Lò xo nén, dây tròn, ở hai đầu ép lại 3/4 vòng và mài bằng.          |                   |                   |                                     |
-| Lò xo nén     | Lò xo nén, dây hình chữ nhật, ở hai đầu ép lại 3/4 vòng và mài bằng. |                   |                   |                                     |
-| Lò xo nén     | Lò xo nén hình nón dây tròn, ở hai đầu ép lại 3/4 vòng               |                   |                   |                                     |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tên gọi lò xo</td>
+      <td>Tên gọi lò xo</td>
+      <td>Hình chiếu</td>
+      <td>Hình cắt</td>
+      <td>Khi chiếu dây mặt cắt của dây ≤ 2mm</td>
+    </tr>
+    <tr>
+      <td>Lò xo nén</td>
+      <td>Lò xo nén, dây tròn, ở hai đầu ép lại 3/4 vòng và mài bằng.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò xo nén</td>
+      <td>Lò xo nén, dây hình chữ nhật, ở hai đầu ép lại 3/4 vòng và mài bằng.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò xo nén</td>
+      <td>Lò xo nén hình nón dây tròn, ở hai đầu ép lại 3/4 vòng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tên gọi lò xo Hình chiếu</td>
+      <td>Tên gọi lò xo Hình chiếu</td>
+      <td>Hình cắt</td>
+      <td>Khi chiếu dây mặt cắt của dây ≤ 2mm</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>và mài bằng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Lò xo nén, dây hình chữ nhật, ở hai đầu mài bằng.</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lò xo kéo</td>
+      <td>kéo, dây tròn có móc nằm trong hai mặt phẳng vuông góc với</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<!-- image -->
+
+VẼ QUY ƯỚC LÒ XO  | Lần ban hành: 1 |
 
 <!-- image -->
 
-|                          | Hình vẽ quy ước                                            | Hình vẽ quy ước   | Hình vẽ quy ước                     |
-|--------------------------|------------------------------------------------------------|-------------------|-------------------------------------|
-| Tên gọi lò xo Hình chiếu | Tên gọi lò xo Hình chiếu                                   | Hình cắt          | Khi chiếu dây mặt cắt của dây ≤ 2mm |
-|                          | và mài bằng.                                               |                   |                                     |
-|                          | Lò xo nén, dây hình chữ nhật, ở hai đầu mài bằng.          |                   |                                     |
-| Lò xo kéo                | kéo, dây tròn có móc nằm trong hai mặt phẳng vuông góc với |                   |                                     |
-
-<!-- image -->
-
-| VIETTEL AI RACE   | TD668           |
-|-------------------|-----------------|
-| VẼ QUY ƯỚC LÒ XO  | Lần ban hành: 1 |
-
-<!-- image -->
-
-|                                                        | Hình vẽ quy ước   | Hình vẽ quy ước   | Hình vẽ quy ước                     |
-|--------------------------------------------------------|-------------------|-------------------|-------------------------------------|
-| Tên gọi lò xo                                          | Hình chiếu        | Hình cắt          | Khi chiếu dây mặt cắt của dây ≤ 2mm |
-| Lò xo xoắn ốc Lò xo xoắn ốc phẳng có hai móc ở hai đầu |                   |                   |                                     |
-| đĩa Chồng lò xo đĩa đặt đối nhau                       |                   |                   | Lò xo                               |
-| Lò xo lá                                               |                   |                   | Lò xo lá                            |
-| Lò xo nhíp                                             |                   |                   | Lò xo nhíp                          |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th></th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+      <th>Hình vẽ quy ước</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tên gọi lò xo</td>
+      <td>Hình chiếu</td>
+      <td>Hình cắt</td>
+      <td>Khi chiếu dây mặt cắt của dây ≤ 2mm</td>
+    </tr>
+    <tr>
+      <td>Lò xo xoắn ốc Lò xo xoắn ốc phẳng có hai móc ở hai đầu</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>đĩa Chồng lò xo đĩa đặt đối nhau</td>
+      <td></td>
+      <td></td>
+      <td>Lò xo</td>
+    </tr>
+    <tr>
+      <td>Lò xo lá</td>
+      <td></td>
+      <td></td>
+      <td>Lò xo lá</td>
+    </tr>
+  </tbody>
+</table>| Lò xo nhíp                                             |                   |                   | Lò xo nhíp                          |

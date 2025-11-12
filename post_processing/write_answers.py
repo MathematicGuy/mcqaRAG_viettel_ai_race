@@ -80,6 +80,6 @@ def extract_md_files_to_answers(
 if __name__ == "__main__":
     # Example usage
     extract_md_files_to_answers(
-        output_path='../private_test_output_html',
-        output_file='../data/answer4.md'
+        output_path='../private_test_output',
+        output_file='../data/answer.md'
     )

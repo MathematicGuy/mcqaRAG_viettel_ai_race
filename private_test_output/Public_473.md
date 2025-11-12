@@ -1,29 +1,64 @@
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Thông tin k ỹ thu ậ t máy bay Airbus A321
 
 ## 1. Thông tin k ỹ thu ậ t máy bay Airbus A321
 
 Airbus A321 là dòng máy bay thương mạ i  thân h ẹ p thu ộc gia đình A320 c ủa hãng Airbus. Đây là biế n th ể l ớ n nh ấ t c ủa dòng A320, đượ c thi ế t k ế để ph ụ c v ụ các tuy ế n bay t ầ m ng ắ n và trung bình, v ớ i  s ứ c ch ứ a hành khách nhi ều hơn A320. A321 hiệ n có nhi ề u phiên b ản như A321ceo, A321neo và A321XLR, m ỗ i  phiên  b ản đề u mang l ạ i  nh ữ ng c ả i  ti ế n v ề hi ệ u su ấ t,  kh ả năng tiế t ki ệ m nhiên li ệ u và t ầ m bay.
 
-| Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321   | Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321   | Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321   | Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321   |
-|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|-------------------------------------------------|
-| H ạ ngm ụ c                                     | Thông s ố                                       | Đơn vị                                          | Ghi chú                                         |
-| Chi ề u dài                                     | 44,51                                           | m                                               | Dài hơn A320                                    |
-| S ả i cánh                                      | 35,8                                            | m                                               | Có sharklets tăng hi ệ u su ấ t                 |
-| Chi ề u cao                                     | 11,76                                           | m                                               |                                                 |
-| S ứ c ch ứ a hành khách                         | 185 - 236                                       | ngườ i                                          | Tùy c ấ u hình                                  |
-| T ầ mbay                                        | 5.950 - 7.400                                   | km                                              | Tùy phiên b ả n A321neo/A321XLR                 |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321</th>
+      <th>Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321</th>
+      <th>Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321</th>
+      <th>Thông s ố k ỹ thu ậ t chính c ủ a Airbus A321</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>H ạ ngm ụ c</td>
+      <td>Thông s ố</td>
+      <td>Đơn vị</td>
+      <td>Ghi chú</td>
+    </tr>
+    <tr>
+      <td>Chi ề u dài</td>
+      <td>44,51</td>
+      <td>m</td>
+      <td>Dài hơn A320</td>
+    </tr>
+    <tr>
+      <td>S ả i cánh</td>
+      <td>35,8</td>
+      <td>m</td>
+      <td>Có sharklets tăng hi ệ u su ấ t</td>
+    </tr>
+    <tr>
+      <td>Chi ề u cao</td>
+      <td>11,76</td>
+      <td>m</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>S ứ c ch ứ a hành khách</td>
+      <td>185 - 236</td>
+      <td>ngườ i</td>
+      <td>Tùy c ấ u hình</td>
+    </tr>
+    <tr>
+      <td>T ầ mbay</td>
+      <td>5.950 - 7.400</td>
+      <td>km</td>
+      <td>Tùy phiên b ả n A321neo/A321XLR</td>
+    </tr>
+  </tbody>
+</table>
 TD004
 
 L ầ n ban hành: 1
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Thông tin k ỹ thu ậ t máy bay Airbus A321
 
@@ -38,8 +73,6 @@ L ầ n ban hành: 1
 A321 đượ c phát tri ể n d ự a trên khung c ủa A320 nhưng kéo dài phần thân để tăng sứ c ch ứ a hành khách. Máy bay s ử d ụ ng c ấ u hình cánh g ắ n th ấ p, hai động cơ phả n l ực treo dướ i cánh, giúp t ối ưu hiệ u su ấ t bay. Bu ồng lái đượ c tiêu chu ẩ n hóa v ớ i các thành viên trong dòng A320, giúp gi ảm chi phí đào t ạ o phi công.
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Thông tin k ỹ thu ậ t máy bay Airbus A321
 
@@ -61,8 +94,6 @@ L ầ n ban hành: 1
 
 <!-- image -->
 
-## VIETTEL AI RACE
-
 ## Thông tin k ỹ thu ậ t máy bay Airbus A321
 
 L ầ n ban hành: 1
@@ -82,8 +113,6 @@ K ể t ừ khi ra m ắt, Airbus A321 đã trở thành m ộ t trong nh ữ ng
 Airbus A321 là dòng máy bay quan tr ọng trong ngành hàng không thương m ạ i hi ệ n nay. V ớ i thi ế t k ế hi ện đạ i, hi ệ u su ất vượ t tr ộ i và chi phí khai thác h ợp lý, A321 đã trở thành l ự a ch ọn hàng đầ u c ủ a nhi ề u hãng hàng không trên th ế gi ớ i.
 
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## Thông tin k ỹ thu ậ t máy bay Airbus A321
 

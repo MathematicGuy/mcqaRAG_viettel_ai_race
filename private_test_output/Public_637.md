@@ -1,122 +1,1030 @@
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                                   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|------------------------|------------|----------------------------------------------------------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                                   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| <1>   | <2>             | <3>                                       | <4>               | <5>                    | <6>        | <7>                                                            | <8>       | <9>              | <10>      | <11>                                              |
-| 1     | Cát xây dựng    | - Cát xây                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát sỏi Kéo Thin, xã Bạch Đằng                              |           | Giá bán tại mỏ   |           | 320.000                                           |
-| 1     | Cát xây dựng    | - Cát bê tông (Cát nghiền)                | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát sỏi Kéo Thin, xã Bạch Đằng                              |           | Giá bán tại mỏ   |           | 320.000                                           |
-| 1     | Cát xây dựng    | - Cát trát                                | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát sỏi Kéo Thin, xã Bạch Đằng                              |           | Giá bán tại mỏ   |           | 380.000                                           |
-| 1     | Cát xây dựng    | - Cát san lấp                             | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát sỏi Kéo Thin, xã Bạch Đằng                              |           | Giá bán tại mỏ   |           | 100.000                                           |
-| 2     | Cát xây dựng    | - Cát xây                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát núi Cải Chắp, xã Lê Chung                               |           | Giá bán tại mỏ   |           | 300.000                                           |
-| 2     | Cát xây dựng    | - Cát bê tông                             | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát núi Cải Chắp, xã Lê Chung                               |           | Giá bán tại mỏ   |           | 300.000                                           |
-| 2     | Cát xây dựng    | - Cát trát                                | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát núi Cải Chắp, xã Lê Chung                               |           | Giá bán tại mỏ   |           | 350.000                                           |
-| 3     | Cát xây dựng    | - Cát xây                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát đồi Đồng Tâm                                            |           | Giá bán tại mỏ   |           | 320.000                                           |
-| 3     | Cát xây dựng    | - Cát bê tông                             | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát đồi Đồng Tâm                                            |           | Giá bán tại mỏ   |           | 320.000                                           |
-| 3     | Cát xây dựng    | - Cát trát                                | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát đồi Đồng Tâm                                            |           | Giá bán tại mỏ   |           | 350.000                                           |
-| 3     | Cát xây dựng    | - Đất đắp                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ cát đồi Đồng Tâm                                            |           | Giá bán tại mỏ   |           | 50.000                                            |
-| 4     | Đá xây dựng     | Đá hộc                                    | m 3               | Quy chuẩn 16:2019/QCVN |            | M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn |           | Giá bán tại mỏ   |           | 160.000                                           |
-| 4     | Đá xây dựng     | Đá dăm 0,5                                | m 3               | Quy chuẩn 16:2019/QCVN |            | M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn |           | Giá bán tại mỏ   |           | 180.000                                           |
-| 4     | Đá xây dựng     | Đá dăm 2 x 4                              | m 3               | Quy chuẩn 16:2019/QCVN |            | M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn |           | Giá bán tại mỏ   |           | 180.000                                           |
-| 4     | Đá xây dựng     | Đá dăm 1 x 2                              | m 3               | Quy chuẩn 16:2019/QCVN |            | M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn |           | Giá bán tại mỏ   |           | 180.000                                           |
-| 5     |                 | Bột đá                                    | m 3               |                        |            |                                                                |           |                  |           | 200.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td><1></td>
+      <td><2></td>
+      <td><3></td>
+      <td><4></td>
+      <td><5></td>
+      <td><6></td>
+      <td><7></td>
+      <td><8></td>
+      <td><9></td>
+      <td><10></td>
+      <td><11></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát xây</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát sỏi Kéo Thin, xã Bạch Đằng</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>320.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát bê tông (Cát nghiền)</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát sỏi Kéo Thin, xã Bạch Đằng</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>320.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát trát</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát sỏi Kéo Thin, xã Bạch Đằng</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>380.000</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát san lấp</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát sỏi Kéo Thin, xã Bạch Đằng</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>100.000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát xây</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát núi Cải Chắp, xã Lê Chung</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>300.000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát bê tông</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát núi Cải Chắp, xã Lê Chung</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>300.000</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát trát</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát núi Cải Chắp, xã Lê Chung</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>350.000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát xây</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát đồi Đồng Tâm</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>320.000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát bê tông</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát đồi Đồng Tâm</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>320.000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cát xây dựng</td>
+      <td>- Cát trát</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát đồi Đồng Tâm</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>350.000</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Cát xây dựng</td>
+      <td>- Đất đắp</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ cát đồi Đồng Tâm</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>50.000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đá xây dựng</td>
+      <td>Đá hộc</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>160.000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 0,5</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>180.000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 2 x 4</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>180.000</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 1 x 2</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>M ỏ đá Xóm 8, Duy ệ t Trung, TP. Cao B ằ ng (Công ty TNHH Toàn</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>180.000</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td></td>
+      <td>Bột đá</td>
+      <td>m 3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                                                      | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|------------------------|------------|-----------------------------------------------------------------------------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                                                      | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Đá dăm 0,5                                | m 3               | Tiêu chuẩn kỹ thuật    |            | Mỏ Khưa xã Chu Trinh, tp Cao Bắng                                                 |           |                  |           | 200.000                                           |
-| STT   | Nhóm vật liệu   | Đá dăm 1 x 2                              | m 3               | Tiêu chuẩn kỹ thuật    |            | Vặn,                                                                              |           |                  |           | 200.000                                           |
-| STT   | xây             | Đá dăm 2 x 4                              | m 3               | Tiêu chuẩn kỹ thuật    |            | (Công ty TNHH Thọ                                                                 |           |                  | Đá        | 200.000                                           |
-| STT   | Nhóm vật liệu   | Đá dăm 4 x 6                              | m 3               | Tiêu chuẩn kỹ thuật    |            | (Công ty TNHH Thọ                                                                 |           |                  | dựng      | 200.000                                           |
-| STT   | Nhóm vật liệu   | Đá hộc                                    | m 3               | Tiêu chuẩn kỹ thuật    |            | (Công ty TNHH Thọ                                                                 |           |                  |           | 180.000                                           |
-| STT   | Nhóm vật liệu   | Base B                                    | m 3               | Tiêu chuẩn kỹ thuật    |            | Hoàng)                                                                            |           |                  |           | 160.000                                           |
-| 6     | Đá xây dựng     | Đá dăm 0,5                                | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá dăm 1 x 2                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá dăm 2 x 4                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá dăm 4 x 6                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá hộc                                    | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 6     | Đá xây dựng     | Bột đá                                    | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá Base A                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 200.000                                           |
-| 6     | Đá xây dựng     | Đá Base B                                 | m 3               | Quy chuẩn 16:2019/QCVN |            | Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát) |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 7     | Đá xây dựng     | Đá dăm 0,5                                | m 3               | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần Sea Holdings                                                      |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 7     |                 | Đá dăm 1 x 2                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần Sea Holdings                                                      |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 7     |                 | Đá dăm 2 x 4                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần Sea Holdings                                                      |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 7     |                 | Đá dăm 4 x 6                              | m 3               | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần Sea Holdings                                                      |           | Giá bán tại mỏ   |           | 190.909                                           |
-| 7     |                 | Đá hộc                                    | m 3               | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần Sea Holdings                                                      |           | Giá bán tại mỏ   |           | 168.182                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Đá dăm 0,5</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Mỏ Khưa xã Chu Trinh, tp Cao Bắng</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Đá dăm 1 x 2</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Vặn,</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>xây</td>
+      <td>Đá dăm 2 x 4</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>(Công ty TNHH Thọ</td>
+      <td></td>
+      <td></td>
+      <td>Đá</td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Đá dăm 4 x 6</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>(Công ty TNHH Thọ</td>
+      <td></td>
+      <td></td>
+      <td>dựng</td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Đá hộc</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>(Công ty TNHH Thọ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>180.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Base B</td>
+      <td>m 3</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Hoàng)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>160.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 0,5</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 1 x 2</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 2 x 4</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 4 x 6</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá hộc</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Bột đá</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá Base A</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Đá xây dựng</td>
+      <td>Đá Base B</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Mỏ Xóm 5, xã Chu Trinh, TP Cao Bằng (Công ty Khoáng sản và thương mại Thành Phát)</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Đá xây dựng</td>
+      <td>Đá dăm 0,5</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần Sea Holdings</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td>
+      <td>Đá dăm 1 x 2</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần Sea Holdings</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td>
+      <td>Đá dăm 2 x 4</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần Sea Holdings</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td>
+      <td>Đá dăm 4 x 6</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần Sea Holdings</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td></td>
+      <td>Đá hộc</td>
+      <td>m 3</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần Sea Holdings</td>
+      <td></td>
+      <td>Giá bán tại mỏ</td>
+      <td></td>
+      <td>168.182</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu       | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                         | Quy cách           | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|---------------------|-------------------------------------------|-------------------|---------------------------------------------|--------------------|-----------------------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                     |                                           |                   |                                             |                    |                             |           |                  |           | Thành phố Cao Bằng                                |
-|       |                     | Đá Base A                                 | m 3               |                                             |                    |                             |           |                  |           | 190.909                                           |
-|       |                     | Đá Base B                                 | m 3               |                                             |                    |                             |           |                  |           | 159.091                                           |
-|       |                     | Bột đá                                    | m 3               |                                             |                    |                             |           |                  |           | 181.818                                           |
-| 8     | Cửa khung nhựa/nhôm | 1. Nhôm Singhal hệ 55 vát cạnh            |                   |                                             |                    |                             |           |                  |           |                                                   |
-| 8     | Cửa khung nhựa/nhôm | Vách cố định                              | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 950.000                                           |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 1 cánh mở hất/ quay                | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 2 cánh mở hất/ quay                | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 2 cánh mở lùa                      | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL | Việt      |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 4 cánh mở lùa                      | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL | Nam       |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix   | m 2               | 7:2018                                      | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Cửa sổ 2 cánh/4 cánh mở lùa + fix         | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 1.500.000                                         |
-| 8     | Cửa khung nhựa/nhôm | Bộ phụ kiện cửa sổ                        | Bộ                | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.0mm ( ±5%.). | CÔNG TY CP TẬP ĐOÀN SINGHAL |           |                  |           | 950.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Đá Base A</td>
+      <td>m 3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>190.909</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Đá Base B</td>
+      <td>m 3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>159.091</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Bột đá</td>
+      <td>m 3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>181.818</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>1. Nhôm Singhal hệ 55 vát cạnh</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Vách cố định</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>950.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 1 cánh mở hất/ quay</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 2 cánh mở hất/ quay</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 2 cánh mở lùa</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td>Việt</td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 4 cánh mở lùa</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td>Nam</td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix</td>
+      <td>m 2</td>
+      <td>7:2018</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 2 cánh/4 cánh mở lùa + fix</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Bộ phụ kiện cửa sổ</td>
+      <td>Bộ</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>CÔNG TY CP TẬP ĐOÀN SINGHAL</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>950.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-----------------|-------------------------------------------|-------------------|----------------------------------------------------|--------------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|                 | Cửa đi 2 cánh mở quay.                    | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 1.800.000                                         |
-|                 | Cửa di 2 cánh mở lùa.                     | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 1.800.000                                         |
-|                 | Cửa di 4 cánh mở lùa.                     | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 1.800.000                                         |
-|                 | Cửa đi 1 cánh/2 cánh mở quay+ fix         | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 1.800.000                                         |
-|                 | Cửa di 2 cánh/4 cánh mở lùa + fix         | m 2               | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 1.800.000                                         |
-|                 | Bộ phụ kiện cửa đi                        | Bộ                | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 950.000                                           |
-|                 | 2. Nhôm Singhal hệ 55 mặt cắt XINGFA      |                   |                                                    |                    | Nhà sản xuất   |           |                  |           |                                                   |
-|                 | Vách cố định.                             | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014         | Dày 1.4mm ( ±5%.). | Nhà sản xuất   |           |                  | Cửa       | 1.650.000                                         |
-|                 | Cửa đi 1 cánh mở quay.                    | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014         | Dày 1.4mm ( ±5%.). | Nhà sản xuất   |           |                  | nhựa/nhôm | 2.100.000                                         |
-|                 | Cửa đi 2 cánh mở quay.                    | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014         | Dày 1.4mm ( ±5%.). | Nhà sản xuất   |           |                  |           | 2.100.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa đi 2 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.800.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa di 2 cánh mở lùa.</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.800.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa di 4 cánh mở lùa.</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.800.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa đi 1 cánh/2 cánh mở quay+ fix</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.800.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa di 2 cánh/4 cánh mở lùa + fix</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.800.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Bộ phụ kiện cửa đi</td>
+      <td>Bộ</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>950.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>2. Nhôm Singhal hệ 55 mặt cắt XINGFA</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Vách cố định.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014</td>
+      <td>Dày 1.4mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td>Cửa</td>
+      <td>1.650.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa đi 1 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014</td>
+      <td>Dày 1.4mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td>nhựa/nhôm</td>
+      <td>2.100.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa đi 2 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014</td>
+      <td>Dày 1.4mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.100.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                          | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|--------------------------------------------------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                           |                   |                                                              |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Cửa đi 1 cánh/2 cánh mở quay + fix        | m 2               | TCVN12513- 7:2018                                            |            |                |           |                  |           | 2.100.000                                         |
-|       |                 | Cửa đi 2 cánh mở lùa                      | m 2               |                                                              |            |                |           |                  |           | 2.100.000                                         |
-|       |                 | Cửa đi 4 cánh mở lùa                      | m 2               |                                                              |            |                |           |                  |           | 2.100.000                                         |
-|       |                 | Cửa đi 2/4 cánh cánh mở lùa + fix         | m 2               |                                                              |            |                |           |                  |           | 2.100.000                                         |
-|       |                 | Bộ phụ kiện cửa đi                        | Bộ                |                                                              |            |                |           |                  |           | 950.000                                           |
-|       |                 | Cửa sổ 2 cánh mở hất/ quay.               | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm  |                |           |                  |           | 1.900.000                                         |
-|       |                 | Cửa sổ 1 cánh mở hất/ quay.               | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | ( ±5%.).   |                |           |                  |           | 1.900.000                                         |
-|       |                 | Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix   | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 |            |                |           |                  |           | 1.900.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa đi 1 cánh/2 cánh mở quay + fix</td>
+      <td>m 2</td>
+      <td>TCVN12513- 7:2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.100.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa đi 2 cánh mở lùa</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.100.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa đi 4 cánh mở lùa</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.100.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa đi 2/4 cánh cánh mở lùa + fix</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.100.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Bộ phụ kiện cửa đi</td>
+      <td>Bộ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>950.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa sổ 2 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa sổ 1 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>( ±5%.).</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -124,114 +1032,775 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT                 | Nhóm vật liệu                      | Tên vật liệu/loại vật liệu xây dựng (*) Đơn tính (*)   | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|---------------------|------------------------------------|--------------------------------------------------------|--------------------------------------------------------------|--------------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT                 | Nhóm vật liệu                      | Tên vật liệu/loại vật liệu xây dựng (*) Đơn tính (*)   | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT                 | Cửa sổ 2 cánh mở lùa               | m 2                                                    | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   |                  |           | 1.900.000                                         |
-| STT                 | Cửa sổ 4 cánh mở lùa               | m 2                                                    | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   |                  |           | 1.900.000                                         |
-| STT                 | Cửa sổ 2 cánh/4 cánh mở lùa + fix  | m 2                                                    | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   |                  |           | 1.900.000                                         |
-| STT                 | Bộ phụ kiện cửa sổ                 | m 2                                                    | Tiêu chuẩn kỹ thuật                                          | Quy cách           | Nhà sản xuất   | Xuất xứ   |                  |           | 950.000                                           |
-| Cửa khung nhựa/nhôm | 3. Nhôm Singhal hệ 56              |                                                        | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           |                                                   |
-| Cửa khung nhựa/nhôm | Vách cố định.                      | m 2                                                    | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 1.435.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 1 cánh mở quay              | m 2                                                    | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 2.371.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 2 cánh mở quay.             | m 2                                                    | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 2.430.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 1 cánh/2 cánh mở quay + fix | m 2                                                    | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 2.341.000                                         |
-| Cửa khung nhựa/nhôm | Cửa sổ 1 cánh mở hất/ quay.        | m 2                                                    | Dày 1.0mm ( ±5%.).                                           | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 2.223.000                                         |
-| Cửa khung nhựa/nhôm | Cửa sổ 2 cánh mở hất/ quay.        | m 2                                                    | Dày 1.0mm ( ±5%.).                                           | Dày 1.2mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  |           | 2.637.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*) Đơn tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*) Đơn tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Cửa sổ 2 cánh mở lùa</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Cửa sổ 4 cánh mở lùa</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Cửa sổ 2 cánh/4 cánh mở lùa + fix</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>1.900.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Bộ phụ kiện cửa sổ</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>950.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>3. Nhôm Singhal hệ 56</td>
+      <td></td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Vách cố định.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>1.435.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 1 cánh mở quay</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.371.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 2 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.430.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 1 cánh/2 cánh mở quay + fix</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.341.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 1 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.223.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 2 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Dày 1.0mm ( ±5%.).</td>
+      <td>Dày 1.2mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.637.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu       | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                   | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú       | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|---------------------|-------------------------------------------|-------------------|-------------------------------------------------------|--------------------|----------------|-----------|------------------|---------------|---------------------------------------------------|
-| STT   | Nhóm vật liệu       | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                   | Quy cách           | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú       | Thành phố Cao Bằng                                |
-| STT   |                     | Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix   |                   | Tiêu chuẩn kỹ thuật                                   | Quy cách           | Nhà sản xuất   | Xuất xứ   |                  |               | 2.198.000                                         |
-|       | Cửa khung nhựa/nhôm | 4. Nhôm Singhal hệ vách dựng 65*90        |                   | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.828.000                                         |
-|       | Cửa khung nhựa/nhôm | Hệ vách dựng nối đố                       | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.828.000                                         |
-|       | Cửa khung nhựa/nhôm | Hệ vách dựng nối đố + có cửa mở hất       | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.959.000                                         |
-|       | Cửa khung nhựa/nhôm | Hệ vách dựng dấu đố                       | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.643.000                                         |
-|       |                     | 5. Nhôm Singhal hệ vách dựng 52*85        |                   | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.768.000                                         |
-|       |                     | Hệ vách dựng nối đố                       | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.768.000                                         |
-|       |                     | Hệ vách dựng nối đố + có cửa mở hất       | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 2.0mm ( ±5%.). | Nhà sản xuất   | Xuất xứ   |                  | Cửa nhựa/nhôm | 2.899.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Cửa sổ 1 cánh/2 cánh mở hất/ quay + fix</td>
+      <td></td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.198.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>4. Nhôm Singhal hệ vách dựng 65*90</td>
+      <td></td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.828.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Hệ vách dựng nối đố</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.828.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Hệ vách dựng nối đố + có cửa mở hất</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.959.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Hệ vách dựng dấu đố</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.643.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>5. Nhôm Singhal hệ vách dựng 52*85</td>
+      <td></td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.768.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hệ vách dựng nối đố</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.768.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Hệ vách dựng nối đố + có cửa mở hất</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 2.0mm ( ±5%.).</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa nhựa/nhôm</td>
+      <td>2.899.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu                                                        | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)                                    | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú             | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|----------------------------------------------------------------------|-------------------------------------------|----------------------------------------------------|-----------------------|------------|----------------|-----------|------------------|---------------------|---------------------------------------------------|
-| STT   | Nhóm vật liệu                                                        | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)                                    | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú             | Thành phố Cao Bằng                                |
-| STT   | Hệ vách dựng dấu đố + có cửa sổ 1 cánh mở hất.                       | m 2                                       | Đơn vị tính (*)                                    | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm | 2.583.000                                         |
-|       | 6. Nhôm Singhal hệ thủy lực                                          |                                           | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày ( ±5%.).          | 2.0mm      | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm | 5.005.000                                         |
-|       | - Cửa đi 2/3/4/5/7 tấm: K200, SC180                                  | m 2                                       | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày ( ±5%.).          | 2.0mm      | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm |                                                   |
-|       | - Cửa đi 2/3/4/5/7 tấm: K200, SC120                                  | m 2                                       | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày ( ±5%.).          | 2.0mm      | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm | 4.572.000                                         |
-|       | - Cửa đi 2/3/4/5/7 tấm: K200, SC140                                  | m 2                                       | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày ( ±5%.).          | 2.0mm      | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm | 4.814.000                                         |
-|       | - Cửa đi 2/3/4/5/7 tấm: SK120 , SC180 - Cửa đi 2/3/4/5/7 tấm: SK120, | m 2 m 2                                   | QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Dày ( ±5%.).          | 2.0mm      | Nhà sản xuất   | Xuất xứ   |                  | Cửa khung nhựa/nhôm | 4.000.000 3.616.000                               |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Hệ vách dựng dấu đố + có cửa sổ 1 cánh mở hất.</td>
+      <td>m 2</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>2.583.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>6. Nhôm Singhal hệ thủy lực</td>
+      <td></td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày ( ±5%.).</td>
+      <td>2.0mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>5.005.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>- Cửa đi 2/3/4/5/7 tấm: K200, SC180</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày ( ±5%.).</td>
+      <td>2.0mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>- Cửa đi 2/3/4/5/7 tấm: K200, SC120</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày ( ±5%.).</td>
+      <td>2.0mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>4.572.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>- Cửa đi 2/3/4/5/7 tấm: K200, SC140</td>
+      <td>m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày ( ±5%.).</td>
+      <td>2.0mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>4.814.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>- Cửa đi 2/3/4/5/7 tấm: SK120 , SC180 - Cửa đi 2/3/4/5/7 tấm: SK120,</td>
+      <td>m 2 m 2</td>
+      <td>QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Dày ( ±5%.).</td>
+      <td>2.0mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>4.000.000 3.616.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT                 | Nhóm vật liệu                         | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)                                       | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|---------------------|---------------------------------------|-------------------------------------------|-------------------------------------------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT                 | Nhóm vật liệu                         | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)                                       | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|                     | - Cửa đi 2/3/4/5/7 tấm: SK120, SC140  | m 2                                       | Đơn vị tính (*)                                       | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 3.628.000                                         |
-| Cửa khung nhựa/nhôm | 7. Nhôm Singhal hệ Châu Âu 60 SINGVRO |                                           | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           |                                                   |
-| Cửa khung nhựa/nhôm | Vách cố định.                         | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 2.213.000                                         |
-| Cửa khung nhựa/nhôm | Cửa sổ 2 cánh mở hất/ quay.           | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 3.708.000                                         |
-| Cửa khung nhựa/nhôm | Cửa sổ 1 cánh mở hất/ quay.           | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 3.650.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 1 cánh mở quay.                | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 4.743.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 2 cánh mở quay.                | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 4.973.000                                         |
-| Cửa khung nhựa/nhôm | Cửa đi 4 cánh mở quay.                | m 2                                       | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- | Dày 1.4mm (±5%)       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           | 5.318.000                                         |
-| Cửa khung nhựa/nhôm | 8. CỬA CUỐN SINGDOOR                  |                                           |                                                       |                       | Quy cách   | Nhà sản xuất   | Xuất xứ   |                  |           |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>- Cửa đi 2/3/4/5/7 tấm: SK120, SC140</td>
+      <td>m 2</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>3.628.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>7. Nhôm Singhal hệ Châu Âu 60 SINGVRO</td>
+      <td></td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Vách cố định.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>2.213.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 2 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>3.708.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa sổ 1 cánh mở hất/ quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>3.650.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 1 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>4.743.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 2 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>4.973.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>Cửa đi 4 cánh mở quay.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513-</td>
+      <td>Dày 1.4mm (±5%)</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>5.318.000</td>
+    </tr>
+    <tr>
+      <td>Cửa khung nhựa/nhôm</td>
+      <td>8. CỬA CUỐN SINGDOOR</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                                           | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật                                          | Quy cách                             | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------------------------------------------------|--------------------------------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                                                                                                   |                   |                                                              |                                      |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Nan cửa cuốn chống bão G91: - Sơn màu nâu vàng, giảm âm 2 chiều lên xuống. - Day hộp U100 - Trục phi 141mm dày 3,96mm+ puli nhựa.                 | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Bản nan 70mm, lỗ thoáng hình ovan to |                |           |                  |           | 3.170.000                                         |
-|       |                 | Nan cửa cuốn S70: - Kết hợp 2 nan, sơn màu xanh nâu + vàng cát, giảm âm 1chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa. | m 2               | Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018 | Bản nan 50mm, lỗ thoáng hình ovan.   |                |           |                  |           | 3.260.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn chống bão G91: - Sơn màu nâu vàng, giảm âm 2 chiều lên xuống. - Day hộp U100 - Trục phi 141mm dày 3,96mm+ puli nhựa.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Bản nan 70mm, lỗ thoáng hình ovan to</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.170.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn S70: - Kết hợp 2 nan, sơn màu xanh nâu + vàng cát, giảm âm 1chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa.</td>
+      <td>m 2</td>
+      <td>Quy chuẩn QCVN 16:2019/BXD TCVN197- 1:2014 TCVN12513- 7:2018</td>
+      <td>Bản nan 50mm, lỗ thoáng hình ovan.</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.260.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách                              | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|---------------------------------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                                                                                          |                   |                       |                                       |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Nan cửa cuốn SE03: - Sơn màu caphe, 4chân, 2 vít, giảm âm 1 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa.     | m 2               |                       | Bản nan 88mm, lỗ thoáng hình hoa văn  |                |           |                  |           | 2.680.000                                         |
-|       |                 | Nan cửa cuốn G88: - Kết hợp 2 nan, sơn màu xanh mint, giảm âm 2 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa. | m 2               |                       | Bản nan 60mm, lỗ thoáng hình kim tiền |                |           |                  |           | 2.650.000                                         |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn SE03: - Sơn màu caphe, 4chân, 2 vít, giảm âm 1 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa.</td>
+      <td>m 2</td>
+      <td></td>
+      <td>Bản nan 88mm, lỗ thoáng hình hoa văn</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.680.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn G88: - Kết hợp 2 nan, sơn màu xanh mint, giảm âm 2 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8 mm+puli nhựa.</td>
+      <td>m 2</td>
+      <td></td>
+      <td>Bản nan 60mm, lỗ thoáng hình kim tiền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.650.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                       | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách                              | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|---------------------------------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                       | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách                              | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|       |                 | Nan cửa cuốn G61: - Sơn màu cà phê sáng, giảm âm 2 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5 mmdày 1,8mm+ puli nhựa.   | m 2               |                       | Bản nan 60mm, lỗ thoáng hình kim tiền |                |           |                  |           | 1.940.000                                         |
-|       |                 | Nan cửa cuốn G60 Plus: - Sơn màu ghi sáng, giảm âm 1 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8mm + puli nhựa | m 2               |                       | Bản nan 60mm, lỗ thoáng hình kim tiền |                |           |                  |           | 1.500.000                                         |
-|       |                 | 9. Phụ trội kèm theo                                                                                                          |                   |                       |                                       |                |           |                  |           |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn G61: - Sơn màu cà phê sáng, giảm âm 2 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5 mmdày 1,8mm+ puli nhựa.</td>
+      <td>m 2</td>
+      <td></td>
+      <td>Bản nan 60mm, lỗ thoáng hình kim tiền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.940.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Nan cửa cuốn G60 Plus: - Sơn màu ghi sáng, giảm âm 1 chiều lên, xuống. - Day hộp U76 - Trục phi 113,5mm dày 1,8mm + puli nhựa</td>
+      <td>m 2</td>
+      <td></td>
+      <td>Bản nan 60mm, lỗ thoáng hình kim tiền</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.500.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>9. Phụ trội kèm theo</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -239,21 +1808,133 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)             | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|----------------------------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Sơn bảo hành 10 năm                       | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Cộng thêm vào đơn giá trên | 80.000                                            |
-|       |                 | Sơn bảo hành 15 năm                       |                   |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 110.000                                           |
-|       |                 | Kính dán an toàn trắng trong 8.38mm       | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 65.000                                            |
-|       |                 | Kính dán an toàn trắng trong 10.38mm      | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 130.000                                           |
-|       |                 | Kính dán an toàn trắng trong 12.38mm      | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 230.000                                           |
-|       |                 | Kính dán an toàn phản quang 8.38mm        | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 390.000                                           |
-|       |                 | Kính dán an toàn phản quang 10.38mm       | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 480.000                                           |
-|       |                 | Kính cường lực 8 mmtrắng trong            | m 2               |                       |            | Nhà sản xuất   |           | Cộng thêm vào đơn giá trên | 80.000                                            |
-|       |                 |                                           |                   |                       |            | Nhà sản xuất   |           |                            |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn bảo hành 10 năm</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>80.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn bảo hành 15 năm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>110.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính dán an toàn trắng trong 8.38mm</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>65.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính dán an toàn trắng trong 10.38mm</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>130.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính dán an toàn trắng trong 12.38mm</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>230.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính dán an toàn phản quang 8.38mm</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>390.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính dán an toàn phản quang 10.38mm</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>480.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Kính cường lực 8 mmtrắng trong</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td>Cộng thêm vào đơn giá trên</td>
+      <td>80.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -261,83 +1942,667 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu                       | Tên vật liệu/loại vật liệu xây dựng (*)     | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ            | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-------------------------------------|---------------------------------------------|-------------------|-----------------------|------------|----------------|--------------------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu                       | Tên vật liệu/loại vật liệu xây dựng (*)     | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ            | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| 9     | Kính cường mmtrắng                  | lực 10 trong m 2                            |                   |                       |            | Nhà sản xuất   | Thành phố Cao Bằng |                  | Ghi chú   | 150.000                                           |
-| 9     | Kính cường lực 12 mmtrắng trong     | m 2                                         |                   |                       |            | Nhà sản xuất   | Thành phố Cao Bằng |                  | Ghi chú   | 230.000                                           |
-| 9     | Kính hộp cường lực dày 19mm (5+9+5) | m 2                                         |                   |                       |            | Nhà sản xuất   | Thành phố Cao Bằng |                  | Ghi chú   | 560.000                                           |
-| 9     | Gạch lát nền 40cm                   | lát Prime                                   |                   |                       |            |                |                    |                  |           |                                                   |
-| 9     | Gạch lát nền 40cm                   | 40cm x                                      | m 2               |                       | 40x40cm    |                |                    |                  |           | 100.000                                           |
-| 9     | Gạch lát nền 40cm                   | Gạch lát nền 50cm x 50cm                    | m 2               |                       | 50x50cm    |                |                    |                  |           | 110.000                                           |
-| 9     | Gạch lát nền 40cm                   | Gạch lát nền 60cm x 60cm                    | m 2               | Gạch                  | 60x60cm    |                |                    |                  |           | 135.000                                           |
-| 9     | Gạch lát nền 40cm                   | Gạch ốp tường 25cm x 50cm                   | m 2               | lát                   | 25x50cm    |                |                    |                  |           | 140.000                                           |
-| 9     | Gạch lát nền 40cm                   | Gạch ốp tường 30cm x 60cm                   | m 2               |                       | 30x60cm    |                |                    |                  |           | 170.000                                           |
-| 9     | Gạch lát nền 40cm                   | Gạch lát nền vệ sinh chống trơn 30cm x 30cm | m 2               |                       | 30x30cm    |                |                    |                  |           | 150.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Kính cường mmtrắng</td>
+      <td>lực 10 trong m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Thành phố Cao Bằng</td>
+      <td></td>
+      <td>Ghi chú</td>
+      <td>150.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Kính cường lực 12 mmtrắng trong</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Thành phố Cao Bằng</td>
+      <td></td>
+      <td>Ghi chú</td>
+      <td>230.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Kính hộp cường lực dày 19mm (5+9+5)</td>
+      <td>m 2</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Thành phố Cao Bằng</td>
+      <td></td>
+      <td>Ghi chú</td>
+      <td>560.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>lát Prime</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>40cm x</td>
+      <td>m 2</td>
+      <td></td>
+      <td>40x40cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>100.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>Gạch lát nền 50cm x 50cm</td>
+      <td>m 2</td>
+      <td></td>
+      <td>50x50cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>110.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>Gạch lát nền 60cm x 60cm</td>
+      <td>m 2</td>
+      <td>Gạch</td>
+      <td>60x60cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>135.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>Gạch ốp tường 25cm x 50cm</td>
+      <td>m 2</td>
+      <td>lát</td>
+      <td>25x50cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>140.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>Gạch ốp tường 30cm x 60cm</td>
+      <td>m 2</td>
+      <td></td>
+      <td>30x60cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>170.000</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Gạch lát nền 40cm</td>
+      <td>Gạch lát nền vệ sinh chống trơn 30cm x 30cm</td>
+      <td>m 2</td>
+      <td></td>
+      <td>30x30cm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>150.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật               | Quy cách   | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)                                                                              | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|----------------------------------------------------------|-------------------|-----------------------------------|------------|-----------------------------|-----------|---------------------------------------------------------------------------------------------|-----------|---------------------------------------------------|
-|       |                 |                                                          |                   |                                   |            |                             |           |                                                                                             |           | Thành phố Cao Bằng                                |
-| 10    | Gạch ốp lát     | Sản phẩm gạch ốp lát, ngói của Công tyTNHHMTV TMĐồng Tâm |                   | TCVN 13113: 2020 BS EN 14411:2016 | 40x40cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           |                                                   |
-| 10    | Gạch ốp lát     | GẠCHỐP/LÁT                                               |                   | TCVN 13113: 2020 BS EN 14411:2016 |            | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           |                                                   |
-| 10    | Gạch ốp lát     | Ceramic men bóng: 25x40cm                                | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 25x40cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 156.400                                           |
-| 10    | Gạch ốp lát     | Ceramic men bóng: 30x30cm                                | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 30x30cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 162.525                                           |
-| 10    | Gạch ốp lát     | Ceramic men mờ: 30x30cm                                  | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 30x30cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 177.273                                           |
-| 10    | Gạch ốp lát     | Ceramic men bóng: 40x40cm                                | m 2               | TCVN 13113: 2020 BS EN 14411:2016 |            | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 157.500                                           |
-| 10    | Gạch ốp lát     | Ceramic men mờ: 40x40cm                                  | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 40x40cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 157.500                                           |
-| 10    | Gạch ốp lát     | Ceramic men bóng: 30x60cm                                | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 30x60cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 244.444                                           |
-| 10    | Gạch ốp lát     | Ceramic men mờ: 30x60cm                                  | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 30x60cm    | Công ty TNHH MTVTM Đồng Tâm |           | Bằng                                                                                        |           | 244.444                                           |
-| 10    | Gạch ốp lát     | Ceramic men bóng kháng khuẩn: 40x80cm                    | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 40x80cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 295.313                                           |
-| 10    | Gạch ốp lát     | Porcelain men mờ vân gỗ: 15x60cm                         | m 2               | TCVN 13113: 2020 BS EN 14411:2016 | 15x60cm    | Công ty TNHH MTVTM Đồng Tâm |           | Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao |           | 281.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Sản phẩm gạch ốp lát, ngói của Công tyTNHHMTV TMĐồng Tâm</td>
+      <td></td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>40x40cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>GẠCHỐP/LÁT</td>
+      <td></td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men bóng: 25x40cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>25x40cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>156.400</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men bóng: 30x30cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>30x30cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>162.525</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men mờ: 30x30cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>30x30cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>177.273</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men bóng: 40x40cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>157.500</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men mờ: 40x40cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>40x40cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>157.500</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men bóng: 30x60cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>30x60cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>244.444</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men mờ: 30x60cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>30x60cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Bằng</td>
+      <td></td>
+      <td>244.444</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Ceramic men bóng kháng khuẩn: 40x80cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>40x80cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>295.313</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Gạch ốp lát</td>
+      <td>Porcelain men mờ vân gỗ: 15x60cm</td>
+      <td>m 2</td>
+      <td>TCVN 13113: 2020 BS EN 14411:2016</td>
+      <td>15x60cm</td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td>Giá đến hiện trường xây dựng khu vực trung tâm thành phố và các huyện trên địa bàn tỉnh Cao</td>
+      <td></td>
+      <td>281.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Porcelain men mờ: 30x30cm                 | m 2               | Tiêu chuẩn kỹ thuật   | 30x30cm    | Nhà sản xuất   |           |                  |           | 210.000                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ: 30x60cm                 | m 2               | Tiêu chuẩn kỹ thuật   | 30x60cm    | Nhà sản xuất   |           |                  |           | 250.000                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ đồng chất: 30x60cm       | m 2               | Tiêu chuẩn kỹ thuật   | 30x60cm    | Nhà sản xuất   |           |                  |           | 359.444                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ: 40x40cm                 | m 2               | Tiêu chuẩn kỹ thuật   | 40x40cm    | Nhà sản xuất   |           |                  |           | 196.250                                           |
-| STT   | Nhóm vật liệu   | Porcelain muối tiêu: 40x40cm              | m 2               | Tiêu chuẩn kỹ thuật   | 40x40cm    | Nhà sản xuất   |           |                  |           | 249.271                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ: 40x80cm                 | m 2               | Tiêu chuẩn kỹ thuật   | 40x80cm    | Nhà sản xuất   |           |                  |           | 328.125                                           |
-| STT   | Nhóm vật liệu   | Porcelain men bóng: 60x60cm               | m 2               | Tiêu chuẩn kỹ thuật   | 60x60cm    | Nhà sản xuất   |           |                  |           | 220.000                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ: 60x60cm                 | m 2               | Tiêu chuẩn kỹ thuật   | 60x60cm    | Nhà sản xuất   |           |                  |           | 220.000                                           |
-| STT   | Nhóm vật liệu   | Porcelain bóng kính 2 da: 60x60cm         | m 2               | Tiêu chuẩn kỹ thuật   | 60x60cm    | Nhà sản xuất   |           |                  |           | 288.889                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ đồng chất: 60x60cm       | m 2               | Tiêu chuẩn kỹ thuật   | 60x60cm    | Nhà sản xuất   |           |                  |           | 368.333                                           |
-| STT   | Nhóm vật liệu   | Porcelain men mờ kháng khuẩn: 80x80cm     | m 2               | Tiêu chuẩn kỹ thuật   | 80x80cm    | Nhà sản xuất   |           |                  |           | 314.063                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ: 30x30cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>30x30cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>210.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ: 30x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>30x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>250.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ đồng chất: 30x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>30x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>359.444</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ: 40x40cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>40x40cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>196.250</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain muối tiêu: 40x40cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>40x40cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>249.271</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ: 40x80cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>40x80cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>328.125</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men bóng: 60x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>60x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>220.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ: 60x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>60x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>220.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain bóng kính 2 da: 60x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>60x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>288.889</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ đồng chất: 60x60cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>60x60cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>368.333</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain men mờ kháng khuẩn: 80x80cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>80x80cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>314.063</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật             | Quy cách   | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------------------------------------|-------------------|---------------------------------|------------|-----------------------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật             | Quy cách   | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Porcelain bóng kính kháng khuẩn: 80x80cm                                                  | m 2               | Tiêu chuẩn kỹ thuật             | 80x80cm    | Nhà sản xuất                |           |                  |           | 344.531                                           |
-| STT   | Nhóm vật liệu   | Porcelain mài bóng kháng khuẩn: 100x100cm                                                 | m 2               | Tiêu chuẩn kỹ thuật             | 100x100cm  | Nhà sản xuất                |           |                  |           | 447.909                                           |
-|       | 11              | NGÓI XIMĂNG                                                                               |                   | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  |           |                                                   |
-|       | 11              | Ngói lợp lớn 1 màu                                                                        | Viên              | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  |           | 18.909                                            |
-|       | 11              | Ngói lợp lớn 2 màu                                                                        | Viên              | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  |           | 21.364                                            |
-|       | 11              | Ngói rìa/Ngói nóc có gờ 1 màu - Đồng Tâm, Việt Nam                                        | Viên              | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  |           | 29.727                                            |
-|       | 11              | Ngói rìa/Ngói nóc có gờ 2 màu - Đồng Tâm, Việt Nam                                        | Viên              | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  | Vật       | 31.909                                            |
-|       | 11              | Ngói ốp cuối nóc phải/ trái có gờ 1 màu Ngói đuôi (cuối mái) 1 màu Ngói ốp cuối rìa 1 màu | Viên              | BS EN 490:2011 + sửa đổi 1:2017 |            | Công ty TNHH MTVTM Đồng Tâm |           |                  |           | 46.182                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain bóng kính kháng khuẩn: 80x80cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>80x80cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>344.531</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Porcelain mài bóng kháng khuẩn: 100x100cm</td>
+      <td>m 2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>100x100cm</td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>447.909</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>NGÓI XIMĂNG</td>
+      <td></td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>Ngói lợp lớn 1 màu</td>
+      <td>Viên</td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>18.909</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>Ngói lợp lớn 2 màu</td>
+      <td>Viên</td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>21.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>Ngói rìa/Ngói nóc có gờ 1 màu - Đồng Tâm, Việt Nam</td>
+      <td>Viên</td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>29.727</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>Ngói rìa/Ngói nóc có gờ 2 màu - Đồng Tâm, Việt Nam</td>
+      <td>Viên</td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td>Vật</td>
+      <td>31.909</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>11</td>
+      <td>Ngói ốp cuối nóc phải/ trái có gờ 1 màu Ngói đuôi (cuối mái) 1 màu Ngói ốp cuối rìa 1 màu</td>
+      <td>Viên</td>
+      <td>BS EN 490:2011 + sửa đổi 1:2017</td>
+      <td></td>
+      <td>Công ty TNHH MTVTM Đồng Tâm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>46.182</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -345,16 +2610,78 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                        | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|----------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                        | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Ngói ốp cuối nóc phải/ trái có gờ 2 màu Ngói đuôi (cuối mái) 2 màu Ngói ốp cuối rìa 2 màu                      | Viên              | Tiêu chuẩn kỹ thuật   |            |                |           |                  |           | 50.636                                            |
-| STT   | Nhóm vật liệu   | Ngói chạc 2 (L phải / L trái) 1 màu Ngói chạc ba 1 màu Ngói chạc tư 1 màu Ngói chữ T 1 màu                     | Viên              | Tiêu chuẩn kỹ thuật   |            |                |           |                  |           | 53.909                                            |
-| STT   | Nhóm vật liệu   | Ngói chạc 2 (L phải / L trái) 2 màu Ngói chạc ba 2 màu Ngói chạc tư 2 màu Ngói chữ T 2 màu Đồng Tâm - Việt Nam | Viên              | Tiêu chuẩn kỹ thuật   |            |                |           |                  |           | 55.000                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói ốp cuối nóc phải/ trái có gờ 2 màu Ngói đuôi (cuối mái) 2 màu Ngói ốp cuối rìa 2 màu</td>
+      <td>Viên</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>50.636</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chạc 2 (L phải / L trái) 1 màu Ngói chạc ba 1 màu Ngói chạc tư 1 màu Ngói chữ T 1 màu</td>
+      <td>Viên</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>53.909</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chạc 2 (L phải / L trái) 2 màu Ngói chạc ba 2 màu Ngói chạc tư 2 màu Ngói chữ T 2 màu Đồng Tâm - Việt Nam</td>
+      <td>Viên</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>55.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -362,54 +2689,384 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                             | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                             | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|       | Nhóm vật liệu   | Ngói nóc có gờ có giá gắn ống 1 màu Ngói lợp có giá gắn ống 1 màu Ngói chạc 3 có giá gắn ống 1 màu Ngói chạc 4 có giá gắn ống 1 màu | Viên              |                       |            |                |           |                  |           | 220.000                                           |
-|       | Nhóm vật liệu   | NGÓI TRÁNG MEN                                                                                                                      | Viên              | TCVN 9133:2011        |            |                |           |                  |           |                                                   |
-|       | Nhóm vật liệu   | Ngói lợp lớn                                                                                                                        | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 24.545                                            |
-|       | Nhóm vật liệu   | Ngói rìa                                                                                                                            | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 37.545                                            |
-|       | Nhóm vật liệu   | Ngói cuối rìa                                                                                                                       | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 62.545                                            |
-|       | Nhóm vật liệu   | Ngói nóc có gờ                                                                                                                      | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 36.364                                            |
-|       | Nhóm vật liệu   | Ngói ốp cuối nóc trái                                                                                                               | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 63.636                                            |
-|       | Nhóm vật liệu   | Ngói ốp cuối nóc phải                                                                                                               | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 63.636                                            |
-|       | Nhóm vật liệu   | Ngói chạc ba                                                                                                                        | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 86.364                                            |
-|       | Nhóm vật liệu   | Ngói chạc tư                                                                                                                        | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 104.545                                           |
-|       | Nhóm vật liệu   | Ngói chạc chữ T                                                                                                                     | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 86.364                                            |
-|       | Nhóm vật liệu   | Ngói chặn cuối nóc                                                                                                                  | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 27.273                                            |
-|       | Nhóm vật liệu   | Ngói chặn cuối rìa                                                                                                                  | Viên              | TCVN 9133:2011        |            |                |           |                  |           | 25.000                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói nóc có gờ có giá gắn ống 1 màu Ngói lợp có giá gắn ống 1 màu Ngói chạc 3 có giá gắn ống 1 màu Ngói chạc 4 có giá gắn ống 1 màu</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>220.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>NGÓI TRÁNG MEN</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói lợp lớn</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>24.545</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói rìa</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>37.545</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói cuối rìa</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>62.545</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói nóc có gờ</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>36.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói ốp cuối nóc trái</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63.636</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói ốp cuối nóc phải</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>63.636</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chạc ba</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>86.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chạc tư</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>104.545</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chạc chữ T</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>86.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chặn cuối nóc</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>27.273</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Ngói chặn cuối rìa</td>
+      <td>Viên</td>
+      <td>TCVN 9133:2011</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>25.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                          | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                               | Xuất xứ   | Vận chuyển (*)                      | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------------------------------------------------------|-------------------|------------------------|------------|--------------------------------------------|-----------|-------------------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                          | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                               | Xuất xứ   | Vận chuyển (*)                      | Ghi chú   | Thành phố Cao Bằng                                |
-| 12    | Gạch ốp lát     | Danh mục sản phẩm digital GraniteViet Y Tile                                                     |                   | Quy chuẩn 16:2019/QCVN |            | Công ty Cổ phần tập đoàn đầu tư Grand Home |           | Giá trên địa bàn thành phố Cao Bằng |           |                                                   |
-| 12    | Gạch ốp lát     | Sản phẩm gạch kích thước 600x600mm - Men Matt (MSP: VY1-M66001, VY1- M66002….,VY2 - M66001, ….., | m2                | Quy chuẩn 16:2019/QCVN | 600x600mm  | Công ty Cổ phần tập đoàn đầu tư Grand Home |           | Giá trên địa bàn thành phố Cao Bằng |           | 205.800                                           |
-| 12    | Gạch ốp lát     | Sản phẩm gạch kích thước 600x600mm - Men Bóng (MSP: VY1-P66001, VY2- P66002,….)                  | m2                | Quy chuẩn 16:2019/QCVN | 600x600mm  | Công ty Cổ phần tập đoàn đầu tư Grand Home |           | Giá trên địa bàn thành phố Cao Bằng |           | 205.800                                           |
-| 12    | Gạch ốp lát     | Sản phẩm gạch kích thước 300x600mm - Men Matt (MSP: VY1-M36001, VY1- M36002….,VY2 - M36001, …..) | m2                | Quy chuẩn 16:2019/QCVN | 300x600mm  | Công ty Cổ phần tập đoàn đầu tư Grand Home |           | Giá trên địa bàn thành phố Cao Bằng |           | 205.800                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Gạch ốp lát</td>
+      <td>Danh mục sản phẩm digital GraniteViet Y Tile</td>
+      <td></td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty Cổ phần tập đoàn đầu tư Grand Home</td>
+      <td></td>
+      <td>Giá trên địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Gạch ốp lát</td>
+      <td>Sản phẩm gạch kích thước 600x600mm - Men Matt (MSP: VY1-M66001, VY1- M66002….,VY2 - M66001, …..,</td>
+      <td>m2</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td>600x600mm</td>
+      <td>Công ty Cổ phần tập đoàn đầu tư Grand Home</td>
+      <td></td>
+      <td>Giá trên địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td>205.800</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Gạch ốp lát</td>
+      <td>Sản phẩm gạch kích thước 600x600mm - Men Bóng (MSP: VY1-P66001, VY2- P66002,….)</td>
+      <td>m2</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td>600x600mm</td>
+      <td>Công ty Cổ phần tập đoàn đầu tư Grand Home</td>
+      <td></td>
+      <td>Giá trên địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td>205.800</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Gạch ốp lát</td>
+      <td>Sản phẩm gạch kích thước 300x600mm - Men Matt (MSP: VY1-M36001, VY1- M36002….,VY2 - M36001, …..)</td>
+      <td>m2</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td>300x600mm</td>
+      <td>Công ty Cổ phần tập đoàn đầu tư Grand Home</td>
+      <td></td>
+      <td>Giá trên địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td>205.800</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                           | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|---------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                           | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|       |                 | Sản phẩm gạch kích thước 300x600mm - Men Bóng (MSP: VY1-P36001, VY2- P36002,….)                   | m2                |                       | 300x600mm  |                |           |                  |           | 205.800                                           |
-|       |                 | Sản phẩm gạch kích thước 400x800mm - Men Matt (MSP: VY1-M48001, VY1- M48002…..,VY2 - M48001, …..) | m2                |                       | 400x800mm  |                |           |                  |           | 320.850                                           |
-|       |                 | Sản phẩm gạch kích thước 400x800mm - Men bóng (MSP: VY1-P48001, VY2- P48002,….)                   | m2                |                       | 400x800mm  |                |           |                  |           | 320.850                                           |
-|       |                 | Sản phẩm gạch kích thước 800x800mm - Men Matt(MSP: VY1-M88001, VY1- M88002…..,VY2 - M8001, …..)   | m2                |                       | 800x800mm  |                |           |                  |           | 327.980                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sản phẩm gạch kích thước 300x600mm - Men Bóng (MSP: VY1-P36001, VY2- P36002,….)</td>
+      <td>m2</td>
+      <td></td>
+      <td>300x600mm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>205.800</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sản phẩm gạch kích thước 400x800mm - Men Matt (MSP: VY1-M48001, VY1- M48002…..,VY2 - M48001, …..)</td>
+      <td>m2</td>
+      <td></td>
+      <td>400x800mm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>320.850</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sản phẩm gạch kích thước 400x800mm - Men bóng (MSP: VY1-P48001, VY2- P48002,….)</td>
+      <td>m2</td>
+      <td></td>
+      <td>400x800mm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>320.850</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sản phẩm gạch kích thước 800x800mm - Men Matt(MSP: VY1-M88001, VY1- M88002…..,VY2 - M8001, …..)</td>
+      <td>m2</td>
+      <td></td>
+      <td>800x800mm</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>327.980</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -417,20 +3074,130 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                         | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                      | Xuất xứ   | Vận chuyển (*)          | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|---------------------------------------------------------------------------------|-------------------|-----------------------|------------|-----------------------------------|-----------|-------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                         | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                      | Xuất xứ   | Vận chuyển (*)          | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Sản phẩm gạch kích thước 800x800mm - Men bóng (MSP: VY1-P88001, VY2- P88002,….) | m2                | Tiêu chuẩn kỹ thuật   | 800x800mm  | Nhà sản xuất                      | Xuất xứ   | Vận chuyển (*)          | Ghi chú   | 327.980                                           |
-| 13    | Gạch xây        | Gạch chỉ tuy nen 2 lỗ loại A                                                    |                   |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           |                                                   |
-| 13    | Gạch xây        | - 2 lỗ tròn đường kính Ø30 KT: 210x95x55mm                                      | Viên              |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           | 1.444                                             |
-| 13    | Gạch xây        | - 2 lỗ tròn đường kính Ø25 KT: 210x95x55mm                                      | Viên              |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           | 1.296                                             |
-| 13    | Gạch xây        | - Gạch tuynel đặc loại A KT: 210x95x55mm                                        | Viên              |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           | 1.759                                             |
-| 13    | Gạch xây        | - Gạch tuynel loại A 4 lỗ KT: 220x105x135mm                                     | Viên              |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           | 3.333                                             |
-| 13    | Gạch xây        | - Gạch tuynel loại A 6 lỗ KT: 220x105x135mm                                     | Viên              |                       |            | Công ty CP SXVL xây dựng Cao Bằng |           | Giao tại kho nhà máy sx |           | 3.611                                             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sản phẩm gạch kích thước 800x800mm - Men bóng (MSP: VY1-P88001, VY2- P88002,….)</td>
+      <td>m2</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>800x800mm</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>327.980</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>Gạch chỉ tuy nen 2 lỗ loại A</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- 2 lỗ tròn đường kính Ø30 KT: 210x95x55mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td>1.444</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- 2 lỗ tròn đường kính Ø25 KT: 210x95x55mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td>1.296</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- Gạch tuynel đặc loại A KT: 210x95x55mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td>1.759</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- Gạch tuynel loại A 4 lỗ KT: 220x105x135mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td>3.333</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- Gạch tuynel loại A 6 lỗ KT: 220x105x135mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td>Công ty CP SXVL xây dựng Cao Bằng</td>
+      <td></td>
+      <td>Giao tại kho nhà máy sx</td>
+      <td></td>
+      <td>3.611</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -438,45 +3205,361 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                         | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-----------------------------------------------------------------|-------------------|------------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                 |                   |                        |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Gạch 2 lỗ thông tâm không nung KT: 220x105x65mm                 | Viên              | Quy chuẩn 16:2019/QCVN |            |                |           |                  |           | 1.120                                             |
-|       |                 | Gạch đặc không nung (TC-M15-105- TCCS 04:2013) KT: 216x104x61mm | Viên              | Quy chuẩn 16:2019/QCVN |            |                |           |                  |           | 1.120                                             |
-|       |                 | Lo ạ i A                                                        |                   |                        |            |                |           |                  |           |                                                   |
-|       |                 | - Gạch 2 lỗ Ø25 , KT 210x95x55mm                                | Viên              | Quy chuẩn 16:2019/QCVN |            |                |           |                  |           | 1.200                                             |
-|       |                 | - G ạ ch 2 l ỗ Ø 30, KT 220x105x60mm                            | Viên              | Quy chuẩn 16:2019/QCVN |            |                |           |                  |           | 1.450                                             |
-|       |                 | - Gạch đặ c, KT 210x95x55mm                                     | Viên              | Quy chuẩn 16:2019/QCVN |            | Công ty CP     |           | Giao tại         |           | 1.550                                             |
-| 13    | Gạch xây        | - Gạch 4 lỗ vuông, KT 220x105x130mm                             | Viên              | Quy chuẩn 16:2019/QCVN |            | Gốm Tân Phong  | Việt Nam  | kho nhà máy sx   |           | 3.300                                             |
-|       |                 | - Gạch 6 lỗ Ø30, KT 220x105x150mm                               | Viên              | Quy chuẩn 16:2019/QCVN |            |                |           |                  |           | 3.600                                             |
-|       |                 | - Gạch 8 lỗ Ø30, KT 400x105x180mm                               | Viên              |                        |            |                |           |                  |           | 8.000                                             |
-|       |                 | - Gạch 8 lỗ vuông, KT 340x120x180mm                             | Viên              |                        |            |                |           |                  |           | 8.000                                             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Gạch 2 lỗ thông tâm không nung KT: 220x105x65mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.120</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Gạch đặc không nung (TC-M15-105- TCCS 04:2013) KT: 216x104x61mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.120</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Lo ạ i A</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 2 lỗ Ø25 , KT 210x95x55mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.200</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- G ạ ch 2 l ỗ Ø 30, KT 220x105x60mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.450</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch đặ c, KT 210x95x55mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty CP</td>
+      <td></td>
+      <td>Giao tại</td>
+      <td></td>
+      <td>1.550</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Gạch xây</td>
+      <td>- Gạch 4 lỗ vuông, KT 220x105x130mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Gốm Tân Phong</td>
+      <td>Việt Nam</td>
+      <td>kho nhà máy sx</td>
+      <td></td>
+      <td>3.300</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 6 lỗ Ø30, KT 220x105x150mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 8 lỗ Ø30, KT 400x105x180mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 8 lỗ vuông, KT 340x120x180mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                           |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | - Gạch 10 lỗ Ø30, KT 320x215x120mm        | Viên              |                       |            |                |           |                  |           | 8.000                                             |
-|       |                 | - Gạch 10 lỗ vuông, KT 320x215x120mm      | Viên              |                       |            |                |           |                  |           | 8.000                                             |
-|       |                 | Lo ạ i A1                                 |                   |                       |            |                |           |                  |           |                                                   |
-|       |                 | - Gạch 2 lỗ Ø25 , KT 210x95x55mm          | Viên              |                       |            |                |           |                  |           | 900                                               |
-|       |                 | - G ạ ch 2 l ỗ Ø 30, KT 220x105x60mm      | Viên              |                       |            |                |           |                  |           | 1.100                                             |
-|       |                 | - Gạch đặ c, KT 210x95x55mm               | Viên              |                       |            |                |           |                  |           | 1.200                                             |
-|       |                 | - Gạch 4 lỗ vuông, KT 220x105x130mm       | Viên              |                       |            |                |           |                  |           | 2.200                                             |
-|       |                 | - Gạch 6 lỗ Ø30, KT 220x105x150mm         | Viên              |                       |            |                |           |                  |           | 2.200                                             |
-|       |                 | - Gạch 8 lỗ Ø30, KT 400x105x180mm         | Viên              |                       |            |                |           |                  |           | 5.500                                             |
-|       |                 | - Gạch 8 lỗ vuông, KT 340x120x180mm       | Viên              |                       |            |                |           |                  |           | 5.500                                             |
-|       |                 | - Gạch 10 lỗ Ø30, KT 320x215x120mm        | Viên              |                       |            |                |           |                  |           | 5.500                                             |
-|       |                 | - Gạch 10 lỗ vuông, KT 320x215x120mm      | Viên              |                       |            |                |           |                  |           | 5.500                                             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 10 lỗ Ø30, KT 320x215x120mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 10 lỗ vuông, KT 320x215x120mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>8.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Lo ạ i A1</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 2 lỗ Ø25 , KT 210x95x55mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>900</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- G ạ ch 2 l ỗ Ø 30, KT 220x105x60mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.100</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch đặ c, KT 210x95x55mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>1.200</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 4 lỗ vuông, KT 220x105x130mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.200</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 6 lỗ Ø30, KT 220x105x150mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>2.200</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 8 lỗ Ø30, KT 400x105x180mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>5.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 8 lỗ vuông, KT 340x120x180mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>5.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 10 lỗ Ø30, KT 320x215x120mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>5.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Gạch 10 lỗ vuông, KT 320x215x120mm</td>
+      <td>Viên</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>5.500</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -484,22 +3567,156 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)              | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                        | Xuất xứ   | Vận chuyển (*)                 | Ghi chú                                                                                                                                           | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------|-------------------|------------------------|------------|-----------------------------------------------------|-----------|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)              | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                                        | Xuất xứ   | Vận chuyển (*)                 | Ghi chú                                                                                                                                           | Thành phố Cao Bằng                                |
-| 14    | Gạch xây        | Gạch bê tông 2 lỗ Ø28 KT: 220x105x65mm               | Viên              | Quy chuẩn 16:2019/QCVN |            | Công ty CP xi măng - XDCT Cao Bằng                  | Việt Nam  | Giá bán tại nhà máy            |                                                                                                                                                   | 1.019                                             |
-| 14    | Gạch xây        | Gạch bê tông đặc KT: 210x100x60mm                    | Viên              | Quy chuẩn 16:2019/QCVN |            | Công ty CP xi măng - XDCT Cao Bằng                  | Việt Nam  | Giá bán tại nhà máy            |                                                                                                                                                   | 1.019                                             |
-| 15    | Gỗ xây dựng     | Hoành gỗ tạp xẻ 8 x 8 nhóm 4                         | m3                |                        |            |                                                     |           |                                |                                                                                                                                                   | 3.000.000                                         |
-| 15    | Gỗ xây dựng     | Cầu phong, ly tô nhóm 4                              | m3                |                        |            |                                                     |           |                                |                                                                                                                                                   | 3.400.000                                         |
-| 15    | Gỗ xây dựng     | Gỗ ván cốp pha nhóm 5,6                              | m3                |                        |            |                                                     |           |                                |                                                                                                                                                   | 3.000.000                                         |
-| 16    | Nhựa đường      | Carboncor asphalt - CA 9.5                           | Tấn               |                        |            | Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528) |           | Giá bán tại thành phố Cao Bằng | Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn | 3.930.000                                         |
-| 16    | Nhựa đường      | Carboncor asphalt - CA 12.5                          | Tấn               |                        |            | Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528) |           | Giá bán tại thành phố Cao Bằng | Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn | 3.930.000                                         |
-| 16    | Nhựa đường      | Carboncor asphalt - CA 19 (bê tông nhựa rỗng Carbon) | Tấn               |                        |            | Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528) |           | Giá bán tại thành phố Cao Bằng | Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn | 3.110.000                                         |
-| 17    | Nhựa đường      | Nhựa đường đặc nóng 60/70:                           |                   | TCVN: 13567:1-2022;    |            | Công ty Cổ phần nhựa                                |           |                                |                                                                                                                                                   |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Gạch xây</td>
+      <td>Gạch bê tông 2 lỗ Ø28 KT: 220x105x65mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty CP xi măng - XDCT Cao Bằng</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại nhà máy</td>
+      <td></td>
+      <td>1.019</td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Gạch xây</td>
+      <td>Gạch bê tông đặc KT: 210x100x60mm</td>
+      <td>Viên</td>
+      <td>Quy chuẩn 16:2019/QCVN</td>
+      <td></td>
+      <td>Công ty CP xi măng - XDCT Cao Bằng</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại nhà máy</td>
+      <td></td>
+      <td>1.019</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Gỗ xây dựng</td>
+      <td>Hoành gỗ tạp xẻ 8 x 8 nhóm 4</td>
+      <td>m3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.000.000</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Gỗ xây dựng</td>
+      <td>Cầu phong, ly tô nhóm 4</td>
+      <td>m3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.400.000</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Gỗ xây dựng</td>
+      <td>Gỗ ván cốp pha nhóm 5,6</td>
+      <td>m3</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>3.000.000</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Nhựa đường</td>
+      <td>Carboncor asphalt - CA 9.5</td>
+      <td>Tấn</td>
+      <td></td>
+      <td></td>
+      <td>Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528)</td>
+      <td></td>
+      <td>Giá bán tại thành phố Cao Bằng</td>
+      <td>Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn</td>
+      <td>3.930.000</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Nhựa đường</td>
+      <td>Carboncor asphalt - CA 12.5</td>
+      <td>Tấn</td>
+      <td></td>
+      <td></td>
+      <td>Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528)</td>
+      <td></td>
+      <td>Giá bán tại thành phố Cao Bằng</td>
+      <td>Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn</td>
+      <td>3.930.000</td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td>Nhựa đường</td>
+      <td>Carboncor asphalt - CA 19 (bê tông nhựa rỗng Carbon)</td>
+      <td>Tấn</td>
+      <td></td>
+      <td></td>
+      <td>Công ty cổ phần CARBON Việt Nam (ĐT: 024.3795 8528)</td>
+      <td></td>
+      <td>Giá bán tại thành phố Cao Bằng</td>
+      <td>Giá đã bao gồm chi phí vận tải từ nhà máy Hà Nam đến trung tâm thành phố Cao Bằng. Ngoài địa điểm trên, mỗi Km phụ trội sẽ tính thêm 3.000VNĐ/tấn</td>
+      <td>3.110.000</td>
+    </tr>
+    <tr>
+      <td>17</td>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường đặc nóng 60/70:</td>
+      <td></td>
+      <td>TCVN: 13567:1-2022;</td>
+      <td></td>
+      <td>Công ty Cổ phần nhựa</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -507,19 +3724,93 @@ TD637
 
 L ầ n ban hành: 1
 
-| Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách Nhà sản xuất     | Xuất xứ   | Vận chuyển (*) Ghi chú            | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-----------------|-------------------------------------------|-------------------|-----------------------|---------------------------|-----------|-----------------------------------|---------------------------------------------------|
-| Nhóm vật liệu   |                                           |                   |                       |                           |           |                                   | Thành phố Cao Bằng                                |
-| Nhựa đường      | Nhựa đường đặc nóng 60/70 Singapore       | kg                |                       | đường thiết bị giao thông |           | Giá tại Cảng Vật Cách - Hải Phòng | 13.000                                            |
-| Nhựa đường      | Nhựa đường đặc nóng 60/70 Singapore kg    |                   |                       |                           |           | Giá bán tại Thành phố Cao Bằng    | 13.600                                            |
-| Nhựa đường      | Nhựa đường 60/70 Trung Đông đóng thùng:   |                   |                       |                           |           |                                   |                                                   |
-| Nhựa đường      | Nhựa đường 60/70 IRAN đóng thùng kg       |                   |                       |                           |           | Giá tại Cảng Vật Cách - Hải Phòng | 11.900                                            |
-| Nhựa đường      | Nhựa đường 60/70 IRAN đóng thùng kg       |                   |                       |                           |           | Giá bán tại Thành phố Cao Bằng    | 12.400                                            |
-| Nhựa đường      | Nhựa đường 60/70 Singapore đóng thùng:    |                   |                       |                           |           |                                   |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*) Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nhóm vật liệu</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường đặc nóng 60/70 Singapore</td>
+      <td>kg</td>
+      <td></td>
+      <td>đường thiết bị giao thông</td>
+      <td></td>
+      <td>Giá tại Cảng Vật Cách - Hải Phòng</td>
+      <td>13.000</td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường đặc nóng 60/70 Singapore kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Giá bán tại Thành phố Cao Bằng</td>
+      <td>13.600</td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 Trung Đông đóng thùng:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 IRAN đóng thùng kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Giá tại Cảng Vật Cách - Hải Phòng</td>
+      <td>11.900</td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 IRAN đóng thùng kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Giá bán tại Thành phố Cao Bằng</td>
+      <td>12.400</td>
+    </tr>
+    <tr>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 Singapore đóng thùng:</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -527,22 +3818,156 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất          | Xuất xứ   | Vận chuyển (*)     | Ghi chú                           | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-----------------------------------------------------------|-------------------|-----------------------|------------|-----------------------|-----------|--------------------|-----------------------------------|---------------------------------------------------|
-|       |                 |                                                           |                   |                       |            |                       |           |                    |                                   | Thành phố Cao Bằng                                |
-|       | Nhựa đường      | Nhựa đường 60/70 Singapore đóng thùng                     | kg                |                       |            |                       |           |                    | Giá tại Cảng Vật Cách - Hải Phòng | 14.600                                            |
-|       | Nhựa đường      | Nhựa đường 60/70 Singapore đóng thùng                     | kg                |                       |            |                       |           |                    | Giá bán tại Thành phố Cao Bằng    | 15.100                                            |
-|       |                 | Matít Kova                                                |                   | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           |                    |                                   |                                                   |
-|       |                 | Matit trong nhà MTT- Gold                                 | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova | Việt Nam  | Không có thông tin |                                   | 23.273                                            |
-|       |                 | Bột bả trong nhà MB-T                                     | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           | Không có thông tin |                                   | 14.909                                            |
-|       |                 | Matit ngoài trời MTN- Gold                                | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           | Không có thông tin |                                   | 29.273                                            |
-| 18    | Sơn             | Bột bả ngoài trời MB-N                                    | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           | Không có thông tin |                                   | 19.273                                            |
-|       |                 | Sơn nước trong nhà Kova (Sơn trắng chưa bao gồm tiền màu) |                   | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           | Không có thông tin |                                   |                                                   |
-|       |                 | - Sơn lót kháng kiềm cao cấp K -109                       | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn Kova |           | Không có thông tin |                                   | 107.455                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 Singapore đóng thùng</td>
+      <td>kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Giá tại Cảng Vật Cách - Hải Phòng</td>
+      <td>14.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhựa đường</td>
+      <td>Nhựa đường 60/70 Singapore đóng thùng</td>
+      <td>kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Giá bán tại Thành phố Cao Bằng</td>
+      <td>15.100</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Matít Kova</td>
+      <td></td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Matit trong nhà MTT- Gold</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td>Việt Nam</td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td>23.273</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Bột bả trong nhà MB-T</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td>14.909</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Matit ngoài trời MTN- Gold</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td>29.273</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>Sơn</td>
+      <td>Bột bả ngoài trời MB-N</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td>19.273</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nước trong nhà Kova (Sơn trắng chưa bao gồm tiền màu)</td>
+      <td></td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn lót kháng kiềm cao cấp K -109</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn Kova</td>
+      <td></td>
+      <td>Không có thông tin</td>
+      <td></td>
+      <td>107.455</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -550,189 +3975,1387 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                    | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                            |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | - Sơn trắng trần trong nhà K-10                            | Kg                |                       |            |                |           |                  |           | 110.727                                           |
-|       |                 | - Sơn bóng cao cấp K-871                                   | Kg                |                       |            |                |           |                  |           | 215.227                                           |
-|       |                 | - Sơn bán bóng cao cấp K -5500                             | Kg                |                       |            |                |           |                  |           | 153.091                                           |
-|       |                 | - Sơn không bóng K-771                                     | Kg                |                       |            |                |           |                  |           | 59.600                                            |
-|       |                 | - Sơn không bóng K-260                                     | Kg                |                       |            |                |           |                  |           | 73.727                                            |
-|       |                 | Sơn nước ngoài trời Kova (Sơn trắng chưa bao gồm tiền màu) |                   |                       |            |                |           |                  |           |                                                   |
-|       |                 | - Sơn lót kháng kiềm cao cấp K -209                        | Kg                |                       |            |                |           |                  |           | 176.455                                           |
-|       |                 | - Sơn bóng cao cấp K-360                                   | Kg                |                       |            |                |           |                  |           | 285.455                                           |
-|       |                 | - Sơn trang trí, chống thấm cao cấp ngoài trời CT - 04T    | Kg                |                       |            |                |           |                  |           | 228.182                                           |
-|       |                 | - Sơn bán bóng cao cấp K -5800                             | Kg                |                       |            |                |           |                  |           | 201.818                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn trắng trần trong nhà K-10</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>110.727</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn bóng cao cấp K-871</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>215.227</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn bán bóng cao cấp K -5500</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>153.091</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn không bóng K-771</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>59.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn không bóng K-260</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>73.727</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nước ngoài trời Kova (Sơn trắng chưa bao gồm tiền màu)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn lót kháng kiềm cao cấp K -209</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>176.455</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn bóng cao cấp K-360</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>285.455</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn trang trí, chống thấm cao cấp ngoài trời CT - 04T</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>228.182</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>- Sơn bán bóng cao cấp K -5800</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>201.818</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                                     | Xuất xứ   | Vận chuyển (*)                                 | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|----------------------------------------------------------|-------------------|-----------------------|------------|--------------------------------------------------|-----------|------------------------------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                                     | Xuất xứ   | Vận chuyển (*)                                 | Ghi chú   | Thành phố Cao Bằng                                |
-|       | Nhóm vật liệu   | - Sơn không bóng cao cấp K -5501                         | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                                     |           |                                                |           | 146.182                                           |
-|       | Nhóm vật liệu   | - Sơn không bóng K-261                                   | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                                     |           |                                                |           | 95.000                                            |
-|       | Nhóm vật liệu   | Sơn màu Kova pha sẵn sơn trong nhà K - 180               | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                                     |           |                                                |           | 59.318                                            |
-|       | Nhóm vật liệu   | Sơn màu Kova pha sẵn sơn ngoài trời màu nhạt K -280      | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                                     |           |                                                |           | 87.045                                            |
-|       | Nhóm vật liệu   | Sơn màu Kova pha sẵn sơn ngoài trời màu đậm K -280       | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                                     |           |                                                |           | 113.409                                           |
-|       | 19              | SƠN NỘI THẤT                                             |                   | QCVN 16:2019/BXD      |            | Công ty TNHH đầu tư dịch vụ thương mại Thành Nam | Việt Nam  | Giá bán tại địa bàn thành phố Cao Bằng phạm vi |           |                                                   |
-|       | 19              | INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1 | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH đầu tư dịch vụ thương mại Thành Nam | Việt Nam  | Giá bán tại địa bàn thành phố Cao Bằng phạm vi |           | 375.000                                           |
-|       | 19              | INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1 | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH đầu tư dịch vụ thương mại Thành Nam | Việt Nam  | <50Km                                          |           | 375.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>- Sơn không bóng cao cấp K -5501</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>146.182</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>- Sơn không bóng K-261</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>95.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn màu Kova pha sẵn sơn trong nhà K - 180</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>59.318</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn màu Kova pha sẵn sơn ngoài trời màu nhạt K -280</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>87.045</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn màu Kova pha sẵn sơn ngoài trời màu đậm K -280</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>113.409</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>19</td>
+      <td>SƠN NỘI THẤT</td>
+      <td></td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH đầu tư dịch vụ thương mại Thành Nam</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại địa bàn thành phố Cao Bằng phạm vi</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>19</td>
+      <td>INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH đầu tư dịch vụ thương mại Thành Nam</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại địa bàn thành phố Cao Bằng phạm vi</td>
+      <td></td>
+      <td>375.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>19</td>
+      <td>INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH đầu tư dịch vụ thương mại Thành Nam</td>
+      <td>Việt Nam</td>
+      <td><50Km</td>
+      <td></td>
+      <td>375.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                            | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                    |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1           | Kg                |                       |            |                |           |                  |           | 375.000                                           |
-|       |                 | INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1           | Kg                |                       |            |                |           |                  |           | 375.000                                           |
-|       |                 | SƠN NGOẠI THẤT                                                     |                   |                       |            |                |           |                  |           |                                                   |
-|       |                 | INPA - EXTERIOR ENAMEL Sơn siêu bóng ngoại thất cao cấp 7 trong 1  | Kg                |                       |            |                |           |                  |           | 375.000                                           |
-|       |                 | INPA - TITANIUM EXT Sơn bóng ngoại thất cao cấp 8 trong 1          | Kg                |                       |            |                |           |                  |           | 260.000                                           |
-|       |                 | INPA - GLOSSY EXT Sơn bóng mờ ngoại thất cap cấp màng sơn láng mịn | Kg                |                       |            |                |           |                  |           | 205.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>375.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - PLATINUM Sơn siêu bóng nội thất cao cấp 7 trong 1</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>375.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN NGOẠI THẤT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - EXTERIOR ENAMEL Sơn siêu bóng ngoại thất cao cấp 7 trong 1</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>375.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - TITANIUM EXT Sơn bóng ngoại thất cao cấp 8 trong 1</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>260.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - GLOSSY EXT Sơn bóng mờ ngoại thất cap cấp màng sơn láng mịn</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>205.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                                                  | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | INPA - BASIC EXT Sơn mịn ngoại thất cap cấp màng sơn láng mịn                                                                            | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 130.000                                           |
-| STT   | Nhóm vật liệu   | SƠN CÔNG NGHIỆP                                                                                                                          |                   | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           |                                                   |
-| STT   | Nhóm vật liệu   | INPA - SHIELD COLOR Sơn chống thấm đa năng cao cấp                                                                                       | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 200.000                                           |
-| STT   | Nhóm vật liệu   | INPA - EPOXY PRIME Sơn lót EPOXY PRIME khả năng bám dính tuyệt đối, thẩm thấu cao, chống mài mòn, kháng nước, kháng kiềm, chịu độ ẩm cao | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 372.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>INPA - BASIC EXT Sơn mịn ngoại thất cap cấp màng sơn láng mịn</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>130.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN CÔNG NGHIỆP</td>
+      <td></td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>INPA - SHIELD COLOR Sơn chống thấm đa năng cao cấp</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>200.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>INPA - EPOXY PRIME Sơn lót EPOXY PRIME khả năng bám dính tuyệt đối, thẩm thấu cao, chống mài mòn, kháng nước, kháng kiềm, chịu độ ẩm cao</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>372.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                               | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-----------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                                                                       |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | INPA - EPOXY FINISH Sơn lót EPOXY FINISH Bền màu, dễ làm sạch, khả năng bám dính tốt, chịu tải cao, chống mài mòn cao | Kg                |                       |            |                |           |                  |           | 395.000                                           |
-|       |                 | SƠN LÓT KIỀM                                                                                                          |                   |                       |            |                |           |                  |           |                                                   |
-|       |                 | INPA ALKALINE INT Sơn lót chống kiềm nội thất cao cấp                                                                 | Kg                |                       |            |                |           |                  |           | 155.000                                           |
-|       |                 | INPA ALKALINE INT Sơn lót chống kiềm nội thất                                                                         | Kg                |                       |            |                |           |                  |           | 120.000                                           |
-|       |                 | INPA PRIMER EXT Sơn lót chống kiềm ngoại thất cao cấp                                                                 | Kg                |                       |            |                |           |                  |           | 190.000                                           |
-|       |                 | INPA SEALLER EXT Sơn lót chống kiềm ngoại thất                                                                        | Kg                |                       |            |                |           |                  |           | 133.000                                           |
-|       |                 | BỘT BẢ                                                                                                                |                   |                       |            |                |           |                  |           |                                                   |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA - EPOXY FINISH Sơn lót EPOXY FINISH Bền màu, dễ làm sạch, khả năng bám dính tốt, chịu tải cao, chống mài mòn cao</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>395.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN LÓT KIỀM</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA ALKALINE INT Sơn lót chống kiềm nội thất cao cấp</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>155.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA ALKALINE INT Sơn lót chống kiềm nội thất</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>120.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA PRIMER EXT Sơn lót chống kiềm ngoại thất cao cấp</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>190.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA SEALLER EXT Sơn lót chống kiềm ngoại thất</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>133.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>BỘT BẢ</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                              | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                           | Xuất xứ   | Vận chuyển (*)                         | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|----------------------------------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------------------------------|-----------|----------------------------------------|-----------|---------------------------------------------------|
-|       | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                                              | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                           | Xuất xứ   | Vận chuyển (*)                         | Ghi chú   | Thành phố Cao Bằng                                |
-|       |                 | INPA SANDY Bột bả Nội - ngoại thất cap cấp thấm thấm, độ phủ cao, bề mặt chai cứng, hỗ trợ chống thấm, chống rêu mốc | Kg                |                       |            |                                        |           |                                        |           | 17.500                                            |
-|       |                 | INPA SOFTY Bột bả Nội - ngoại thất cap cấp thấm thấm, độ phủ cao, bề mặt chai cứng, hỗ trợ chống thấm, chống rêu mốc | Kg                |                       |            |                                        |           |                                        |           | 14.000                                            |
-| 20    | Sơn             | Bột trét                                                                                                             |                   | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn NIPPON PAINT Việt Nam | Việt Nam  | Giá bán tại địa bàn thành phố Cao Bằng |           |                                                   |
-| 20    | Sơn             | Bột trét ngoại thất Nippon Weather - Gard Skimcoat                                                                   | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn NIPPON PAINT Việt Nam | Việt Nam  | Giá bán tại địa bàn thành phố Cao Bằng |           | 7.727                                             |
-| 20    | Sơn             | Bột trét nội thất Nippon Skimcoat kinh tế                                                                            | Kg                | QCVN 16:2019/BXD      |            | Công ty TNHH Sơn NIPPON PAINT Việt Nam | Việt Nam  | Giá bán tại địa bàn thành phố Cao Bằng |           | 6.455                                             |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA SANDY Bột bả Nội - ngoại thất cap cấp thấm thấm, độ phủ cao, bề mặt chai cứng, hỗ trợ chống thấm, chống rêu mốc</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>17.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>INPA SOFTY Bột bả Nội - ngoại thất cap cấp thấm thấm, độ phủ cao, bề mặt chai cứng, hỗ trợ chống thấm, chống rêu mốc</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>14.000</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Sơn</td>
+      <td>Bột trét</td>
+      <td></td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn NIPPON PAINT Việt Nam</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Sơn</td>
+      <td>Bột trét ngoại thất Nippon Weather - Gard Skimcoat</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn NIPPON PAINT Việt Nam</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td>7.727</td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td>Sơn</td>
+      <td>Bột trét nội thất Nippon Skimcoat kinh tế</td>
+      <td>Kg</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td>Công ty TNHH Sơn NIPPON PAINT Việt Nam</td>
+      <td>Việt Nam</td>
+      <td>Giá bán tại địa bàn thành phố Cao Bằng</td>
+      <td></td>
+      <td>6.455</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                         | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|---------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                         | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|       | Nhóm vật liệu   | Sơn lót nội thất cao cấp Nippon Odour - less Sealer                             | Kg                |                       |            |                |           |                  |           | 76.364                                            |
-|       | Nhóm vật liệu   | Sơn phủ nội thất Nippon Vatex (màu chuẩn)                                       | Kg                |                       |            |                |           |                  |           | 30.000                                            |
-|       | Nhóm vật liệu   | Sơn phủ nội thất chống nấm mốc Nippon Matex (màu chuẩn)                         | Kg                |                       |            |                |           |                  |           | 49.091                                            |
-|       | Nhóm vật liệu   | Sơn phủ nội thất chịu chùi rửa Nippon Odour-less (màu chuẩn)                    | Kg                |                       |            |                |           |                  |           | 124.545                                           |
-|       | Nhóm vật liệu   | Sơn phủ nội thất màng sơn mịn đẹp Nippon Odour-less All In One bóng (màu chuẩn) | Kg                |                       |            |                |           |                  |           | 176.364                                           |
-|       | Nhóm vật liệu   | Sơn ngoại thất                                                                  |                   |                       |            |                |           |                  |           |                                                   |
-|       | Nhóm vật liệu   | Sơn lót ngoại thất cao cấp Nippon                                               | Kg                |                       |            |                |           |                  |           | 131.818                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn lót nội thất cao cấp Nippon Odour - less Sealer</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>76.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ nội thất Nippon Vatex (màu chuẩn)</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>30.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ nội thất chống nấm mốc Nippon Matex (màu chuẩn)</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>49.091</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ nội thất chịu chùi rửa Nippon Odour-less (màu chuẩn)</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>124.545</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ nội thất màng sơn mịn đẹp Nippon Odour-less All In One bóng (màu chuẩn)</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>176.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn ngoại thất</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn lót ngoại thất cao cấp Nippon</td>
+      <td>Kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>131.818</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Weather-Gard Sealer                                                                       |                   | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           |                                                   |
-| STT   | Nhóm vật liệu   | Sơn lót ngoại thất cao cấp gốc dầu Nippon Hitex 5180 Sealer                               | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 134.545                                           |
-| STT   | Nhóm vật liệu   | Sơn phủ ngoại thất Nippon Super Matex (màu chuẩn)                                         | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 79.091                                            |
-| STT   | Nhóm vật liệu   | Sơn phủ ngoại thất chống thấm Nippon Super-Gard (màu chuẩn)                               | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 113.636                                           |
-| STT   | Nhóm vật liệu   | Sơn phủ ngoại thất mang sơn bóng đẹp, chống nóng, bền màu Nippon Weather-Gard (màu chuẩn) | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 230.000                                           |
-| STT   | Nhóm vật liệu   | Chất chống thấm NipponWP 100 chống thấm                                                   | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 140.909                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Weather-Gard Sealer</td>
+      <td></td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn lót ngoại thất cao cấp gốc dầu Nippon Hitex 5180 Sealer</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>134.545</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ ngoại thất Nippon Super Matex (màu chuẩn)</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>79.091</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ ngoại thất chống thấm Nippon Super-Gard (màu chuẩn)</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>113.636</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn phủ ngoại thất mang sơn bóng đẹp, chống nóng, bền màu Nippon Weather-Gard (màu chuẩn)</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>230.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Chất chống thấm NipponWP 100 chống thấm</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>140.909</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                    | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                       | Xuất xứ   | Vận chuyển (*)                    | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------------|-------------------|-----------------------|------------|------------------------------------|-----------|-----------------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                    | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                       | Xuất xứ   | Vận chuyển (*)                    | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Sơn tạo gai Nippon Texkote                                 | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                       | Xuất xứ   | Vận chuyển (*)                    |           | 37.273                                            |
-| STT   | Nhóm vật liệu   | Sơn lót gốc Alkyd cho gỗ Nippon Bilac Aluminum Wood Primer | Kg                | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                       | Xuất xứ   | Vận chuyển (*)                    |           | 137.273                                           |
-| 21    | Sơn             | Sơn màu tổng hợp                                           | kg                |                       |            |                                    | Việt nam  |                                   |           | 40.000                                            |
-| 22    | Sơn             | JYMEC - SƠN LÓT CHỐNG KIỀM NỘI THẤT                        | Lít               | TCVN 8652:2020        |            | Công ty cổ phần sơn Jymec Việt Nam | Việt nam  | Giá bán tại địa bàn tỉnh Cao Bằng |           | 148.586                                           |
-| 22    | Sơn             | JYMEC - SƠN LÓT CHỐNG KIỀM NỘI THẤT ĐẶC BIỆT               | Lít               | TCVN 8652:2020        |            | Công ty cổ phần sơn Jymec Việt Nam | Việt nam  | Giá bán tại địa bàn tỉnh Cao Bằng |           | 156.456                                           |
-| 22    | Sơn             | JYMEC - SƠN LÓT CHỐNG KIỀM NGOẠI THẤT CAO CẤP              | Lít               | TCVN 8652:2020        |            | Công ty cổ phần sơn Jymec Việt Nam | Việt nam  | Giá bán tại địa bàn tỉnh Cao Bằng |           | 210.505                                           |
-| 22    | Sơn             | JYMEC - SƠN LÓT CHỐNG KIỀM NGOẠI THẤT ĐẶC BIỆT             | Lít               | TCVN 8652:2020        |            | Công ty cổ phần sơn Jymec Việt Nam | Việt nam  | Giá bán tại địa bàn tỉnh Cao Bằng |           | 232.828                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn tạo gai Nippon Texkote</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>37.273</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn lót gốc Alkyd cho gỗ Nippon Bilac Aluminum Wood Primer</td>
+      <td>Kg</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>137.273</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Sơn</td>
+      <td>Sơn màu tổng hợp</td>
+      <td>kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Việt nam</td>
+      <td></td>
+      <td></td>
+      <td>40.000</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Sơn</td>
+      <td>JYMEC - SƠN LÓT CHỐNG KIỀM NỘI THẤT</td>
+      <td>Lít</td>
+      <td>TCVN 8652:2020</td>
+      <td></td>
+      <td>Công ty cổ phần sơn Jymec Việt Nam</td>
+      <td>Việt nam</td>
+      <td>Giá bán tại địa bàn tỉnh Cao Bằng</td>
+      <td></td>
+      <td>148.586</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Sơn</td>
+      <td>JYMEC - SƠN LÓT CHỐNG KIỀM NỘI THẤT ĐẶC BIỆT</td>
+      <td>Lít</td>
+      <td>TCVN 8652:2020</td>
+      <td></td>
+      <td>Công ty cổ phần sơn Jymec Việt Nam</td>
+      <td>Việt nam</td>
+      <td>Giá bán tại địa bàn tỉnh Cao Bằng</td>
+      <td></td>
+      <td>156.456</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Sơn</td>
+      <td>JYMEC - SƠN LÓT CHỐNG KIỀM NGOẠI THẤT CAO CẤP</td>
+      <td>Lít</td>
+      <td>TCVN 8652:2020</td>
+      <td></td>
+      <td>Công ty cổ phần sơn Jymec Việt Nam</td>
+      <td>Việt nam</td>
+      <td>Giá bán tại địa bàn tỉnh Cao Bằng</td>
+      <td></td>
+      <td>210.505</td>
+    </tr>
+    <tr>
+      <td>22</td>
+      <td>Sơn</td>
+      <td>JYMEC - SƠN LÓT CHỐNG KIỀM NGOẠI THẤT ĐẶC BIỆT</td>
+      <td>Lít</td>
+      <td>TCVN 8652:2020</td>
+      <td></td>
+      <td>Công ty cổ phần sơn Jymec Việt Nam</td>
+      <td>Việt nam</td>
+      <td>Giá bán tại địa bàn tỉnh Cao Bằng</td>
+      <td></td>
+      <td>232.828</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                           |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | SƠN BÓNG ÁNH NGỌC TRAI NỘI THẤT CAO CẤP   | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 341.636                                           |
-|       |                 | SƠN BÓNG NỘI THẤT CAO CẤP                 | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 254.899                                           |
-|       |                 | SƠN NỘI THẤT CAO CẤP DỄ LAU CHÙI          | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 125.101                                           |
-|       |                 | SƠN NƯỚC SIÊU TRẮNG NỘI THẤT CAO CẤP      | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 108.990                                           |
-|       |                 | SƠN NƯỚC NỘI THẤT 3 IN 1                  | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 56.364                                            |
-|       |                 | SƠN NƯỚC NỘI THẤT ĐẸP HOÀN HẢO            | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 216.566                                           |
-|       |                 | SƠN BÓNG NGOẠI THẤT CAO CẤP               | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 291.717                                           |
-|       |                 | SƠN BÓNG CHỐNG NÓNG NGOẠI THẤT ĐẶC BIỆT   | Lít               | QCVN 16:2019/BXD      |            |                |           |                  |           | 399.636                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN BÓNG ÁNH NGỌC TRAI NỘI THẤT CAO CẤP</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>341.636</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN BÓNG NỘI THẤT CAO CẤP</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>254.899</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN NỘI THẤT CAO CẤP DỄ LAU CHÙI</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>125.101</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN NƯỚC SIÊU TRẮNG NỘI THẤT CAO CẤP</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>108.990</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN NƯỚC NỘI THẤT 3 IN 1</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>56.364</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN NƯỚC NỘI THẤT ĐẸP HOÀN HẢO</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>216.566</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN BÓNG NGOẠI THẤT CAO CẤP</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>291.717</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>SƠN BÓNG CHỐNG NÓNG NGOẠI THẤT ĐẶC BIỆT</td>
+      <td>Lít</td>
+      <td>QCVN 16:2019/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>399.636</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)          | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------|-------------------|-----------------------|------------|-----------------------------|-----------|--------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)          | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | SƠN NGOẠI THẤT CHỐNG PHAI MÀU                    | Lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 200.909                                           |
-| STT   | Nhóm vật liệu   | SƠN NƯỚC NGOẠI THẤT                              | Lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 161.616                                           |
-| STT   | Nhóm vật liệu   | SƠN NGOẠI THẤT CLEAR PHỦ BÓNG                    | Lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 226.000                                           |
-| STT   | Nhóm vật liệu   | SƠN NGOẠI THẤT CHỐNG THẤM ĐA NĂNG                | Lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 222.879                                           |
-| STT   | Nhóm vật liệu   | SƠN NGOẠI THẤT CHỐNG THẤM ĐA MÀU                 | Lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 231.566                                           |
-| STT   | Nhóm vật liệu   | JYMEC - BỘT BẢ NỘI VÀ NGOẠI THẤT CAO CẤP         | Kg                | TCVN 7239:2014        |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 11.545                                            |
-| STT   | Nhóm vật liệu   | JYMEC - BỘT BẢ NGOẠI THẤT CAO CẤP                | Kg                | TCVN 7239:2014        |            | Nhà sản xuất                | Xuất xứ   | Vận chuyển (*)           |           | 13.023                                            |
-| 23    | Sơn             | Popasealer - Sơn lót kháng kiềm nội thất cao cấp | Lít               | TCVN 8652:2012        |            | Công ty Cổ phần Sản xuất và | Việt nam  | Giá bán tại địa bàn tỉnh |           | 110.000                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN NGOẠI THẤT CHỐNG PHAI MÀU</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>200.909</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN NƯỚC NGOẠI THẤT</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>161.616</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN NGOẠI THẤT CLEAR PHỦ BÓNG</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>226.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN NGOẠI THẤT CHỐNG THẤM ĐA NĂNG</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>222.879</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SƠN NGOẠI THẤT CHỐNG THẤM ĐA MÀU</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>231.566</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>JYMEC - BỘT BẢ NỘI VÀ NGOẠI THẤT CAO CẤP</td>
+      <td>Kg</td>
+      <td>TCVN 7239:2014</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>11.545</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>JYMEC - BỘT BẢ NGOẠI THẤT CAO CẤP</td>
+      <td>Kg</td>
+      <td>TCVN 7239:2014</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>13.023</td>
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>Sơn</td>
+      <td>Popasealer - Sơn lót kháng kiềm nội thất cao cấp</td>
+      <td>Lít</td>
+      <td>TCVN 8652:2012</td>
+      <td></td>
+      <td>Công ty Cổ phần Sản xuất và</td>
+      <td>Việt nam</td>
+      <td>Giá bán tại địa bàn tỉnh</td>
+      <td></td>
+      <td>110.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
-
-## VIETTEL AI RACE
 
 ## GIÁ V Ậ T LI Ệ U XÂY D ỰNG TRÊN ĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM 2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰA ĐƯỜNG, SƠN
 
@@ -740,163 +5363,1311 @@ TD637
 
 L ầ n ban hành: 1
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                 | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|------------------------------------------------------------------------|-------------------|-----------------------|------------|------------------------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất                 | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   | Nhóm vật liệu   | Supersealer - Sơn lót kháng kiềm ngoại thất cao cấp                    | Lít               | Tiêu chuẩn kỹ thuật   |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 177.222                                           |
-| STT   | Nhóm vật liệu   | Popaguard Primer - Sơn lót kháng kiềm và kháng muối ngoại thất cao cấp | Lít               | Tiêu chuẩn kỹ thuật   |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 216.111                                           |
-| STT   | Nhóm vật liệu   | PopaEgg - Sơn phủ nội thất                                             | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 49.444                                            |
-| STT   | Nhóm vật liệu   | SuperWhite - Sơn siêu trắng nội thất cao cấp                           | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 102.222                                           |
-| STT   | Nhóm vật liệu   | Popa Easy Clean - Sơn lau chùi hiệu quả                                | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 120.000                                           |
-| STT   | Nhóm vật liệu   | Naturic - Sơn bóng mờ nội thất cao cấp                                 | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 184.444                                           |
-| STT   | Nhóm vật liệu   | Puric - Sơn bóng ngọc trai nội thất cao cấp                            | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 238.333                                           |
-| STT   | Nhóm vật liệu   | Greenic - Sơn siêu bóng ngọc trai nội thất cao cấp                     | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 260.556                                           |
-| STT   | Nhóm vật liệu   | Hapex - Sơn ngoại thất cao cấp                                         | Lít               | QCVN 16:2023/BXD      |            | Thương mại Sơn Popa Việt Nam | Xuất xứ   | Cao Bằng         |           | 142.222                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Supersealer - Sơn lót kháng kiềm ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>177.222</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Popaguard Primer - Sơn lót kháng kiềm và kháng muối ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>216.111</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>PopaEgg - Sơn phủ nội thất</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>49.444</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>SuperWhite - Sơn siêu trắng nội thất cao cấp</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>102.222</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Popa Easy Clean - Sơn lau chùi hiệu quả</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>120.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Naturic - Sơn bóng mờ nội thất cao cấp</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>184.444</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Puric - Sơn bóng ngọc trai nội thất cao cấp</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>238.333</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Greenic - Sơn siêu bóng ngọc trai nội thất cao cấp</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>260.556</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Hapex - Sơn ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td>QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Thương mại Sơn Popa Việt Nam</td>
+      <td>Xuất xứ</td>
+      <td>Cao Bằng</td>
+      <td></td>
+      <td>142.222</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                      | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                  | Xuất xứ   | Vận chuyển (*)                                    | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------------------|-------------------|------------------------|------------|-------------------------------|-----------|---------------------------------------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                      | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật    | Quy cách   | Nhà sản xuất                  | Xuất xứ   | Vận chuyển (*)                                    | Ghi chú   | Thành phố Cao Bằng                                |
-|       |                 | Qualitex - Sơn bóng ngoại thất cao cấp                       | Lít               | Tiêu chuẩn kỹ thuật    |            | Nhà sản xuất                  | Xuất xứ   |                                                   |           | 293.889                                           |
-|       |                 | Popaguard - Sơn siêu bóng ngoại thất cao cấp                 | Lít               | Tiêu chuẩn kỹ thuật    |            | Nhà sản xuất                  | Xuất xứ   |                                                   |           | 304.444                                           |
-|       |                 | WaterGuard - Sơn chống thấm trộn xi măng cao cấp             | Lít               | Tiêu chuẩn kỹ thuật    |            | Nhà sản xuất                  | Xuất xứ   |                                                   |           | 179.444                                           |
-|       |                 | WaterShield - Sơn chống thấm màu cao cấp                     | Lít               | Tiêu chuẩn kỹ thuật    |            | Nhà sản xuất                  | Xuất xứ   |                                                   |           | 205.000                                           |
-|       |                 | Bột bả nội ngoại thất                                        | kg                | TCVN 7239:2014         |            | Nhà sản xuất                  | Xuất xứ   |                                                   |           | 13.750                                            |
-| 24    | Sơn             | Sơn bán bó ng ngo ạ i th ấ t cao c ấ p E6000 nhãn hiệu Infor | lít               | Quy chuẩn 16:2023 QCVN |            | CÔNG TY CỔ PHẦN INFOR VIỆTNAM | Việt Nam  | Đã bao gồm chi phí vận chuyển đến chân công trình |           | 184.800                                           |
-| 24    | Sơn             | Sơn ngoại thất chống thấm màu cao cấp nhãn hiệu Infor        | lít               | Quy chuẩn 16:2023 QCVN |            | CÔNG TY CỔ PHẦN INFOR VIỆTNAM | Việt Nam  | Đã bao gồm chi phí vận chuyển đến chân công trình |           | 156.500                                           |
-| 24    | Sơn             | Sơn bó ng ngo ạ i th ấ t cao c ấ p E8000 nhãn hiệu Infor     | lít               | Quy chuẩn 16:2023 QCVN |            | CÔNG TY CỔ PHẦN INFOR VIỆTNAM | Việt Nam  | Đã bao gồm chi phí vận chuyển đến chân công trình |           | 229.800                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Qualitex - Sơn bóng ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>293.889</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Popaguard - Sơn siêu bóng ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>304.444</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>WaterGuard - Sơn chống thấm trộn xi măng cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>179.444</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>WaterShield - Sơn chống thấm màu cao cấp</td>
+      <td>Lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>205.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Bột bả nội ngoại thất</td>
+      <td>kg</td>
+      <td>TCVN 7239:2014</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>13.750</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Sơn</td>
+      <td>Sơn bán bó ng ngo ạ i th ấ t cao c ấ p E6000 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td>Quy chuẩn 16:2023 QCVN</td>
+      <td></td>
+      <td>CÔNG TY CỔ PHẦN INFOR VIỆTNAM</td>
+      <td>Việt Nam</td>
+      <td>Đã bao gồm chi phí vận chuyển đến chân công trình</td>
+      <td></td>
+      <td>184.800</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Sơn</td>
+      <td>Sơn ngoại thất chống thấm màu cao cấp nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td>Quy chuẩn 16:2023 QCVN</td>
+      <td></td>
+      <td>CÔNG TY CỔ PHẦN INFOR VIỆTNAM</td>
+      <td>Việt Nam</td>
+      <td>Đã bao gồm chi phí vận chuyển đến chân công trình</td>
+      <td></td>
+      <td>156.500</td>
+    </tr>
+    <tr>
+      <td>24</td>
+      <td>Sơn</td>
+      <td>Sơn bó ng ngo ạ i th ấ t cao c ấ p E8000 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td>Quy chuẩn 16:2023 QCVN</td>
+      <td></td>
+      <td>CÔNG TY CỔ PHẦN INFOR VIỆTNAM</td>
+      <td>Việt Nam</td>
+      <td>Đã bao gồm chi phí vận chuyển đến chân công trình</td>
+      <td></td>
+      <td>229.800</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                        | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|----------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Sơn bóng ngoại thất Nano cao cấp nhãn hiệu Infor               | lít               |                       |            |                |           |                  |           | 263.000                                           |
-|       |                 | Sơn ngoạ i th ấ t Clear ph ủ b ó ng cao c ấ p nhãn hiệu Infor  | lít               |                       |            |                |           |                  |           | 144.000                                           |
-|       |                 | Sơn mị n ngo ạ i th ấ t cao c ấ p E500 nhãn hiệu Infor         | lít               |                       |            |                |           |                  |           | 96.800                                            |
-|       |                 | Sơn chố ng ki ề m ngo ạ i th ấ t cao c ấ p nhãn hiệu Infor     | lít               |                       |            |                |           |                  |           | 145.000                                           |
-|       |                 | Sơn chố ng ki ề m ngo ạ i th ấ t ECO nhãn hiệu Infor           | lít               |                       |            |                |           |                  |           | 97.900                                            |
-|       |                 | Sơn chố ng ki ề m ngo ạ i th ấ t Nano cao c ấp nhãn hiệu Infor | lít               |                       |            |                |           |                  |           | 187.000                                           |
-|       |                 | Sơn ngoạ i th ất chống thấm đa năng nhãn hiệu Infor            | lít               |                       |            |                |           |                  |           | 155.600                                           |
-|       |                 | Sơn bó ng n ộ i th ấ t E5000 nhãn hiệu Infor                   | lít               |                       |            |                |           |                  |           | 189.500                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn bóng ngoại thất Nano cao cấp nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>263.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn ngoạ i th ấ t Clear ph ủ b ó ng cao c ấ p nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>144.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn mị n ngo ạ i th ấ t cao c ấ p E500 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>96.800</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t cao c ấ p nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>145.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t ECO nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>97.900</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t Nano cao c ấp nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>187.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn ngoạ i th ất chống thấm đa năng nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>155.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn bó ng n ộ i th ấ t E5000 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>189.500</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                     | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                     | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-|       | Nhóm vật liệu   | Sơn bó ng n ộ i th ấ t cao c ấp E7000 nhãn hiệu Infor       | lít               |                       |            |                |           |                  |           | 208.000                                           |
-|       | Nhóm vật liệu   | Sơn siêu bóng nội thất Nano cao cấp nhãn hiệu Infor         | lít               |                       |            |                |           |                  |           | 235.000                                           |
-|       | Nhóm vật liệu   | Sơn nộ i th ấ t b á n b ó ng A 68 nhãn hiệu Infor           | lít               |                       |            |                |           |                  |           | 142.000                                           |
-|       | Nhóm vật liệu   | Sơn mịn nội thất E100 nhãn hiệu Infor                       | lít               |                       |            |                |           |                  |           | 24.400                                            |
-|       | Nhóm vật liệu   | Sơn mị n n ộ i th ấ t E200 nhãn hiệu Infor                  | lít               |                       |            |                |           |                  |           | 37.000                                            |
-|       | Nhóm vật liệu   | Sơn mị n n ộ i th ấ t cao c ấp E300 nhãn hiệu Infor         | lít               |                       |            |                |           |                  |           | 70.500                                            |
-|       | Nhóm vật liệu   | Sơn siêu trắ ng n ộ i th ấ t Nano cao c ấ p nhãn hiệu Infor | lít               |                       |            |                |           |                  |           | 82.300                                            |
-|       | Nhóm vật liệu   | Sơn chố ng ki ề mn ộ i th ấ t cao c ấ p nhãn hiệu Infor     | lít               |                       |            |                |           |                  |           | 98.100                                            |
-|       | Nhóm vật liệu   | Sơn chố ng ki ề mn ộ i th ấ t Infor ECO nhãn hiệu Infor     | lít               |                       |            |                |           |                  |           | 59.800                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn bó ng n ộ i th ấ t cao c ấp E7000 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>208.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn siêu bóng nội thất Nano cao cấp nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>235.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn nộ i th ấ t b á n b ó ng A 68 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>142.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn mịn nội thất E100 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>24.400</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn mị n n ộ i th ấ t E200 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>37.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn mị n n ộ i th ấ t cao c ấp E300 nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>70.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn siêu trắ ng n ộ i th ấ t Nano cao c ấ p nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>82.300</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn chố ng ki ề mn ộ i th ấ t cao c ấ p nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>98.100</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Nhóm vật liệu</td>
+      <td>Sơn chố ng ki ề mn ộ i th ấ t Infor ECO nhãn hiệu Infor</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>59.800</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                            | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                            | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   |                 | Sơn ngoạ i th ấ t ch ố ng th ấ mm à u cao c ấ p nhãn hiệu Visenlex | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 162.900                                           |
-| STT   |                 | Sơn bó ng ngo ạ i th ấ t cao c ấ p 7IN nhãn hiệu Visenlex          | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 214.100                                           |
-| STT   |                 | Sơn bán bóng ngoại thất V800 nhãn hiệu Visenlex                    | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 186.200                                           |
-| STT   |                 | Sơn siêu bóng ngoại thất Nano cao cấp nhãn hiệu Visenlex           | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 254.000                                           |
-| STT   |                 | Sơn ngoạ i th ấ t Clear ph ủ b ó ng cao c ấ p nhãn hiệu Visenlex   | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 122.000                                           |
-| STT   |                 | Sơn mị n ngo ạ i th ấ t cao c ấ p V300 nhãn hiệu Visenlex          | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 94.900                                            |
-| STT   |                 | Sơn chố ng ki ề m ngo ạ i th ấ t cao c ấ p nhãn hiệu Visenlex      | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 143.500                                           |
-| STT   |                 | Sơn chố ng ki ề m ngo ạ i th ấ t ECO nhãn hiệu Visenlex            | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   |           | 96.800                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn ngoạ i th ấ t ch ố ng th ấ mm à u cao c ấ p nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>162.900</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn bó ng ngo ạ i th ấ t cao c ấ p 7IN nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>214.100</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn bán bóng ngoại thất V800 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>186.200</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn siêu bóng ngoại thất Nano cao cấp nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>254.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn ngoạ i th ấ t Clear ph ủ b ó ng cao c ấ p nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>122.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn mị n ngo ạ i th ấ t cao c ấ p V300 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>94.900</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t cao c ấ p nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>143.500</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t ECO nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td></td>
+      <td>96.800</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                           | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                           | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Thành phố Cao Bằng                                |
-| STT   |                 | Sơn chố ng ki ề m ngo ạ i th ấ t Nano cao c ấp nhãn hiệu Visenlex | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 225.100                                           |
-| STT   |                 | Sơn ngoạ i th ất chống thấm đa năng nhãn hiệu Visenlex            | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 145.100                                           |
-| STT   |                 | Sơn bó ng n ộ i th ấ t cao cấp 5IN nhãn hiệu Visenlex             | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 174.000                                           |
-| STT   |                 | Sơn bó ng n ộ i th ấ t cao cấp 7IN nhãn hiệu Visenlex             | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 191.400                                           |
-| STT   |                 | Sơn siêu bóng nội thất Nano cao cấp nhãn hiệu Visenlex            | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 228.800                                           |
-| STT   |                 | Sơn bán bóng nội thất V600 nhãn hiệu Visenlex                     | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 133.500                                           |
-| STT   |                 | Sơn mịn nội thất Sally S300 nhãn hiệu Visenlex                    | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 24.400                                            |
-| STT   |                 | Sơn mịn nội thất V50 nhãn hiệu Visenlex                           | lít               | Tiêu chuẩn kỹ thuật   |            | Nhà sản xuất   | Xuất xứ   |                  |           | 34.000                                            |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>STT</td>
+      <td>Nhóm vật liệu</td>
+      <td>Tên vật liệu/loại vật liệu xây dựng (*)</td>
+      <td>Đơn vị tính (*)</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td>Quy cách</td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td>Vận chuyển (*)</td>
+      <td>Ghi chú</td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn chố ng ki ề m ngo ạ i th ấ t Nano cao c ấp nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>225.100</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn ngoạ i th ất chống thấm đa năng nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>145.100</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn bó ng n ộ i th ấ t cao cấp 5IN nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>174.000</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn bó ng n ộ i th ấ t cao cấp 7IN nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>191.400</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn siêu bóng nội thất Nano cao cấp nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>228.800</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn bán bóng nội thất V600 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>133.500</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn mịn nội thất Sally S300 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>24.400</td>
+    </tr>
+    <tr>
+      <td>STT</td>
+      <td></td>
+      <td>Sơn mịn nội thất V50 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td>Tiêu chuẩn kỹ thuật</td>
+      <td></td>
+      <td>Nhà sản xuất</td>
+      <td>Xuất xứ</td>
+      <td></td>
+      <td></td>
+      <td>34.000</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật        | Quy cách                         | Nhà sản xuất                     | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|---------------------------------------------------------------------------|-------------------|----------------------------|----------------------------------|----------------------------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                           |                   |                            |                                  |                                  |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Sơn mị n n ộ i th ấ t cao cấp V100 nhãn hiệu Visenlex                     | lít               |                            |                                  |                                  |           |                  |           | 71.000                                            |
-|       |                 | Sơn nội thất chống thấm sàn V209 nhãn hiệu Visenlex                       | kg                |                            | 25kg ( 1 bao 20kg và 1 can 5lit) |                                  |           |                  |           | 30.300                                            |
-|       |                 | Sơn siêu trắ ng n ộ i th ấ t Nano cao c ấ p Supe White nhãn hiệu Visenlex | lít               |                            |                                  |                                  |           |                  |           | 80.100                                            |
-|       |                 | Sơn chố ng ki ề mn ộ i th ất ECO nhãn hiệu Visenlex                       | lít               |                            |                                  |                                  |           |                  |           | 58.600                                            |
-|       |                 | Sơn chố ng ki ề mn ộ i th ấ t cao c ấ p nhãn hiệu Visenlex                | lít               |                            |                                  |                                  |           |                  |           | 97.000                                            |
-| 25    |                 | Bột bả nội thất cao cấp                                                   | kg                | Quy chuẩn QCVN 16:2023/BXD |                                  | Công ty Cổ phần Quốc tế AIG (Đ/c | Việt Nam  |                  |           | 8.975                                             |
-|       | Sơn             | Bột bả ngoại thất cao cấp Sơn chống thấm pha                              | kg                | Quy chuẩn QCVN 16:2023/BXD |                                  | cung cấp: Công ty TNHH           |           |                  |           | 11.200                                            |
-|       |                 | xi măng                                                                   | Lít               | Quy chuẩn QCVN 16:2023/BXD |                                  |                                  |           |                  |           | 241.800                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn mị n n ộ i th ấ t cao cấp V100 nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>71.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nội thất chống thấm sàn V209 nhãn hiệu Visenlex</td>
+      <td>kg</td>
+      <td></td>
+      <td>25kg ( 1 bao 20kg và 1 can 5lit)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>30.300</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn siêu trắ ng n ộ i th ấ t Nano cao c ấ p Supe White nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>80.100</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chố ng ki ề mn ộ i th ất ECO nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>58.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chố ng ki ề mn ộ i th ấ t cao c ấ p nhãn hiệu Visenlex</td>
+      <td>lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>97.000</td>
+    </tr>
+    <tr>
+      <td>25</td>
+      <td></td>
+      <td>Bột bả nội thất cao cấp</td>
+      <td>kg</td>
+      <td>Quy chuẩn QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>Công ty Cổ phần Quốc tế AIG (Đ/c</td>
+      <td>Việt Nam</td>
+      <td></td>
+      <td></td>
+      <td>8.975</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Sơn</td>
+      <td>Bột bả ngoại thất cao cấp Sơn chống thấm pha</td>
+      <td>kg</td>
+      <td>Quy chuẩn QCVN 16:2023/BXD</td>
+      <td></td>
+      <td>cung cấp: Công ty TNHH</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>11.200</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>xi măng</td>
+      <td>Lít</td>
+      <td>Quy chuẩn QCVN 16:2023/BXD</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>241.800</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)                                              | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất           | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|--------------------------------------------------------------------------------------|-------------------|-----------------------|------------|------------------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                                                                      |                   |                       |            |                        |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Sơn chống thấm thượng hạng thế hệ mới                                                | Lít               |                       |            | MTV TVĐT XD&TM Hồng Hà |           |                  |           | 262.000                                           |
-|       |                 | Chống thấm sàn 2 thành phần: TP A (bột): 3.4kg TP B(nhựa): 1.6kg                     | kg                |                       |            | Cao Bằng)              |           |                  |           | 43.600                                            |
-|       |                 | Chống thấm sàn 2 thành phần: TP A (bột): 13.5kg TP B(nhựa): 6.5kg Sơn chống nóng mái | kg                |                       |            |                        |           |                  |           | 35.500                                            |
-|       |                 | tôn                                                                                  | Lít               |                       |            |                        |           |                  |           | 181.056                                           |
-|       |                 | Sơn lót nội thất cao cấp                                                             | Lít               |                       |            |                        |           |                  |           | 109.889                                           |
-|       |                 | Sơn lót kháng kiềm nội thất cao cấp                                                  | Lít               |                       |            |                        |           |                  |           | 147.944                                           |
-|       |                 | Sơn lót kháng kiềm ngoại thất kinh tế                                                | Lít               |                       |            |                        |           |                  |           | 137.889                                           |
-|       |                 | Sơn lót kháng kiềm ngoại thất cao cấp                                                | Lít               |                       |            |                        |           |                  |           | 185.000                                           |
-|       |                 | Sơn lót chống gỉ sét mái tôn                                                         | Lít               |                       |            |                        |           |                  |           | 181.056                                           |
-
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn chống thấm thượng hạng thế hệ mới</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td>MTV TVĐT XD&TM Hồng Hà</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>262.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Chống thấm sàn 2 thành phần: TP A (bột): 3.4kg TP B(nhựa): 1.6kg</td>
+      <td>kg</td>
+      <td></td>
+      <td></td>
+      <td>Cao Bằng)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>43.600</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Chống thấm sàn 2 thành phần: TP A (bột): 13.5kg TP B(nhựa): 6.5kg Sơn chống nóng mái</td>
+      <td>kg</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>35.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>tôn</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>181.056</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn lót nội thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>109.889</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn lót kháng kiềm nội thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>147.944</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn lót kháng kiềm ngoại thất kinh tế</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>137.889</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn lót kháng kiềm ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>185.000</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn lót chống gỉ sét mái tôn</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>181.056</td>
+    </tr>
+  </tbody>
+</table>
 <!-- image -->
 
-| VIETTEL AI RACE                                                                                                                              | TD637             |
-|----------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
+GIÁ V Ậ T LI Ệ U XÂY D ỰNGTRÊNĐỊ A BÀN THÀNH PH Ố CAO B Ằ NG QUÝ II NĂM2025: CÁT, ĐÁ, CỬ A/KHUNG C Ử A NHÔM, G Ạ CH Ố P LÁT, NH ỰAĐƯỜNG, SƠN | L ầ n ban hành: 1 |
 
-| STT   | Nhóm vật liệu   | Tên vật liệu/loại vật liệu xây dựng (*)   | Đơn vị tính (*)   | Tiêu chuẩn kỹ thuật   | Quy cách   | Nhà sản xuất   | Xuất xứ   | Vận chuyển (*)   | Ghi chú   | Giá bán chưa bao gồm thuế giá trị gia tăng) (*)   |
-|-------|-----------------|-------------------------------------------|-------------------|-----------------------|------------|----------------|-----------|------------------|-----------|---------------------------------------------------|
-|       |                 |                                           |                   |                       |            |                |           |                  |           | Thành phố Cao Bằng                                |
-|       |                 | Sơn siêu mịn nội thất cao cấp             | Lít               |                       |            |                |           |                  |           | 53.889                                            |
-|       |                 | Sơn bóng semi nội thất cao cấp            | Lít               |                       |            |                |           |                  |           | 117.056                                           |
-|       |                 | Sơn nội thất bóng cao cấp                 | Lít               |                       |            |                |           |                  |           | 232.222                                           |
-|       |                 | Sơn nội thất siêu bóng cao cấp            | Lít               |                       |            |                |           |                  |           | 294.444                                           |
-|       |                 | Sơn siêu trắng trần cao cấp               | Lít               |                       |            |                |           |                  |           | 131.944                                           |
-|       |                 | Sơn siêu mịn ngoại thất cao cấp           | Lít               |                       |            |                |           |                  |           | 133.889                                           |
-|       |                 | Sơn ngoại thất bóng cao cấp               | Lít               |                       |            |                |           |                  |           | 255.500                                           |
-|       |                 | Sơn ngoại thất siêu bóng cao cấp          | Lít               |                       |            |                |           |                  |           | 315.833                                           |
-|       |                 | Sơn nhũ vàng                              | Lít               |                       |            |                |           |                  |           | 546.000                                           |
-|       |                 | Sơn phủ bóng Clear                        | Lít               |                       |            |                |           |                  |           | 516.000                                           |
+<table border="1" cellpadding="5" cellspacing="0">
+  <thead>
+    <tr>
+      <th>STT</th>
+      <th>Nhóm vật liệu</th>
+      <th>Tên vật liệu/loại vật liệu xây dựng (*)</th>
+      <th>Đơn vị tính (*)</th>
+      <th>Tiêu chuẩn kỹ thuật</th>
+      <th>Quy cách</th>
+      <th>Nhà sản xuất</th>
+      <th>Xuất xứ</th>
+      <th>Vận chuyển (*)</th>
+      <th>Ghi chú</th>
+      <th>Giá bán chưa bao gồm thuế giá trị gia tăng) (*)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>Thành phố Cao Bằng</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn siêu mịn nội thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>53.889</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn bóng semi nội thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>117.056</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nội thất bóng cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>232.222</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nội thất siêu bóng cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>294.444</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn siêu trắng trần cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>131.944</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn siêu mịn ngoại thất cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>133.889</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn ngoại thất bóng cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>255.500</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn ngoại thất siêu bóng cao cấp</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>315.833</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Sơn nhũ vàng</td>
+      <td>Lít</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>546.000</td>
+    </tr>
+  </tbody>
+</table>|       |                 | Sơn phủ bóng Clear                        | Lít               |                       |            |                |           |                  |           | 516.000                                           |
